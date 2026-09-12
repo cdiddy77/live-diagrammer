@@ -28,9 +28,10 @@ so real and target are compared on identical footing.
 
 Vacuous segments
 ----------------
-When the storyboard expects no active board and the real run has none either,
-the segment tells you nothing and is not counted. On DEMO01 that is the tail
-of the tangent segment, after the dismiss; the dismiss case carries its content.
+A segment whose intended board is empty is not counted: the matcher would pass
+any real board against it. On DEMO01 that is the tangent segment after the
+dismiss (the mock parks the tangent on its own diagram, so no board is active
+there); the "board at the dismiss" case carries that segment's content.
 """
 import argparse, html, json, os
 from gonogo import Case, evaluate
@@ -211,8 +212,11 @@ def main():
         for k in sorted(target):
             if k not in real:
                 continue
-            if not target[k]["diagram_after"]["nodes"] and not real[k]["diagram_after"]["nodes"]:
-                continue  # vacuous: nothing expected, nothing drawn
+            if not target[k]["diagram_after"]["nodes"]:
+                # No intended board here (the storyboard's mock leaves no active
+                # diagram in this window), so there is nothing to grade against:
+                # the matcher would pass any real board with F1 1.0. Not counted.
+                continue
             name = f"{k[0]} {target[k]['expected']['topic']}" + (" (board at the dismiss)" if k[1] else "")
             if multi:
                 name = f"[{run}] {name}"

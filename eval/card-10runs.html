@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Live Diagrammer Report Card</title>
+<style>
+ /* Single dark theme on purpose: this is a still composited over the side panel in the video. */
+ body{margin:0;background:#0f1115;color:#e8e8e8;font:16px/1.4 system-ui,sans-serif;font-variant-numeric:tabular-nums}
+ .card{width:720px;max-width:100%;box-sizing:border-box;margin:40px auto;padding:36px 40px;background:#181b22;border:1px solid #2a2f3a;border-radius:14px}
+ .grade{font-size:96px;font-weight:700;line-height:1;letter-spacing:-2px}
+ .head{display:flex;align-items:flex-end;gap:28px;margin-bottom:22px}
+ .big{font-size:26px;font-weight:600} .sub{color:#a9b0bd;margin-top:6px}
+ .ci{color:#a9b0bd} table{width:100%;border-collapse:collapse;margin-top:18px}
+ td{padding:6px 4px;border-top:1px solid #2a2f3a;vertical-align:top} td:first-child{width:22px;color:#8fd18f}
+ tr.fail td:first-child{color:#e07a7a} .m{color:#a9b0bd;font-size:13px;white-space:nowrap}
+ h3{margin:26px 0 4px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#a9b0bd}
+ .foot{margin-top:28px;padding-top:14px;border-top:1px solid #2a2f3a;color:#a9b0bd;font-size:13px}
+</style></head><body><div class="card">
+<div class="head"><div class="grade">A</div><div>
+ <div class="big">Every segment matched the intended board in 10 of 10 runs</div>
+ <div class="sub">100% &nbsp;<span class='ci'>plausible range 72% to 100%</span></div>
+ <div class="sub">Per check: 40 of 40 segment checks (100%) &nbsp;·&nbsp; every beat landed in 8 of 10 runs &nbsp;<span class='ci'>range 49% to 94%</span></div>
+</div></div>
+<h3>Segments</h3><table><tr><td>✓</td><td>00:11 first nodes</td><td class='m'>matched in 10 of 10 runs</td></tr><tr><td>✓</td><td>00:44 gonogo, rename and redirect</td><td class='m'>matched in 10 of 10 runs</td></tr><tr><td>✓</td><td>01:26 submission tangent (board at the dismiss)</td><td class='m'>matched in 10 of 10 runs</td></tr><tr><td>✓</td><td>01:43 recovery</td><td class='m'>matched in 10 of 10 runs</td></tr></table>
+<h3>What the demo set out to show</h3><table><tr><td>✓</td><td colspan='2'>rename: a &#x27;harness&#x27; node exists after beat 3 — 10 of 10 runs</td></tr><tr class='fail'><td>✗</td><td colspan='2'>redirect: log -&gt; case emitter drawn — 9 of 10 runs</td></tr><tr class='fail'><td>✗</td><td colspan='2'>redirect: old log -&gt; gonogo edge removed — 9 of 10 runs</td></tr><tr><td>✓</td><td colspan='2'>tangent drawn before the dismiss — 10 of 10 runs</td></tr><tr><td>✓</td><td colspan='2'>tangent gone after the dismiss — 10 of 10 runs</td></tr><tr><td>✓</td><td colspan='2'>architecture survives the dismiss — 10 of 10 runs</td></tr></table>
+<div class="foot">Graded against the board the storyboard intended after each beat, by a deterministic matcher — no model, nothing to calibrate.
+Ranges are 95% confidence intervals over n = 10 runs (the independent unit); per-check counts are shown for context, not for the interval.
+Grade: A ≥ 90% of runs matched every segment, B ≥ 75%, C ≥ 50%, D below.<br>Separate benchmark, 35 human-annotated AMI segments, LLM judge: 57% [41%, 72%]. Judge vs humans: 2 raters, 10 cases; the raters agreed with each other 40% of the time, so no human calibration is claimed.</div>
+</div></body></html>
