@@ -32,7 +32,7 @@ When the storyboard expects no active board and the real run has none either,
 the segment tells you nothing and is not counted. On DEMO01 that is the tail
 of the tangent segment, after the dismiss; the dismiss case carries its content.
 """
-import argparse, html, json, os
+import argparse, html, json, os, re
 from gonogo import Case, evaluate
 
 STOP = {"the", "a", "an", "of", "and", "or", "in", "on", "to", "for", "with",
@@ -48,7 +48,11 @@ def key(case):
 
 
 def toks(label):
-    words = "".join(c if c.isalnum() else " " for c in label.lower()).split()
+    """Word set for matching. Hyphens and slashes inside a word are joined, not
+    split: "real-time" is "realtime" and "go/no-go" is "gonogo", so spelling
+    variants of one term meet instead of counting as a miss and an extra."""
+    joined = re.sub(r"(?<=\w)[-/](?=\w)", "", label.lower())
+    words = "".join(c if c.isalnum() else " " for c in joined).split()
     return {w for w in words if w not in STOP}
 
 
