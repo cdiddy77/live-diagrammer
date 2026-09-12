@@ -202,12 +202,15 @@ function Inner() {
 
   const drifted = new Set(view.last?.moved.filter((m) => m.dist > DRIFT_LIMIT_PX).map((m) => m.id));
   const fresh = new Set(peek ? [] : [...(view.last?.added ?? []), ...(view.last?.anchored ?? [])]);
+  // The size goes in as width and height as well as style, so React Flow
+  // never waits on a measurement before it shows a node.
   const nodes: Node[] = (shown?.nodes ?? []).map((n) => ({
     id: n.id,
     type: "box",
     position: pos[n.id] ?? { x: 0, y: 0 },
     data: { label: n.label },
     style: nodeSize(n.label),
+    ...nodeSize(n.label),
     className: `node ${drifted.has(n.id) ? "drifted" : fresh.has(n.id) ? "fresh" : ""}`,
     draggable: false,
   }));
