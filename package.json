@@ -1,0 +1,33 @@
+{
+  "name": "live-diagrammer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An agent that listens to a live meeting and keeps a diagram of the discussion current.",
+  "scripts": {
+    "validate": "tsx contracts/validate.ts",
+    "check": "tsc --noEmit",
+    "server": "tsx server/index.ts",
+    "dev": "vite --config panel/vite.config.ts",
+    "build:ext": "vite build --config panel/vite.config.ts --outDir ../extension/panel --emptyOutDir"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.11.6",
+    "elkjs": "^0.12.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ws": "^8.18.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/ws": "^8.18.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "playwright": "^1.63.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+{"text":"So the Meet tab audio goes into the Chrome extension first.","is_final":true,"t_start":1200,"t_end":4100,"channel":"me"}
+{"text":"Right, yeah, that makes sense.","is_final":true,"t_start":4300,"t_end":5600,"channel":"them"}
+{"text":"The extension ships PCM over a websocket to a local server, and the server hands it to transcription.","is_final":true,"t_start":6000,"t_end":11800,"channel":"me"}
+{"text":"Let's be specific, transcription is OpenAI Realtime, and it feeds final utterances to the op extractor.","is_final":true,"t_start":12100,"t_end":18400,"channel":"them"}
+{"text":"Actually the server shouldn't talk to transcription directly, put a batcher in between.","is_final":true,"t_start":19000,"t_end":23900,"channel":"me","speaker":"charles"}

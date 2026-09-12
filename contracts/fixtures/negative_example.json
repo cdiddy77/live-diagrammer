@@ -1,0 +1,18 @@
+{
+  "diagram": {
+    "diagram_id": "d1",
+    "type": "flowchart",
+    "title": "Lunch plan",
+    "nodes": [
+      { "id": "tacos", "label": "Tacos" },
+      { "id": "pho", "label": "Pho" }
+    ],
+    "edges": [{ "from": "tacos", "to": "pho", "label": "or" }]
+  },
+  "transcript": [
+    { "text": "Should we do tacos or pho after this?", "is_final": true, "t_start": 30000, "t_end": 32500, "channel": "them" },
+    { "text": "Pho, but anyway, back to the batcher.", "is_final": true, "t_start": 32800, "t_end": 35000, "channel": "me" }
+  ],
+  "dismissed_at_ms": 36000,
+  "calls_remaining": 3
+}
