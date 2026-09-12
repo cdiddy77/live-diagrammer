@@ -9,7 +9,8 @@
     "check": "tsc --noEmit",
     "server": "tsx server/index.ts",
     "dev": "vite --config panel/vite.config.ts",
-    "build:ext": "vite build --config panel/vite.config.ts --outDir ../extension/panel --emptyOutDir"
+    "build:ext": "vite build --config panel/vite.config.ts --outDir ../extension/panel --emptyOutDir",
+    "cases": "tsx eval/cases.ts"
   },
   "dependencies": {
     "@xyflow/react": "^12.11.6",
