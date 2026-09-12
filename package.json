@@ -10,7 +10,8 @@
     "server": "tsx server/index.ts",
     "dev": "vite --config panel/vite.config.ts",
     "build:ext": "vite build --config panel/vite.config.ts --outDir ../extension/panel --emptyOutDir",
-    "cases": "tsx eval/cases.ts"
+    "cases": "tsx eval/cases.ts",
+    "take": "node eval/take.mjs"
   },
   "dependencies": {
     "@xyflow/react": "^12.11.6",

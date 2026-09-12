@@ -1,0 +1,11 @@
+%% d1 — Audio Capture Flow (active)
+flowchart LR
+  google_meet_tab["Google Meet Tab"]
+  chrome_extension["Chrome Extension"]
+  local_server["Local Server"]
+  openai_realtime["OpenAI Realtime Transcriber"]
+  extractor["Extractor (emits small edits to graph)"]
+  google_meet_tab -->|input audio from| chrome_extension
+  chrome_extension -->|sends audio to| local_server
+  local_server -->|runs transcriber| openai_realtime
+  openai_realtime -->|feeds| extractor

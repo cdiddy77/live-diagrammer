@@ -1,0 +1,34 @@
+{"seq":0,"t_ms":10800,"event":{"kind":"transcript","event":{"text":"All right.","is_final":true,"t_start":10020,"t_end":10800,"channel":"me"}}}
+{"seq":1,"t_ms":12860,"event":{"kind":"transcript","event":{"text":"How's it going?","is_final":true,"t_start":11980,"t_end":12860,"channel":"me"}}}
+{"seq":2,"t_ms":17899,"event":{"kind":"ops","call_id":"c1","transcript_cursor":2,"ops":[],"rejected":[],"latency_ms":2452}}
+{"seq":3,"t_ms":31460,"event":{"kind":"transcript","event":{"text":"Oh, I can't hear you yet.","is_final":true,"t_start":29900,"t_end":31460,"channel":"me"}}}
+{"seq":4,"t_ms":34167,"event":{"kind":"ops","call_id":"c2","transcript_cursor":3,"ops":[],"rejected":[],"latency_ms":1640}}
+{"seq":5,"t_ms":38040,"event":{"kind":"transcript","event":{"text":"Can you hear me?","is_final":true,"t_start":37260,"t_end":38040,"channel":"me"}}}
+{"seq":6,"t_ms":40821,"event":{"kind":"ops","call_id":"c3","transcript_cursor":4,"ops":[],"rejected":[],"latency_ms":965}}
+{"seq":7,"t_ms":43160,"event":{"kind":"transcript","event":{"text":"I was on","is_final":true,"t_start":41700,"t_end":43160,"channel":"them"}}}
+{"seq":8,"t_ms":44340,"event":{"kind":"transcript","event":{"text":"Right","is_final":true,"t_start":43900,"t_end":44340,"channel":"me"}}}
+{"seq":9,"t_ms":48580,"event":{"kind":"transcript","event":{"text":"All right. Yeah, the reducer and","is_final":true,"t_start":43880,"t_end":48580,"channel":"them"}}}
+{"seq":10,"t_ms":51457,"event":{"kind":"ops","call_id":"c4","transcript_cursor":7,"ops":[{"op":"new_diagram","type":"flowchart","title":"Reducer Design"},{"op":"add_node","id":"reducer","label":"Reducer"}],"rejected":[],"latency_ms":1663}}
+{"seq":11,"t_ms":64720,"event":{"kind":"transcript","event":{"text":"Okay, so let me say the whole thing back to you and you stop me when I get it wrong.","is_final":true,"t_start":59460,"t_end":64720,"channel":"them"}}}
+{"seq":12,"t_ms":66080,"event":{"kind":"transcript","event":{"text":"Okay, go.","is_final":true,"t_start":65160,"t_end":66080,"channel":"me"}}}
+{"seq":13,"t_ms":69480,"event":{"kind":"ops","call_id":"c5","transcript_cursor":9,"ops":[],"rejected":[],"latency_ms":1316}}
+{"seq":14,"t_ms":76560,"event":{"kind":"transcript","event":{"text":"The Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and then sends both to a local server","is_final":true,"t_start":66920,"t_end":76560,"channel":"them"}}}
+{"seq":15,"t_ms":77529,"event":{"kind":"ops","call_id":"c6","transcript_cursor":10,"ops":[{"op":"add_node","id":"google_meet_tab","label":"Google Meet Tab"},{"op":"add_node","id":"chrome_extension","label":"Chrome Extension"},{"op":"add_node","id":"local_server","label":"Local Server"},{"op":"add_edge","from":"google_meet_tab","to":"chrome_extension","label":"input to"},{"op":"add_edge","from":"chrome_extension","to":"local_server","label":"sends audio to"}],"rejected":[],"latency_ms":1771}}
+{"seq":16,"t_ms":82160,"event":{"kind":"transcript","event":{"text":"Right, and the server runs the transcriber, which is OpenAI real-time.","is_final":true,"t_start":77280,"t_end":82160,"channel":"me"}}}
+{"seq":17,"t_ms":84854,"event":{"kind":"ops","call_id":"c7","transcript_cursor":11,"ops":[{"op":"add_node","id":"transcriber","label":"OpenAI Real-time Transcriber"},{"op":"add_edge","from":"local_server","to":"transcriber","label":"runs"}],"rejected":[],"latency_ms":2005}}
+{"seq":18,"t_ms":89700,"event":{"kind":"transcript","event":{"text":"The transcriber feeds the extractor, the extractor decides what goes on the board","is_final":true,"t_start":83320,"t_end":89700,"channel":"them"}}}
+{"seq":19,"t_ms":92933,"event":{"kind":"ops","call_id":"c8","transcript_cursor":12,"ops":[{"op":"add_node","id":"extractor","label":"Extractor"},{"op":"add_edge","from":"transcriber","to":"extractor","label":"feeds"}],"rejected":[],"latency_ms":1299}}
+{"seq":20,"t_ms":98160,"event":{"kind":"transcript","event":{"text":"Right, but it never draws. It emits small edits to the graph. Every edit goes into a log, and the side panel draws from that log.","is_final":true,"t_start":89660,"t_end":98160,"channel":"me"}}}
+{"seq":21,"t_ms":99362,"event":{"kind":"ops","call_id":"c9","transcript_cursor":13,"ops":[{"op":"add_node","id":"edit_log","label":"Edit Log"},{"op":"add_node","id":"side_panel","label":"Side Panel"},{"op":"add_edge","from":"extractor","to":"edit_log","label":"emits edits to"},{"op":"add_edge","from":"edit_log","to":"side_panel","label":"feeds"}],"rejected":[],"latency_ms":1764}}
+{"seq":22,"t_ms":107840,"event":{"kind":"transcript","event":{"text":"Right.","is_final":true,"t_start":107300,"t_end":107840,"channel":"me"}}}
+{"seq":23,"t_ms":108040,"event":{"kind":"transcript","event":{"text":"The extractor writes to the log and the panel reads from the log.","is_final":true,"t_start":101320,"t_end":108040,"channel":"them"}}}
+{"seq":24,"t_ms":110625,"event":{"kind":"ops","call_id":"c10","transcript_cursor":15,"ops":[],"rejected":[],"latency_ms":1060}}
+{"seq":25,"t_ms":114700,"event":{"kind":"transcript","event":{"text":"And the physician nothing through yet","is_final":true,"t_start":108540,"t_end":114700,"channel":"them"}}}
+{"seq":26,"t_ms":117569,"event":{"kind":"ops","call_id":"c11","transcript_cursor":16,"ops":[],"rejected":[],"latency_ms":2306}}
+{"seq":27,"t_ms":120640,"event":{"kind":"transcript","event":{"text":"Are you connected or?","is_final":true,"t_start":119320,"t_end":120640,"channel":"me"}}}
+{"seq":28,"t_ms":121900,"event":{"kind":"transcript","event":{"text":"Yeah","is_final":true,"t_start":118780,"t_end":121900,"channel":"them"}}}
+{"seq":29,"t_ms":123800,"event":{"kind":"transcript","event":{"text":"Huh.","is_final":true,"t_start":123300,"t_end":123800,"channel":"me"}}}
+{"seq":30,"t_ms":124520,"event":{"kind":"ops","call_id":"c12","transcript_cursor":18,"ops":[],"rejected":[],"latency_ms":1831}}
+{"seq":31,"t_ms":126485,"event":{"kind":"ops","call_id":"c13","transcript_cursor":19,"ops":[],"rejected":[],"latency_ms":686}}
+{"seq":32,"t_ms":134440,"event":{"kind":"transcript","event":{"text":"Hmm","is_final":true,"t_start":131000,"t_end":134440,"channel":"them"}}}
+{"seq":33,"t_ms":138359,"event":{"kind":"ops","call_id":"c14","transcript_cursor":20,"ops":[],"rejected":[],"latency_ms":1379}}

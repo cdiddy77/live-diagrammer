@@ -1,0 +1,16 @@
+%% d1 — Reducer Design (active)
+flowchart LR
+  reducer["Reducer"]
+  google_meet_tab["Google Meet Tab"]
+  chrome_extension["Chrome Extension"]
+  local_server["Local Server"]
+  transcriber["OpenAI Real-time Transcriber"]
+  extractor["Extractor"]
+  edit_log["Edit Log"]
+  side_panel["Side Panel"]
+  google_meet_tab -->|input to| chrome_extension
+  chrome_extension -->|sends audio to| local_server
+  local_server -->|runs| transcriber
+  transcriber -->|feeds| extractor
+  extractor -->|emits edits to| edit_log
+  edit_log -->|feeds| side_panel
