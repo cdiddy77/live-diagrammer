@@ -1,7 +1,5 @@
 /**
- * Case emitter for the report card. Brought in from the S4 spike (cases.ts);
- * import paths and the reference directory are the only changes.
- *
+ * Case emitter for the report card.
  *
  * One case per human-annotated topic segment: the transcript the agent heard,
  * the diagram it had produced by the end of that segment, and the human labels
@@ -55,8 +53,8 @@ const entries = readFileSync(logPath, "utf8").trim().split(/\n/).map((l, i) => {
 /** Log times are window-relative; the topic timeline is meeting-absolute. */
 const abs = (t_ms: number) => t_ms + offset;
 
-/** Finals only. An S6 log run with --log-partials carries revisions of the same
- *  turn, which would read as stutter in a judge prompt. */
+/** Finals only. The server logs partials too, and a partial is a revision of the
+ *  same turn, which would read as stutter in a judge prompt. */
 const transcripts = entries.flatMap((e) =>
   e.event.kind === "transcript" && e.event.event.is_final
     ? [{ t: abs(e.t_ms), ev: e.event.event as TranscriptEvent }]
@@ -69,9 +67,16 @@ const opBatches = entries.flatMap((e) =>
 );
 
 /**
- * Replay to a point in time. Handles dismiss the same way S6's `stateAt` does —
- * park the diagram and clear active — because S0 still has no parked state and
- * two implementations agreeing is the closest thing to a contract we have.
+ * Replay to a point in time, the same way the server's pipeline does.
+ *
+ * A dismiss arrives in the log as ordinary ops (the parked part is removed from
+ * the active board and re-added on a fresh diagram, then `switch_active` goes
+ * back to the original) followed by a DismissEvent naming the fresh diagram.
+ * So the DismissEvent only drops the parked diagram; `active` is cleared only
+ * when the parked diagram *was* the active one, which is the whole-board case.
+ * Clearing it unconditionally would make every later op apply to nothing and
+ * report recovery as failed when the board actually carried on.
+ *
  * Uses `continue`, not `break`: t_ms is not monotonic once partials are logged.
  */
 const stateAt = (tAbs: number): CompactGraphState => {
@@ -81,7 +86,10 @@ const stateAt = (tAbs: number): CompactGraphState => {
     const ev = e.event;
     if (ev.kind === "ops") s = applyOps(s, ev.ops).state;
     else if (ev.kind === "dismiss") {
-      s = { active: null, diagrams: s.diagrams.filter((d) => d.diagram_id !== ev.diagram_id) };
+      s = {
+        active: s.active === ev.diagram_id ? null : s.active,
+        diagrams: s.diagrams.filter((d) => d.diagram_id !== ev.diagram_id),
+      };
     }
   }
   return s;
@@ -170,9 +178,10 @@ for (const seg of segments) {
 /**
  * One extra case per dismiss: the board as it stood the instant before it was
  * parked. A dismiss inside a segment makes that segment's normal case read the
- * post-dismiss (empty) state, so the board that was wrong enough to dismiss -
- * the one the judge most needs to score - would otherwise vanish at the boundary.
- * Seen on DEMO01: the "submission tangent" segment showed 0 nodes.
+ * post-dismiss state, so the board that was wrong enough to dismiss - the one
+ * the judge most needs to score - would otherwise never be scored. The park ops
+ * and the DismissEvent share a timestamp, and stateAt excludes that instant, so
+ * this is the board the participant was looking at when they clicked.
  */
 let dismissed = 0;
 for (const e of entries) {

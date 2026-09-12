@@ -1,7 +1,5 @@
 /**
- * Brought in from the S4 spike (reference.ts). Reads eval/ref/<meeting>/reference.md.
- *
- * Read an AMI reference.md: the human topic timeline, plus the abstract and
+ * Read eval/ref/<meeting>/reference.md: the human topic timeline, plus the abstract and
  * decisions. These are the corpus annotators' labels (CC BY 4.0), which is what
  * lets a judge score against a human reference instead of against itself.
  *
