@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Live Diagrammer",
+  "version": "0.1.0",
+  "description": "Streams a meeting tab's audio and the local mic to the Live Diagrammer server and shows the live diagram in the side panel.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "tabCapture",
+    "offscreen",
+    "storage",
+    "sidePanel"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Live Diagrammer: start or stop capture"
+  },
+  "side_panel": {
+    "default_path": "panel/index.html"
+  }
+}
