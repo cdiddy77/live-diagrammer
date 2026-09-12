@@ -1,0 +1,27 @@
+{
+  "meeting_id": "CHARLES01",
+  "type": "demo",
+  "phase": "architecture discussion",
+  "official_split": "demo",
+  "duration_s": 268.2,
+  "n_events": 36,
+  "n_words": 296,
+  "speakers": {
+    "A": {
+      "role": "Charles",
+      "role_name": "Charles",
+      "participant": "charles",
+      "channel": "me",
+      "words": 146
+    },
+    "B": {
+      "role": "James",
+      "role_name": "James",
+      "participant": "james",
+      "channel": "them",
+      "words": 150
+    }
+  },
+  "audio": {},
+  "source": "live take charles-20-04-49"
+}
