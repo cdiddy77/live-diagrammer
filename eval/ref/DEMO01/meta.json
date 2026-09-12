@@ -1,0 +1,27 @@
+{
+  "meeting_id": "DEMO01",
+  "type": "demo",
+  "phase": "architecture discussion",
+  "official_split": "demo",
+  "duration_s": 138.4,
+  "n_events": 19,
+  "n_words": 296,
+  "speakers": {
+    "A": {
+      "role": "Charles",
+      "role_name": "Charles",
+      "participant": "charles",
+      "channel": "me",
+      "words": 146
+    },
+    "B": {
+      "role": "James",
+      "role_name": "James",
+      "participant": "james",
+      "channel": "them",
+      "words": 150
+    }
+  },
+  "audio": {},
+  "source": "s7-submission/demo-storyboard.md"
+}
