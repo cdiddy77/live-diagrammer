@@ -1,0 +1,50 @@
+<title>Report Card, Take 13:04</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+ /* A still for the last six seconds of the video. One deliberate dark theme:
+    it is composited over the recording, never viewed in a light host. */
+ :root{
+   --ink:#0e1116; --card:#161a21; --rule:#262c37;
+   --text:#e9ecef; --muted:#98a2b3; --pass:#7fd08a; --grade:#f3e9d2;
+   --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+   --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+ }
+ html,body{margin:0;background:var(--ink);color:var(--text);font-family:var(--sans);font-variant-numeric:tabular-nums}
+ body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:48px;box-sizing:border-box}
+ .card{width:1400px;max-width:100%;background:var(--card);border:1px solid var(--rule);border-radius:20px;padding:56px 64px 44px;box-sizing:border-box;display:grid;grid-template-columns:340px 1fr;column-gap:56px;row-gap:36px}
+ .grade{font-family:var(--serif);font-size:360px;line-height:.82;color:var(--grade);letter-spacing:-.04em;align-self:start;margin-top:-10px}
+ .head h1{font-family:var(--serif);font-weight:400;font-size:52px;line-height:1.1;margin:8px 0 18px;letter-spacing:-.01em;text-wrap:balance}
+ .stat{font-size:26px;color:var(--muted);margin:0 0 6px}
+ .stat b{color:var(--text);font-weight:600}
+ .rows{grid-column:1 / -1;border-top:1px solid var(--rule);padding-top:8px}
+ .row{display:grid;grid-template-columns:44px 1fr auto;align-items:baseline;gap:20px;padding:16px 0;border-bottom:1px solid var(--rule);font-size:28px}
+ .row:last-child{border-bottom:0}
+ .row .ok{color:var(--pass);font-size:30px}
+ .row .m{color:var(--muted);font-size:22px}
+ .meter{display:inline-block;width:160px;height:8px;background:var(--rule);border-radius:4px;vertical-align:middle;margin-left:14px;position:relative;top:-3px}
+ .meter i{display:block;height:100%;background:var(--pass);border-radius:4px}
+ .foot{grid-column:1 / -1;color:var(--muted);font-size:19px;line-height:1.5;border-top:1px solid var(--rule);padding-top:18px;max-width:1240px}
+ .foot b{color:var(--text);font-weight:500}
+</style>
+
+<div class="card">
+  <div class="grade">A</div>
+
+  <div class="head">
+    <h1>The board matched the intended board in 3 of 3 segments</h1>
+    <p class="stat"><b>100%</b> &nbsp;·&nbsp; plausible range 44% to 100%</p>
+    <p class="stat"><b>6 of 6</b> storyboard beats landed, including dismiss and recovery</p>
+  </div>
+
+  <div class="rows">
+    <div class="row"><span class="ok">✓</span><span>First nodes</span><span class="m">F1 0.93 <span class="meter"><i style="width:93%"></i></span></span></div>
+    <div class="row"><span class="ok">✓</span><span>gonogo — rename and redirect</span><span class="m">F1 0.91 <span class="meter"><i style="width:91%"></i></span></span></div>
+    <div class="row"><span class="ok">✓</span><span>Recovery after the dismiss</span><span class="m">F1 0.89 <span class="meter"><i style="width:89%"></i></span></span></div>
+  </div>
+
+  <div class="foot">
+    Graded against the board the storyboard intended after each beat — a <b>deterministic matcher</b>, no model, nothing to calibrate.
+    The 95% interval is over <b>n = 3</b> segments; it is wide because n is small, and gonogo reports that rather than hiding it.
+    Graded on the full 4:28 recording; this video is cut from it.
+  </div>
+</div>
