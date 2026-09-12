@@ -1,5 +1,5 @@
 // The side panel: a WebSocket client, the placer on a React Flow canvas,
-// Snapshot, Dismiss, and Reset, a latency badge, a structural badge, a
+// Snapshot, Dismiss, Reset, and Pause, a latency badge, a structural badge, a
 // scrubber, and Mermaid export. Everything on screen is a fold over the log
 // (session.ts).
 //
@@ -32,7 +32,7 @@ export type Latency = {
 declare global {
   interface Window {
     __panel: {
-      entries: number; calls: number; ended: boolean; connected: boolean;
+      entries: number; calls: number; ended: boolean; connected: boolean; paused: boolean;
       latency: Latency | null; latencies: Latency[];
     };
   }
@@ -46,6 +46,7 @@ function useFeed() {
   const [connected, setConnected] = useState(false);
   const [ended, setEnded] = useState<string | null>(null);
   const [source, setSource] = useState("");
+  const [paused, setPaused] = useState(false);
   const wsRef = useRef<WebSocket | null>(null);
 
   useEffect(() => {
@@ -63,10 +64,13 @@ function useFeed() {
           setSource(`${msg.source} · ${msg.rate === 0 ? "unpaced" : `${msg.rate}×`}`);
           setRecs(msg.backlog.map((entry) => ({ entry, received: now })));
           setEnded(null);
+          setPaused(msg.paused ?? false);
         } else if (msg.kind === "log") {
           setRecs((r) => [...r, { entry: msg.entry, wall: msg.wall, received: now }]);
         } else if (msg.kind === "end") {
           setEnded(msg.reason);
+        } else if (msg.kind === "paused") {
+          setPaused(msg.paused);
         }
       };
       ws.onclose = () => {
@@ -83,7 +87,7 @@ function useFeed() {
     if (ws && ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify(m));
   }, []);
 
-  return { recs, connected, ended, source, send };
+  return { recs, connected, ended, source, paused, send };
 }
 
 // ---------------------------------------------------------------------------
@@ -133,7 +137,7 @@ const mmss = (ms: number) => {
 const FIT = { padding: 0.15, maxZoom: 1, duration: 400 };
 
 function Inner() {
-  const { recs, connected, ended, source, send } = useFeed();
+  const { recs, connected, ended, source, paused, send } = useFeed();
   const [live, setLive] = useState(true);
   const [cursor, setCursor] = useState(0);
   const [peek, setPeek] = useState<Frozen | null>(null);
@@ -188,10 +192,10 @@ function Inner() {
 
   useEffect(() => {
     window.__panel = {
-      entries: recs.length, calls: view.calls, ended: ended !== null, connected,
+      entries: recs.length, calls: view.calls, ended: ended !== null, connected, paused,
       latency: lat, latencies: lats.current,
     };
-  }, [recs.length, view.calls, ended, lat, connected]);
+  }, [recs.length, view.calls, ended, lat, connected, paused]);
 
   // Nodes never move relative to each other, so a refit is the only camera change.
   useEffect(() => { if (autoFit) fitView(FIT); }, [shown, pos, fitView, autoFit]);
@@ -231,7 +235,7 @@ function Inner() {
   return (
     <>
       <div className="top">
-        <span className={`dot ${connected && !ended ? "on" : "off"}`} title={WS_URL} />
+        <span className={`dot ${!connected || ended ? "off" : paused ? "paused" : "on"}`} title={WS_URL} />
         <h1>Live Diagrammer</h1>
         <button className="snapshot" onClick={() => send({ kind: "snapshot" })} disabled={!canAct}>Snapshot</button>
         <button className="dismiss" onClick={() => send({ kind: "dismiss" })} disabled={!canAct}>Dismiss</button>
@@ -242,6 +246,14 @@ function Inner() {
           title="new take: the server writes this session's files and starts a fresh one"
         >
           Reset
+        </button>
+        <button
+          className={`pause ${paused ? "paused" : ""}`}
+          onClick={() => send({ kind: paused ? "resume" : "pause" })}
+          disabled={!connected}
+          title={paused ? "audio is dropped; click to resume" : "drop the capture audio until Resume"}
+        >
+          {paused ? "Resume" : "Pause"}
         </button>
       </div>
       <div className="canvas">

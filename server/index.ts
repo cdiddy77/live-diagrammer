@@ -22,6 +22,8 @@
 // The panel's Reset button ends the session, writes its files, and starts a
 // fresh one. Live: the capture stays connected, so the extension needs no
 // click. Replay: the file plays again from the top as the next take.
+// The panel's Pause button drops the capture audio until Resume. The capture
+// and the transcriber sessions stay open, so nothing reconnects.
 //
 // Env (.env at the repo root): OPENAI_API_KEY for transcription and, with
 // LLM_MODEL, for the extractor. See extractor/provider.ts for LLM_* names.
@@ -172,6 +174,7 @@ type Session = {
 const panels = new Set<WebSocket>();
 let current: Session | null = null;
 let onFirstPanel: (() => void) | null = null;
+let paused = false;
 const sourceName = eventsFile ? `replay ${basename(eventsFile)}` : `live :${capturePort}`;
 
 const send = (ws: WebSocket, m: ServerMsg) => {
@@ -226,7 +229,7 @@ function newSession(name: string, pipelineRate: number): Session {
     },
   });
   current = s;
-  broadcast({ kind: "hello", source: sourceName, rate: pipelineRate, backlog: [] });
+  broadcast({ kind: "hello", source: sourceName, rate: pipelineRate, backlog: [], paused });
   return s;
 }
 
@@ -267,7 +270,7 @@ const wss = new WebSocketServer({ port: panelPort });
 wss.on("connection", (ws, req) => {
   panels.add(ws);
   console.log(`panel connected from ${req.socket.remoteAddress} (${panels.size} open)`);
-  send(ws, { kind: "hello", source: sourceName, rate: eventsFile ? rate : 1, backlog: current?.backlog ?? [] });
+  send(ws, { kind: "hello", source: sourceName, rate: eventsFile ? rate : 1, backlog: current?.backlog ?? [], paused });
   if (current?.ended) send(ws, { kind: "end", reason: "source finished" });
   ws.on("message", (data, isBinary) => {
     if (isBinary) return;
@@ -280,6 +283,12 @@ wss.on("connection", (ws, req) => {
     if (m.kind === "reset") {
       console.log("      reset from panel");
       void reset();
+      return;
+    }
+    if (m.kind === "pause" || m.kind === "resume") {
+      paused = m.kind === "pause";
+      console.log(`      ${m.kind} from panel`);
+      broadcast({ kind: "paused", paused });
       return;
     }
     if (!current || current.ended) return;
@@ -371,8 +380,14 @@ function listen(): void {
     delay,
     keywords,
     turn,
+    isPaused: () => paused,
     onLog: (m) => console.log(m),
     onConnect: () => {
+      // A fresh capture starts unpaused, whatever the last one left behind.
+      if (paused) {
+        paused = false;
+        broadcast({ kind: "paused", paused });
+      }
       const open = (): Session => {
         const s = newSession(nameFlag ? `${nameFlag}-${stamp()}` : `live-${stamp()}`, 1);
         s.transcript = createWriteStream(`${outDir}/${s.name}.transcript.jsonl`);

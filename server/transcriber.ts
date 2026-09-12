@@ -350,6 +350,8 @@ export type CaptureOpts = {
   delay?: string;
   keywords?: string[];
   turn?: Partial<TurnOpts>;
+  /** While this returns true, audio frames are dropped and the sessions stay open. */
+  isPaused?: () => boolean;
   /** A capture client connected. Return the handlers for its session. */
   onConnect: (id: string) => CaptureHandlers;
   onLog?: (msg: string) => void;
@@ -391,6 +393,7 @@ export function startCaptureServer(opts: CaptureOpts): WebSocketServer {
       const ch = buf[0]!;
       const channel = CHANNEL_BY_BYTE[ch];
       if (!channel || !sessions || !resamplers) return;
+      if (opts.isPaused?.()) return;
       frames[channel]++;
       sessions[ch]!.append(resamplers[ch]!.process(buf.subarray(1)));
     };
