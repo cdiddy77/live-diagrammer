@@ -17,6 +17,7 @@
 //   --threshold-db N    speech is above N dBFS (default -45)
 //   --max-turn-ms N     forced commit after N ms of speech (default 15000)
 //   --delay D           transcription delay: minimal, low, medium, high, xhigh (default low)
+//   --keywords A,B,C    names the transcriber should spell this way (default: this project's vocabulary)
 //
 // The panel's Reset button ends the session, writes its files, and starts a
 // fresh one. Live: the capture stays connected, so the extension needs no
@@ -67,6 +68,14 @@ const startOn = flag("start", rate > 0 ? "panel" : "now");
 const outDir = flag("out", "out")!;
 const nameFlag = flag("name");
 const delay = flag("delay", "low")!;
+// One spelling per name across both speakers, or the extractor draws two nodes.
+const keywords = flag(
+  "keywords",
+  "gonogo,Live Diagrammer,extractor,reducer,batcher,transcriber,case emitter,side panel,Mermaid,Loom,Chrome extension,Google Meet",
+)!
+  .split(",")
+  .map((k) => k.trim())
+  .filter(Boolean);
 const turn = {
   thresholdDb: Number(flag("threshold-db", String(DEFAULT_TURN.thresholdDb))),
   silenceMs: Number(flag("silence-ms", String(DEFAULT_TURN.silenceMs))),
@@ -360,6 +369,7 @@ function listen(): void {
     port: capturePort,
     apiKey,
     delay,
+    keywords,
     turn,
     onLog: (m) => console.log(m),
     onConnect: () => {
@@ -400,7 +410,7 @@ function listen(): void {
       };
     },
   });
-  console.log(`capture: ws://localhost:${capturePort}  (silence ${turn.silenceMs} ms, threshold ${turn.thresholdDb} dBFS, max turn ${turn.maxTurnMs} ms, delay ${delay})`);
+  console.log(`capture: ws://localhost:${capturePort}  (silence ${turn.silenceMs} ms, threshold ${turn.thresholdDb} dBFS, max turn ${turn.maxTurnMs} ms, delay ${delay}, ${keywords.length} keywords)`);
 }
 
 if (eventsFile) await replay(eventsFile);

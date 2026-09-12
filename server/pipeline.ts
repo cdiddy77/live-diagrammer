@@ -297,6 +297,11 @@ export class Pipeline {
     for (; i >= 0; i--) {
       const s = this.strokes[i]!;
       if (s.kind !== "call" || s.accepted === 0 || s.diagram_id !== diagramId) break;
+      // An earlier call joins the scope only while its edges stay inside the
+      // scope. A call that wired new material into the older board is where
+      // the tangent began, so that call and everything before it stay.
+      const inside = (id: NodeId) => nodes.has(id) || s.nodes.includes(id);
+      if (calls > 0 && s.edges.some((e) => !inside(e.from) || !inside(e.to))) break;
       calls++;
       for (const n of s.nodes) nodes.add(n);
       for (const e of s.edges) edges.add(edgeId(e.from, e.to));

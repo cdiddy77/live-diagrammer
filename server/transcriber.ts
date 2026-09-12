@@ -56,6 +56,8 @@ export type SessionOpts = {
   model?: string;
   /** Transcription delay setting of the model: minimal, low, medium, high, xhigh. */
   delay?: string;
+  /** Names the model should spell this way: product names, components, people. */
+  keywords?: string[];
   turn?: Partial<TurnOpts>;
   onEvent: (e: TranscriptEvent, latency: Latency | null) => void;
   onLog?: (msg: string) => void;
@@ -77,6 +79,7 @@ export class ChannelSession {
   readonly channel: Channel;
   private readonly model: string;
   private readonly delay: string;
+  private readonly keywords: string[];
   private readonly turn: TurnOpts;
   private readonly onEvent: SessionOpts["onEvent"];
   private readonly onLog: (msg: string) => void;
@@ -99,6 +102,7 @@ export class ChannelSession {
     this.apiKey = opts.apiKey;
     this.model = opts.model ?? DEFAULT_TRANSCRIBE_MODEL;
     this.delay = opts.delay ?? "low";
+    this.keywords = opts.keywords ?? [];
     this.turn = { ...DEFAULT_TURN, ...opts.turn };
     this.onEvent = opts.onEvent;
     this.onLog = opts.onLog ?? (() => {});
@@ -112,7 +116,12 @@ export class ChannelSession {
         audio: {
           input: {
             format: { type: "audio/pcm", rate: PCM_RATE },
-            transcription: { model: this.model, delay: this.delay, languages: ["en"] },
+            transcription: {
+              model: this.model,
+              delay: this.delay,
+              languages: ["en"],
+              ...(this.keywords.length ? { keywords: this.keywords } : {}),
+            },
             // The live model rejects every turn_detection value but null.
             turn_detection: null,
             noise_reduction: { type: "near_field" },
@@ -339,6 +348,7 @@ export type CaptureOpts = {
   apiKey: string;
   model?: string;
   delay?: string;
+  keywords?: string[];
   turn?: Partial<TurnOpts>;
   /** A capture client connected. Return the handlers for its session. */
   onConnect: (id: string) => CaptureHandlers;
@@ -399,6 +409,7 @@ export function startCaptureServer(opts: CaptureOpts): WebSocketServer {
             apiKey: opts.apiKey,
             model: opts.model,
             delay: opts.delay,
+            keywords: opts.keywords,
             turn: opts.turn,
             onEvent,
             onLog: (m) => log(`[${id}] ${m}`),
