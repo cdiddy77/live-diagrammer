@@ -18,6 +18,10 @@
 //   --max-turn-ms N     forced commit after N ms of speech (default 15000)
 //   --delay D           transcription delay: minimal, low, medium, high, xhigh (default low)
 //
+// The panel's Reset button ends the session, writes its files, and starts a
+// fresh one. Live: the capture stays connected, so the extension needs no
+// click. Replay: the file plays again from the top as the next take.
+//
 // Env (.env at the repo root): OPENAI_API_KEY for transcription and, with
 // LLM_MODEL, for the extractor. See extractor/provider.ts for LLM_* names.
 import { createWriteStream, mkdirSync, readFileSync, writeFileSync, type WriteStream } from "node:fs";
@@ -264,6 +268,11 @@ wss.on("connection", (ws, req) => {
     } catch {
       return;
     }
+    if (m.kind === "reset") {
+      console.log("      reset from panel");
+      void reset();
+      return;
+    }
     if (!current || current.ended) return;
     if (m.kind === "dismiss") {
       console.log("      dismiss from panel");
@@ -287,29 +296,58 @@ mkdirSync(outDir, { recursive: true });
 // Modes
 // ---------------------------------------------------------------------------
 
+// A reset from a panel. Replay: the file plays again as the next take, and a
+// take still in progress stops at its next event. Live: the running session
+// ends and a fresh one takes over the same capture connection.
+let resetReplay: (() => Promise<void>) | null = null;
+let resetLive: (() => Promise<void>) | null = null;
+async function reset(): Promise<void> {
+  if (resetReplay) await resetReplay();
+  else if (resetLive) await resetLive();
+  else console.log("      reset: no capture connected, nothing to reset");
+}
+
 async function replay(path: string): Promise<void> {
   const src = loadEvents(path);
-  const name = nameFlag ?? src.name;
-  console.log(
-    `${src.name}: ${src.events.length} events (${src.finals} final)${src.skipped ? `, ${src.skipped} other lines skipped` : ""}, ` +
-      `rate ${rate > 0 ? `${rate}x` : "unpaced"}; ${startOn === "panel" && panels.size === 0 ? "waiting for a panel" : "starting now"}`,
-  );
-  if (startOn === "panel" && panels.size === 0) await new Promise<void>((r) => { onFirstPanel = r; });
-  const s = newSession(name, rate);
-  const wall0 = Date.now();
-  for (const { e, at } of src.events) {
-    if (rate > 0) {
-      const wait = wall0 + at / rate - Date.now();
-      if (wait > 0) await sleep(wait);
+  const base = nameFlag ?? src.name;
+  let generation = 0;
+  let take = 0;
+
+  const run = async (): Promise<void> => {
+    const gen = ++generation;
+    const name = ++take === 1 ? base : `${base}-take${take}`;
+    console.log(
+      `${src.name}: ${src.events.length} events (${src.finals} final)${src.skipped ? `, ${src.skipped} other lines skipped` : ""}, ` +
+        `rate ${rate > 0 ? `${rate}x` : "unpaced"}; ${take > 1 ? `take ${take}` : startOn === "panel" && panels.size === 0 ? "waiting for a panel" : "starting now"}`,
+    );
+    if (take === 1 && startOn === "panel" && panels.size === 0) await new Promise<void>((r) => { onFirstPanel = r; });
+    const s = newSession(name, rate);
+    const wall0 = Date.now();
+    let stopped = false;
+    for (const { e, at } of src.events) {
+      if (rate > 0) {
+        const wait = wall0 + at / rate - Date.now();
+        if (wait > 0) await sleep(wait);
+      }
+      if (gen !== generation) {
+        stopped = true;
+        break;
+      }
+      // At rate 1 the speech ended when the wall clock said t_end. At other
+      // rates the number still measures this run, not a real call.
+      if (e.is_final) s.walls.set(keyOf(e), { final_arrived: Date.now(), ...(rate > 0 ? { speech_end: wall0 + e.t_end / rate } : {}) });
+      s.pipeline.push(e, at);
     }
-    // At rate 1 the speech ended when the wall clock said t_end. At other
-    // rates the number still measures this run, not a real call.
-    if (e.is_final) s.walls.set(keyOf(e), { final_arrived: Date.now(), ...(rate > 0 ? { speech_end: wall0 + e.t_end / rate } : {}) });
-    s.pipeline.push(e, at);
-  }
-  await s.pipeline.close();
-  finish(s, Date.now() - wall0);
-  console.log("panels stay served; Ctrl-C to stop");
+    await s.pipeline.close();
+    if (stopped) console.log(`      ${name} stopped by a reset`);
+    finish(s, Date.now() - wall0);
+    if (!stopped) console.log("panels stay served; Ctrl-C to stop");
+  };
+
+  resetReplay = async () => {
+    void run();
+  };
+  await run();
 }
 
 function listen(): void {
@@ -325,9 +363,24 @@ function listen(): void {
     turn,
     onLog: (m) => console.log(m),
     onConnect: () => {
-      const s = newSession(nameFlag ? `${nameFlag}-${stamp()}` : `live-${stamp()}`, 1);
-      s.transcript = createWriteStream(`${outDir}/${s.name}.transcript.jsonl`);
-      console.log(`session ${s.name} started`);
+      const open = (): Session => {
+        const s = newSession(nameFlag ? `${nameFlag}-${stamp()}` : `live-${stamp()}`, 1);
+        s.transcript = createWriteStream(`${outDir}/${s.name}.transcript.jsonl`);
+        console.log(`session ${s.name} started`);
+        return s;
+      };
+      const end = async (s: Session): Promise<void> => {
+        await s.pipeline.close();
+        finish(s, Date.now() - s.wall0);
+        s.transcript?.end();
+      };
+      let s = open();
+      resetLive = async () => {
+        const old = s;
+        s = open();
+        console.log(`      reset: ${old.name} ended, ${s.name} started on the same capture`);
+        await end(old);
+      };
       return {
         onEvent: (e: TranscriptEvent, latency: Latency | null) => {
           s.transcript?.write(JSON.stringify(latency ? { ...e, latency } : e) + "\n");
@@ -340,8 +393,8 @@ function listen(): void {
           s.pipeline.push(e);
         },
         onClose: async () => {
-          await s.pipeline.close();
-          finish(s, Date.now() - s.wall0);
+          resetLive = null;
+          await end(s);
           console.log("waiting for the next capture");
         },
       };

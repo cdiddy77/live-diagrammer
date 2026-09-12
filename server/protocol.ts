@@ -1,6 +1,7 @@
 // The wire between the server and a panel. One JSON text message per frame.
 // Server to panel: `hello` with the backlog, then `log` per LogEntry, then `end`.
-// Panel to server: `snapshot` and `dismiss`, the two diagram buttons.
+// Panel to server: `snapshot` and `dismiss`, the two diagram buttons, and
+// `reset`, which ends the session and starts a fresh one without a restart.
 import type { LogEntry } from "../contracts/schema.ts";
 
 export const DEFAULT_PANEL_PORT = 8791;
@@ -24,4 +25,4 @@ export type ServerMsg =
   | { kind: "log"; entry: LogEntry; wall?: Wall }
   | { kind: "end"; reason: string };
 
-export type PanelMsg = { kind: "snapshot" } | { kind: "dismiss" };
+export type PanelMsg = { kind: "snapshot" } | { kind: "dismiss" } | { kind: "reset" };

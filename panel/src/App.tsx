@@ -1,6 +1,7 @@
 // The side panel: a WebSocket client, the placer on a React Flow canvas,
-// Snapshot and Dismiss, a latency badge, a structural badge, a scrubber, and
-// Mermaid export. Everything on screen is a fold over the log (session.ts).
+// Snapshot, Dismiss, and Reset, a latency badge, a structural badge, a
+// scrubber, and Mermaid export. Everything on screen is a fold over the log
+// (session.ts).
 //
 // URL params:
 //   ?ws=ws://host:port   the server fan-out (default ws://localhost:8791)
@@ -234,6 +235,14 @@ function Inner() {
         <h1>Live Diagrammer</h1>
         <button className="snapshot" onClick={() => send({ kind: "snapshot" })} disabled={!canAct}>Snapshot</button>
         <button className="dismiss" onClick={() => send({ kind: "dismiss" })} disabled={!canAct}>Dismiss</button>
+        <button
+          className="reset"
+          onClick={() => send({ kind: "reset" })}
+          disabled={!connected}
+          title="new take: the server writes this session's files and starts a fresh one"
+        >
+          Reset
+        </button>
       </div>
       <div className="canvas">
         <div className="badges">
