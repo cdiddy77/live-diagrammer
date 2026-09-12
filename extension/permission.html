@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Live Diagrammer: microphone permission</title>
+    <style>
+      body { font: 16px system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; }
+      button { font-size: 1rem; padding: 0.5rem 1rem; }
+      #status { margin-top: 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Microphone permission</h1>
+    <p>
+      The capture runs in a hidden document that cannot show a permission
+      prompt. Grant microphone access here once. Chrome remembers the grant
+      for this extension.
+    </p>
+    <button id="grant">Grant microphone access</button>
+    <p id="status"></p>
+    <script src="permission.js"></script>
+  </body>
+</html>
