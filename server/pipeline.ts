@@ -444,7 +444,7 @@ export class Pipeline {
       ops = b.length ? b[(call - 1) % b.length]! : [];
     } else {
       // A network failure (undici's "fetch failed", a reset, a timeout) gets
-      // up to two more attempts after a short pause. An HTTP error from the
+      // up to two more attempts after a pause. An HTTP error from the
       // endpoint does not: the same request would get the same answer.
       const t0 = Date.now();
       for (let attempt = 1; ; attempt++) {
@@ -459,7 +459,8 @@ export class Pipeline {
           const message = cause ? `${(err as Error).message}: ${cause.code ?? cause.message}` : (err as Error).message;
           const network = /fetch failed|ECONN|ETIMEDOUT|EAI_AGAIN|socket/i.test(message);
           if (network && attempt < 3) {
-            await new Promise((r) => setTimeout(r, 300));
+            // The blips seen live last a second or two, so the second pause is longer.
+            await new Promise((r) => setTimeout(r, attempt === 1 ? 500 : 1500));
             continue;
           }
           latency_ms = Date.now() - t0;
