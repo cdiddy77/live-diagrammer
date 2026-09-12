@@ -406,24 +406,38 @@ export function startCaptureServer(opts: CaptureOpts): WebSocketServer {
         const rate = Number(hello.sample_rate ?? PCM_RATE);
         log(`[${id}] hello: ${rate} Hz, ${hello.frame_ms ?? "?"} ms frames`);
         resamplers = CHANNEL_BY_BYTE.map(() => new Resampler(rate, PCM_RATE));
-        sessions = CHANNEL_BY_BYTE.map((channel) =>
-          new ChannelSession({
-            channel,
-            apiKey: opts.apiKey,
-            model: opts.model,
-            delay: opts.delay,
-            keywords: opts.keywords,
-            turn: opts.turn,
-            onEvent,
-            onLog: (m) => log(`[${id}] ${m}`),
-          }),
-        );
-        try {
-          await Promise.all(sessions.map((s) => s.connect()));
-        } catch (e) {
-          log(`[${id}] cannot open transcription sessions: ${(e as Error).message}`);
-          ws.close();
-          return;
+        const open = () =>
+          CHANNEL_BY_BYTE.map((channel) =>
+            new ChannelSession({
+              channel,
+              apiKey: opts.apiKey,
+              model: opts.model,
+              delay: opts.delay,
+              keywords: opts.keywords,
+              turn: opts.turn,
+              onEvent,
+              onLog: (m) => log(`[${id}] ${m}`),
+            }),
+          );
+        // The first connect can fail on a network blip. Two more tries, a
+        // second apart, before the capture is given up.
+        sessions = open();
+        for (let attempt = 1; ; attempt++) {
+          try {
+            await Promise.all(sessions.map((s) => s.connect()));
+            break;
+          } catch (e) {
+            sessions.forEach((s) => s.close());
+            if (attempt < 3) {
+              log(`[${id}] transcription sessions did not open (${(e as Error).message || "socket error"}); retry ${attempt}`);
+              await new Promise((r) => setTimeout(r, 1000));
+              sessions = open();
+              continue;
+            }
+            log(`[${id}] cannot open transcription sessions: ${(e as Error).message}`);
+            ws.close();
+            return;
+          }
         }
         wall0 = Date.now();
         while (queue.length) handleFrame(queue.shift()!);
