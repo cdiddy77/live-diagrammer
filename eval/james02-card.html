@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Live Diagrammer Report Card</title>
+<style>
+ /* Single dark theme on purpose: this is a still composited over the side panel in the video. */
+ body{margin:0;background:#0f1115;color:#e8e8e8;font:16px/1.4 system-ui,sans-serif;font-variant-numeric:tabular-nums}
+ .card{width:720px;max-width:100%;box-sizing:border-box;margin:40px auto;padding:36px 40px;background:#181b22;border:1px solid #2a2f3a;border-radius:14px}
+ .grade{font-size:96px;font-weight:700;line-height:1;letter-spacing:-2px}
+ .head{display:flex;align-items:flex-end;gap:28px;margin-bottom:22px}
+ .big{font-size:26px;font-weight:600} .sub{color:#a9b0bd;margin-top:6px}
+ .ci{color:#a9b0bd} table{width:100%;border-collapse:collapse;margin-top:18px}
+ td{padding:6px 4px;border-top:1px solid #2a2f3a;vertical-align:top} td:first-child{width:22px;color:#8fd18f}
+ tr.fail td:first-child{color:#e07a7a} .m{color:#a9b0bd;font-size:13px;white-space:nowrap}
+ h3{margin:26px 0 4px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#a9b0bd}
+ .foot{margin-top:28px;padding-top:14px;border-top:1px solid #2a2f3a;color:#a9b0bd;font-size:13px}
+</style></head><body><div class="card">
+<div class="head"><div class="grade">A</div><div>
+ <div class="big">Board matched the intended board in 3 of 3 segments</div>
+ <div class="sub">100% &nbsp;<span class='ci'>plausible range 44% to 100%</span></div>
+ <div class="sub">Storyboard beats 3 of 4 &nbsp;<span class='ci'>range 30% to 95%</span></div>
+</div></div>
+<h3>Segments</h3><table><tr><td>✓</td><td>00:18 first nodes</td><td class='m'>nodes F1 0.77 (p 1.00 r 0.62), edges F1 0.73</td></tr><tr><td>✓</td><td>01:01 gonogo, rename and redirect</td><td class='m'>nodes F1 0.86 (p 1.00 r 0.75), edges F1 0.80</td></tr><tr><td>✓</td><td>01:42 submission tangent (board at the dismiss)</td><td class='m'>bait drawn: 4 of 5 intended nodes (recall 0.80)</td></tr></table>
+<h3>What the demo set out to show</h3><table><tr><td>✓</td><td colspan='2'>rename: a &#x27;harness&#x27; node exists after beat 3</td></tr><tr><td>✓</td><td colspan='2'>redirect: log -&gt; case emitter drawn</td></tr><tr class='fail'><td>✗</td><td colspan='2'>redirect: old gonogo&lt;-&gt;log edge removed</td></tr><tr><td>✓</td><td colspan='2'>tangent drawn (the dismiss bait)</td></tr></table>
+<div class="foot">Graded against the board the storyboard intended after each beat, by a deterministic matcher — no model, nothing to calibrate.
+Ranges are 95% confidence intervals over n = 3 segment checks and 4 beat checks from a single run; they are wide because n is small, and gonogo reports that rather than hiding it.
+Grade: A ≥ 90% of segments matched, B ≥ 75%, C ≥ 50%, D below.<br>The 13:53 take, James&#x27;s machine, beats 1-4 (beat 5 not performed). Dismiss clicked on this machine too.</div>
+</div></body></html>
