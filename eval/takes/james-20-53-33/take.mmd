@@ -1,0 +1,20 @@
+%% d1 — Audio Capture and Processing (active)
+flowchart LR
+  google_meet_tab["Google Meet Tab (Input)"]
+  chrome_extension["Chrome Extension"]
+  local_server["Local Server"]
+  openai_realtime["OpenAI Realtime Transcriber"]
+  extractor["Extractor"]
+  log["Edit Log"]
+  side_panel["Side Panel"]
+  gonogo["Gonogo (Harness)"]
+  case_emitter["Case Emitter"]
+  google_meet_tab -->|audio source| chrome_extension
+  chrome_extension -->|sends audio| local_server
+  local_server -->|runs transcriber| openai_realtime
+  openai_realtime -->|feeds| extractor
+  extractor -->|writes to| log
+  log -->|reads from| side_panel
+  log -->|reads from| gonogo
+  log -->|reads from| case_emitter
+  case_emitter -->|writes cases for| gonogo

@@ -1,0 +1,29 @@
+{"seq":0,"t_ms":4200,"event":{"kind":"transcript","event":{"text":"Let me say the whole chain back to you: you stop me when I get it wrong.","is_final":true,"t_start":0,"t_end":4200,"channel":"them"}}}
+{"seq":1,"t_ms":8120,"event":{"kind":"transcript","event":{"text":"Sounds","is_final":true,"t_start":4700,"t_end":8120,"channel":"them"}}}
+{"seq":2,"t_ms":8160,"event":{"kind":"transcript","event":{"text":"Okay yeah","is_final":true,"t_start":7120,"t_end":8160,"channel":"me"}}}
+{"seq":3,"t_ms":7504,"event":{"kind":"ops","call_id":"c1","transcript_cursor":1,"ops":[],"rejected":[],"latency_ms":2992}}
+{"seq":4,"t_ms":10906,"event":{"kind":"ops","call_id":"c2","transcript_cursor":3,"ops":[],"rejected":[],"latency_ms":694}}
+{"seq":5,"t_ms":13980,"event":{"kind":"transcript","event":{"text":"Set up  The Google Meet tab is the input","is_final":true,"t_start":8840,"t_end":13980,"channel":"them"}}}
+{"seq":6,"t_ms":17980,"event":{"kind":"transcript","event":{"text":"A Chrome extension captures the tab audio and the mic.","is_final":true,"t_start":14480,"t_end":17980,"channel":"them"}}}
+{"seq":7,"t_ms":19491,"event":{"kind":"ops","call_id":"c3","transcript_cursor":5,"ops":[{"op":"new_diagram","type":"flowchart","title":"Audio Capture Flow"},{"op":"add_node","id":"google_meet_tab","label":"Google Meet Tab"},{"op":"add_node","id":"chrome_extension","label":"Chrome Extension"},{"op":"add_edge","from":"google_meet_tab","to":"chrome_extension","label":"input audio from"}],"rejected":[],"latency_ms":1644}}
+{"seq":8,"t_ms":20880,"event":{"kind":"transcript","event":{"text":"We'll sends both to a local server.","is_final":true,"t_start":18480,"t_end":20880,"channel":"them"}}}
+{"seq":9,"t_ms":22520,"event":{"kind":"transcript","event":{"text":"Right,","is_final":true,"t_start":21720,"t_end":22520,"channel":"me"}}}
+{"seq":10,"t_ms":27860,"event":{"kind":"transcript","event":{"text":"And the server runs the transcriber, which is OpenAI Realtime.","is_final":true,"t_start":23020,"t_end":27860,"channel":"me"}}}
+{"seq":11,"t_ms":29176,"event":{"kind":"ops","call_id":"c4","transcript_cursor":8,"ops":[{"op":"add_node","id":"local_server","label":"Local Server"},{"op":"add_node","id":"openai_realtime","label":"OpenAI Realtime Transcriber"},{"op":"add_edge","from":"chrome_extension","to":"local_server","label":"sends audio to"},{"op":"add_edge","from":"local_server","to":"openai_realtime","label":"runs transcriber"}],"rejected":[],"latency_ms":1763}}
+{"seq":12,"t_ms":37200,"event":{"kind":"transcript","event":{"text":"Okay, and then the transcriber feeds the extractor. The extractor decides what goes on the board","is_final":true,"t_start":28620,"t_end":37200,"channel":"them"}}}
+{"seq":13,"t_ms":38600,"event":{"kind":"transcript","event":{"text":"But","is_final":true,"t_start":38040,"t_end":38600,"channel":"me"}}}
+{"seq":14,"t_ms":38280,"event":{"kind":"ops","call_id":"c5","transcript_cursor":9,"ops":[{"op":"add_node","id":"extractor","label":"Extractor"},{"op":"add_edge","from":"openai_realtime","to":"extractor","label":"feeds"}],"rejected":[],"latency_ms":2171}}
+{"seq":15,"t_ms":40340,"event":{"kind":"transcript","event":{"text":"It never draws.","is_final":true,"t_start":39100,"t_end":40340,"channel":"me"}}}
+{"seq":16,"t_ms":48060,"event":{"kind":"transcript","event":{"text":"The extractor emits small edits to the graph. Every edit goes into a log and the side panel draws from the log","is_final":true,"t_start":40840,"t_end":48060,"channel":"me"}}}
+{"seq":17,"t_ms":49132,"event":{"kind":"ops","call_id":"c6","transcript_cursor":12,"ops":[{"op":"rename","id":"extractor","label":"Extractor (emits small edits to graph)"}],"rejected":[],"latency_ms":1543}}
+{"seq":18,"t_ms":108740,"event":{"kind":"transcript","event":{"text":"Ah","is_final":true,"t_start":108400,"t_end":108740,"channel":"me"}}}
+{"seq":19,"t_ms":114353,"event":{"kind":"ops","call_id":"c7","transcript_cursor":13,"ops":[],"rejected":[],"latency_ms":1217}}
+{"seq":20,"t_ms":173480,"event":{"kind":"transcript","event":{"text":"I see, yeah.","is_final":true,"t_start":172080,"t_end":173480,"channel":"me"}}}
+{"seq":21,"t_ms":175200,"event":{"kind":"transcript","event":{"text":"Okay, uh.","is_final":true,"t_start":173980,"t_end":175200,"channel":"me"}}}
+{"seq":22,"t_ms":180377,"event":{"kind":"ops","call_id":"c8","transcript_cursor":15,"ops":[],"rejected":[],"latency_ms":2941}}
+{"seq":23,"t_ms":181840,"event":{"kind":"transcript","event":{"text":"Need to start the server over again to reset? Oh wait.","is_final":true,"t_start":179540,"t_end":181840,"channel":"me"}}}
+{"seq":24,"t_ms":186520,"event":{"kind":"transcript","event":{"text":"Oh, you in the oh, I see. I didn't reinstall my extension","is_final":true,"t_start":183000,"t_end":186520,"channel":"me"}}}
+{"seq":25,"t_ms":192467,"event":{"kind":"ops","call_id":"c9","transcript_cursor":16,"ops":[],"rejected":[],"latency_ms":2549}}
+{"seq":26,"t_ms":194847,"event":{"kind":"ops","call_id":"c10","transcript_cursor":17,"ops":[],"rejected":[],"latency_ms":951}}
+{"seq":27,"t_ms":199500,"event":{"kind":"transcript","event":{"text":"I need the","is_final":true,"t_start":198160,"t_end":199500,"channel":"me"}}}
+{"seq":28,"t_ms":206458,"event":{"kind":"ops","call_id":"c11","transcript_cursor":18,"ops":[],"rejected":[],"latency_ms":1170}}

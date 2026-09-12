@@ -1,7 +1,13 @@
 # takes
 
 One directory per capture, per machine: `<who>-<HH-MM-SS>/`. The server's
-`out/` is ignored, so copy the files here.
+`out/` is ignored; this copies the files here:
+
+```sh
+npm run take -- charles          # newest capture
+npm run take -- charles --all    # every capture in out/
+git add eval/takes && git commit -m "eval: charles's takes" && git push
+```
 
 | file | what | needed for |
 | --- | --- | --- |
