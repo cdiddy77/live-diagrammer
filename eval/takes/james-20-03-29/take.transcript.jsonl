@@ -1,0 +1,451 @@
+{"text":"The","is_final":false,"t_start":0,"t_end":8760,"channel":"them"}
+{"text":"The","is_final":true,"t_start":0,"t_end":15020,"channel":"them","latency":{"speech_end_ms":4075,"vad_ms":0,"api_ms":4075,"first_delta_ms":-6241,"audio_ms":15020}}
+{"text":"Success","is_final":false,"t_start":45060,"t_end":48140,"channel":"them"}
+{"text":"Success","is_final":false,"t_start":60080,"t_end":60100,"channel":"them"}
+{"text":"Success","is_final":true,"t_start":45060,"t_end":60080,"channel":"them","latency":{"speech_end_ms":607,"vad_ms":0,"api_ms":607,"first_delta_ms":-13070,"audio_ms":15020}}
+{"text":"Yes","is_final":false,"t_start":62100,"t_end":65780,"channel":"them"}
+{"text":"Yes Okay","is_final":false,"t_start":62100,"t_end":72600,"channel":"them"}
+{"text":"Yes Okay so","is_final":false,"t_start":62100,"t_end":73860,"channel":"them"}
+{"text":"So","is_final":false,"t_start":72220,"t_end":73580,"channel":"me"}
+{"text":"Yes Okay so let","is_final":false,"t_start":62100,"t_end":74680,"channel":"them"}
+{"text":"Yes Okay so let me","is_final":false,"t_start":62100,"t_end":74680,"channel":"them"}
+{"text":"Yes Okay so let me say","is_final":false,"t_start":62100,"t_end":75640,"channel":"them"}
+{"text":"So","is_final":true,"t_start":72220,"t_end":73580,"channel":"me","latency":{"speech_end_ms":2077,"vad_ms":500,"api_ms":1577,"first_delta_ms":900,"audio_ms":1360}}
+{"text":"Yes Okay so let me say the","is_final":false,"t_start":62100,"t_end":75640,"channel":"them"}
+{"text":"Yes Okay so let me say the whole","is_final":false,"t_start":62100,"t_end":75640,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain","is_final":false,"t_start":62100,"t_end":75640,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back","is_final":false,"t_start":62100,"t_end":77000,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to","is_final":false,"t_start":62100,"t_end":77000,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you","is_final":false,"t_start":62100,"t_end":77000,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and","is_final":false,"t_start":62100,"t_end":77000,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you","is_final":false,"t_start":77120,"t_end":77300,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I get","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I get it","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I get it wrong","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I get it wrong.","is_final":false,"t_start":62100,"t_end":77120,"channel":"them"}
+{"text":"wrong","is_final":false,"t_start":77980,"t_end":78560,"channel":"them"}
+{"text":"wrong.","is_final":false,"t_start":77980,"t_end":78560,"channel":"them"}
+{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I get it wrong.","is_final":true,"t_start":62100,"t_end":77120,"channel":"them","latency":{"speech_end_ms":1456,"vad_ms":0,"api_ms":1456,"first_delta_ms":-11327,"audio_ms":15020}}
+{"text":"wrong.","is_final":true,"t_start":77120,"t_end":77360,"channel":"them","latency":{"speech_end_ms":1216,"vad_ms":500,"api_ms":716,"first_delta_ms":1215,"audio_ms":240}}
+{"text":"Okay","is_final":false,"t_start":79360,"t_end":81400,"channel":"me"}
+{"text":"Okay,","is_final":false,"t_start":79360,"t_end":81400,"channel":"me"}
+{"text":"Okay, go","is_final":false,"t_start":79360,"t_end":81400,"channel":"me"}
+{"text":"Okay, go.","is_final":false,"t_start":79360,"t_end":81400,"channel":"me"}
+{"text":"Okay, go.","is_final":true,"t_start":79360,"t_end":82880,"channel":"me","latency":{"speech_end_ms":1658,"vad_ms":499,"api_ms":1159,"first_delta_ms":-1473,"audio_ms":3520}}
+{"text":"Let's","is_final":false,"t_start":81200,"t_end":84520,"channel":"them"}
+{"text":"Let's see","is_final":false,"t_start":81200,"t_end":84520,"channel":"them"}
+{"text":"Let's see,","is_final":false,"t_start":81200,"t_end":84520,"channel":"them"}
+{"text":"Let's see, the","is_final":false,"t_start":81200,"t_end":85020,"channel":"them"}
+{"text":"Let's see, the Google","is_final":false,"t_start":81200,"t_end":85580,"channel":"them"}
+{"text":"Let's see, the Google Meet","is_final":false,"t_start":81200,"t_end":85580,"channel":"them"}
+{"text":"Let's see, the Google Meet tab","is_final":false,"t_start":81200,"t_end":86840,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is","is_final":false,"t_start":81200,"t_end":87420,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the","is_final":false,"t_start":81200,"t_end":87420,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input","is_final":false,"t_start":81200,"t_end":87420,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input.","is_final":false,"t_start":81200,"t_end":87420,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The","is_final":false,"t_start":81200,"t_end":87420,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome","is_final":false,"t_start":81200,"t_end":88040,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension","is_final":false,"t_start":81200,"t_end":88940,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures","is_final":false,"t_start":81200,"t_end":89540,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the","is_final":false,"t_start":81200,"t_end":89540,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab","is_final":false,"t_start":81200,"t_end":89540,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio","is_final":false,"t_start":81200,"t_end":91560,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and","is_final":false,"t_start":81200,"t_end":91560,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my","is_final":false,"t_start":81200,"t_end":91560,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic","is_final":false,"t_start":81200,"t_end":91560,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and","is_final":false,"t_start":81200,"t_end":91560,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends","is_final":false,"t_start":81200,"t_end":91980,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both","is_final":false,"t_start":81200,"t_end":91980,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both to","is_final":false,"t_start":81200,"t_end":91980,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both to a","is_final":false,"t_start":81200,"t_end":91980,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both to a local","is_final":false,"t_start":92120,"t_end":92320,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both to a local server","is_final":false,"t_start":81200,"t_end":91620,"channel":"them"}
+{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both to a local server","is_final":true,"t_start":81200,"t_end":91620,"channel":"them","latency":{"speech_end_ms":2217,"vad_ms":499,"api_ms":1718,"first_delta_ms":-7082,"audio_ms":10420}}
+{"text":"Right","is_final":false,"t_start":92920,"t_end":94700,"channel":"me"}
+{"text":"Right.","is_final":false,"t_start":92920,"t_end":94700,"channel":"me"}
+{"text":"Right. And","is_final":false,"t_start":92920,"t_end":95440,"channel":"me"}
+{"text":"Right. And the","is_final":false,"t_start":92920,"t_end":95440,"channel":"me"}
+{"text":"Right. And the server","is_final":false,"t_start":92920,"t_end":95440,"channel":"me"}
+{"text":"Right. And the server runs","is_final":false,"t_start":92920,"t_end":96260,"channel":"me"}
+{"text":"Right. And the server runs the","is_final":false,"t_start":92920,"t_end":96260,"channel":"me"}
+{"text":"Right. And the server runs the trans","is_final":false,"t_start":92920,"t_end":97500,"channel":"me"}
+{"text":"Right. And the server runs the transcriber","is_final":false,"t_start":92920,"t_end":97500,"channel":"me"}
+{"text":"Right. And the server runs the transcriber,","is_final":false,"t_start":92920,"t_end":98080,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which","is_final":false,"t_start":92920,"t_end":98080,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which is","is_final":false,"t_start":92920,"t_end":98080,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which is Open","is_final":false,"t_start":92920,"t_end":98080,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which is OpenAI","is_final":false,"t_start":92920,"t_end":98080,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which is OpenAI real","is_final":false,"t_start":98640,"t_end":99640,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which is OpenAI real-time","is_final":false,"t_start":98640,"t_end":99640,"channel":"me"}
+{"text":"Right. And the server runs the transcriber, which is OpenAI real-time","is_final":true,"t_start":92920,"t_end":98140,"channel":"me","latency":{"speech_end_ms":1518,"vad_ms":501,"api_ms":1017,"first_delta_ms":-3420,"audio_ms":5220}}
+{"text":"Uh","is_final":false,"t_start":100360,"t_end":102020,"channel":"them"}
+{"text":"Uh,","is_final":false,"t_start":100360,"t_end":102020,"channel":"them"}
+{"text":"Uh, and","is_final":false,"t_start":100360,"t_end":102020,"channel":"them"}
+{"text":"Uh, and the","is_final":false,"t_start":100360,"t_end":102420,"channel":"them"}
+{"text":"Uh, and the trans","is_final":false,"t_start":100360,"t_end":103240,"channel":"them"}
+{"text":"Uh, and the transcriber","is_final":false,"t_start":100360,"t_end":103240,"channel":"them"}
+{"text":"Uh, and the transcriber feeds","is_final":false,"t_start":100360,"t_end":103880,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the","is_final":false,"t_start":100360,"t_end":103880,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor","is_final":false,"t_start":100360,"t_end":104580,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor.","is_final":false,"t_start":100360,"t_end":105660,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The","is_final":false,"t_start":100360,"t_end":105700,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor","is_final":false,"t_start":100360,"t_end":105700,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides","is_final":false,"t_start":100360,"t_end":106520,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what","is_final":false,"t_start":100360,"t_end":106520,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes","is_final":false,"t_start":107100,"t_end":108100,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes on","is_final":false,"t_start":107100,"t_end":108100,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes on the","is_final":false,"t_start":107100,"t_end":108100,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes on the bullet","is_final":false,"t_start":100360,"t_end":106600,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes on the bullet.","is_final":false,"t_start":100360,"t_end":106600,"channel":"them"}
+{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes on the bullet.","is_final":true,"t_start":100360,"t_end":106600,"channel":"them","latency":{"speech_end_ms":1560,"vad_ms":499,"api_ms":1061,"first_delta_ms":-4566,"audio_ms":6240}}
+{"text":"But","is_final":false,"t_start":107800,"t_end":109580,"channel":"me"}
+{"text":"But it","is_final":false,"t_start":107800,"t_end":109820,"channel":"me"}
+{"text":"But it never","is_final":false,"t_start":107800,"t_end":110100,"channel":"me"}
+{"text":"But it never draws","is_final":false,"t_start":110500,"t_end":110680,"channel":"me"}
+{"text":"But it never draws.","is_final":false,"t_start":107800,"t_end":110000,"channel":"me"}
+{"text":"But it never draws.","is_final":true,"t_start":107800,"t_end":110000,"channel":"me","latency":{"speech_end_ms":1416,"vad_ms":499,"api_ms":917,"first_delta_ms":-413,"audio_ms":2200}}
+{"text":"It","is_final":false,"t_start":110500,"t_end":111640,"channel":"me"}
+{"text":"It emits","is_final":false,"t_start":110500,"t_end":112260,"channel":"me"}
+{"text":"It emits small","is_final":false,"t_start":110500,"t_end":112960,"channel":"me"}
+{"text":"It emits small edits","is_final":false,"t_start":110500,"t_end":112960,"channel":"me"}
+{"text":"It emits small edits to","is_final":false,"t_start":110500,"t_end":112960,"channel":"me"}
+{"text":"It emits small edits to the","is_final":false,"t_start":110500,"t_end":113340,"channel":"me"}
+{"text":"It emits small edits to the graph","is_final":false,"t_start":110500,"t_end":113520,"channel":"me"}
+{"text":"It emits small edits to the graph.","is_final":false,"t_start":110500,"t_end":114880,"channel":"me"}
+{"text":"It emits small edits to the graph. Every","is_final":false,"t_start":110500,"t_end":114880,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit","is_final":false,"t_start":110500,"t_end":114880,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes","is_final":false,"t_start":110500,"t_end":115120,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into","is_final":false,"t_start":110500,"t_end":115920,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a","is_final":false,"t_start":110500,"t_end":115920,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log","is_final":false,"t_start":110500,"t_end":116060,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and","is_final":false,"t_start":110500,"t_end":116440,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the","is_final":false,"t_start":110500,"t_end":116860,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side","is_final":false,"t_start":110500,"t_end":117600,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel","is_final":false,"t_start":110500,"t_end":117600,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws","is_final":false,"t_start":110500,"t_end":117880,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws from","is_final":false,"t_start":118240,"t_end":118580,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws from the","is_final":false,"t_start":118240,"t_end":118580,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws from the log","is_final":false,"t_start":110500,"t_end":117740,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws from the log.","is_final":false,"t_start":110500,"t_end":117740,"channel":"me"}
+{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws from the log.","is_final":true,"t_start":110500,"t_end":117740,"channel":"me","latency":{"speech_end_ms":1108,"vad_ms":500,"api_ms":608,"first_delta_ms":-6085,"audio_ms":7240}}
+{"text":"Okay","is_final":false,"t_start":116240,"t_end":120700,"channel":"them"}
+{"text":"Okay,","is_final":false,"t_start":116240,"t_end":120700,"channel":"them"}
+{"text":"Okay, so","is_final":false,"t_start":116240,"t_end":120700,"channel":"them"}
+{"text":"Okay, so the","is_final":false,"t_start":116240,"t_end":120980,"channel":"them"}
+{"text":"Okay, so the extractor","is_final":false,"t_start":116240,"t_end":122000,"channel":"them"}
+{"text":"Okay, so the extractor writes","is_final":false,"t_start":116240,"t_end":122720,"channel":"them"}
+{"text":"Okay, so the extractor writes to","is_final":false,"t_start":116240,"t_end":122720,"channel":"them"}
+{"text":"Okay, so the extractor writes to the","is_final":false,"t_start":116240,"t_end":122720,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log","is_final":false,"t_start":116240,"t_end":123300,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and","is_final":false,"t_start":116240,"t_end":124180,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the","is_final":false,"t_start":116240,"t_end":124180,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the panel","is_final":false,"t_start":116240,"t_end":124180,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the panel reads","is_final":false,"t_start":116240,"t_end":125020,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the panel reads from","is_final":false,"t_start":116240,"t_end":125020,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the panel reads from the","is_final":false,"t_start":116240,"t_end":125020,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the panel reads from the log","is_final":false,"t_start":116240,"t_end":125100,"channel":"them"}
+{"text":"Okay, so the extractor writes to the log and the panel reads from the log","is_final":true,"t_start":116240,"t_end":124740,"channel":"them","latency":{"speech_end_ms":1339,"vad_ms":500,"api_ms":839,"first_delta_ms":-4024,"audio_ms":8500}}
+{"text":"Right","is_final":false,"t_start":126080,"t_end":126560,"channel":"me"}
+{"text":"Right.","is_final":false,"t_start":126080,"t_end":126560,"channel":"me"}
+{"text":"Right.","is_final":true,"t_start":126080,"t_end":126560,"channel":"me","latency":{"speech_end_ms":1693,"vad_ms":500,"api_ms":1193,"first_delta_ms":1693,"audio_ms":480}}
+{"text":"Okay","is_final":false,"t_start":127840,"t_end":131140,"channel":"them"}
+{"text":"Okay,","is_final":false,"t_start":127840,"t_end":131140,"channel":"them"}
+{"text":"Okay, now","is_final":false,"t_start":127840,"t_end":131140,"channel":"them"}
+{"text":"Okay, now gon","is_final":false,"t_start":132360,"t_end":132380,"channel":"them"}
+{"text":"Okay, now gonogo","is_final":false,"t_start":132360,"t_end":132380,"channel":"them"}
+{"text":"Okay, now gonogo.","is_final":false,"t_start":127840,"t_end":131860,"channel":"them"}
+{"text":"Okay, now gonogo.","is_final":true,"t_start":127840,"t_end":131860,"channel":"them","latency":{"speech_end_ms":1533,"vad_ms":500,"api_ms":1033,"first_delta_ms":-706,"audio_ms":4020}}
+{"text":"My","is_final":false,"t_start":134120,"t_end":135440,"channel":"them"}
+{"text":"My","is_final":false,"t_start":132360,"t_end":133620,"channel":"them"}
+{"text":"My","is_final":true,"t_start":132360,"t_end":133620,"channel":"them","latency":{"speech_end_ms":1829,"vad_ms":500,"api_ms":1329,"first_delta_ms":1827,"audio_ms":1260}}
+{"text":"Standing","is_final":false,"t_start":134120,"t_end":135440,"channel":"them"}
+{"text":"Standing is","is_final":false,"t_start":134120,"t_end":135440,"channel":"them"}
+{"text":"Standing is the","is_final":false,"t_start":134120,"t_end":135440,"channel":"them"}
+{"text":"Standing is the go","is_final":false,"t_start":134120,"t_end":136100,"channel":"them"}
+{"text":"Standing is the go/no","is_final":false,"t_start":134120,"t_end":136100,"channel":"them"}
+{"text":"Standing is the go/no-go","is_final":false,"t_start":134120,"t_end":136100,"channel":"them"}
+{"text":"Standing is the go/no-go is","is_final":false,"t_start":134120,"t_end":139400,"channel":"them"}
+{"text":"Standing is the go/no-go is the","is_final":false,"t_start":134120,"t_end":139400,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge","is_final":false,"t_start":134120,"t_end":139400,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge.","is_final":false,"t_start":134120,"t_end":139400,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It","is_final":false,"t_start":140320,"t_end":143680,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads","is_final":false,"t_start":140320,"t_end":143680,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the","is_final":false,"t_start":140320,"t_end":143680,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom","is_final":false,"t_start":140320,"t_end":143680,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom and","is_final":false,"t_start":140320,"t_end":144980,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom and scores","is_final":false,"t_start":140320,"t_end":144980,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom and scores the","is_final":false,"t_start":140320,"t_end":144980,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom and scores the board","is_final":false,"t_start":134120,"t_end":139580,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom and scores the board.","is_final":false,"t_start":134120,"t_end":139580,"channel":"them"}
+{"text":"Standing is the go/no-go is the judge. It reads the Loom and scores the board.","is_final":true,"t_start":134120,"t_end":139580,"channel":"them","latency":{"speech_end_ms":6788,"vad_ms":500,"api_ms":6288,"first_delta_ms":-4131,"audio_ms":5460}}
+{"text":"Not","is_final":false,"t_start":143000,"t_end":147840,"channel":"me"}
+{"text":"Not quite","is_final":false,"t_start":141320,"t_end":142500,"channel":"me"}
+{"text":"Not quite.","is_final":false,"t_start":141320,"t_end":142500,"channel":"me"}
+{"text":"Not quite.","is_final":true,"t_start":141320,"t_end":142500,"channel":"me","latency":{"speech_end_ms":16938,"vad_ms":501,"api_ms":16437,"first_delta_ms":5351,"audio_ms":1180}}
+{"text":"Go","is_final":false,"t_start":152680,"t_end":159420,"channel":"me"}
+{"text":"Go no","is_final":false,"t_start":152680,"t_end":159420,"channel":"me"}
+{"text":"Go no go","is_final":false,"t_start":152680,"t_end":161220,"channel":"me"}
+{"text":"Go no go is","is_final":false,"t_start":152680,"t_end":162640,"channel":"me"}
+{"text":"Go no go is the","is_final":false,"t_start":162640,"t_end":162960,"channel":"me"}
+{"text":"Go no go is the harness","is_final":false,"t_start":162640,"t_end":164200,"channel":"me"}
+{"text":"Go no go is the harness,","is_final":false,"t_start":162640,"t_end":164700,"channel":"me"}
+{"text":"Go no go is the harness, not","is_final":false,"t_start":162640,"t_end":164700,"channel":"me"}
+{"text":"Go no go is the harness, not the","is_final":false,"t_start":162640,"t_end":164700,"channel":"me"}
+{"text":"Go no go is the harness, not the judge","is_final":false,"t_start":162640,"t_end":164700,"channel":"me"}
+{"text":"Go no go is the harness, not the judge.","is_final":false,"t_start":162640,"t_end":165300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It","is_final":false,"t_start":162640,"t_end":165300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs","is_final":false,"t_start":162640,"t_end":165300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the","is_final":false,"t_start":162640,"t_end":166300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge","is_final":false,"t_start":162640,"t_end":166300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over","is_final":false,"t_start":162640,"t_end":166300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many","is_final":false,"t_start":162640,"t_end":166300,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases","is_final":false,"t_start":166920,"t_end":167900,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and","is_final":false,"t_start":166920,"t_end":167900,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns","is_final":false,"t_start":166920,"t_end":167900,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the","is_final":false,"t_start":166920,"t_end":167900,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the scores","is_final":false,"t_start":166920,"t_end":167900,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the scores into","is_final":false,"t_start":166920,"t_end":167900,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the scores into pass","is_final":false,"t_start":143000,"t_end":150860,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the scores into pass rate","is_final":false,"t_start":143000,"t_end":150860,"channel":"me"}
+{"text":"Well","is_final":false,"t_start":166920,"t_end":168400,"channel":"me"}
+{"text":"Well what's","is_final":false,"t_start":166920,"t_end":168700,"channel":"me"}
+{"text":"Well what's an","is_final":false,"t_start":166920,"t_end":168700,"channel":"me"}
+{"text":"Well what's an interval","is_final":false,"t_start":151360,"t_end":152180,"channel":"me"}
+{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the scores into pass rate","is_final":true,"t_start":143000,"t_end":150860,"channel":"me","latency":{"speech_end_ms":18910,"vad_ms":500,"api_ms":18410,"first_delta_ms":8578,"audio_ms":7860}}
+{"text":"Okay","is_final":false,"t_start":168480,"t_end":169760,"channel":"them"}
+{"text":"Well what's an interval?","is_final":false,"t_start":151360,"t_end":152180,"channel":"me"}
+{"text":"Okay,","is_final":false,"t_start":168480,"t_end":169760,"channel":"them"}
+{"text":"Well what's an interval?","is_final":true,"t_start":151360,"t_end":152180,"channel":"me","latency":{"speech_end_ms":17590,"vad_ms":499,"api_ms":17091,"first_delta_ms":16223,"audio_ms":820}}
+{"text":"Okay, so","is_final":false,"t_start":168480,"t_end":169760,"channel":"them"}
+{"text":"Okay, so the","is_final":false,"t_start":168480,"t_end":170380,"channel":"them"}
+{"text":"Okay, so the harness","is_final":false,"t_start":168480,"t_end":170380,"channel":"them"}
+{"text":"Okay, so the harness and","is_final":false,"t_start":168480,"t_end":171840,"channel":"them"}
+{"text":"No","is_final":false,"t_start":170560,"t_end":171840,"channel":"me"}
+{"text":"Okay, so the harness and the","is_final":false,"t_start":168480,"t_end":171840,"channel":"them"}
+{"text":"No,","is_final":false,"t_start":170560,"t_end":171840,"channel":"me"}
+{"text":"Okay, so the harness and the cases","is_final":false,"t_start":168480,"t_end":171840,"channel":"them"}
+{"text":"Okay, so the harness and the cases come","is_final":false,"t_start":155880,"t_end":161400,"channel":"them"}
+{"text":"Okay, so the harness and the cases come straight","is_final":false,"t_start":155880,"t_end":161400,"channel":"them"}
+{"text":"Okay, so the harness and the cases come straight out","is_final":false,"t_start":155880,"t_end":161400,"channel":"them"}
+{"text":"Okay, so the harness and the cases come straight out of","is_final":false,"t_start":155880,"t_end":161400,"channel":"them"}
+{"text":"Okay, so the harness and the cases come straight out of the","is_final":false,"t_start":155880,"t_end":161400,"channel":"them"}
+{"text":"Okay, so the harness and the cases come straight out of the log","is_final":false,"t_start":155880,"t_end":161400,"channel":"them"}
+{"text":"Okay, so the harness and the cases come straight out of the log","is_final":true,"t_start":155880,"t_end":161400,"channel":"them","latency":{"speech_end_ms":10450,"vad_ms":499,"api_ms":9951,"first_delta_ms":8370,"audio_ms":5520}}
+{"text":"No, gon","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"No, gonogo","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"No, gonogo never","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"No, gonogo never sees","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"The","is_final":false,"t_start":170560,"t_end":172920,"channel":"me"}
+{"text":"No, gonogo never sees the","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"The case","is_final":false,"t_start":170560,"t_end":172920,"channel":"me"}
+{"text":"No, gonogo never sees the actual","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"The case emitter","is_final":false,"t_start":170560,"t_end":172920,"channel":"me"}
+{"text":"No, gonogo never sees the actual log","is_final":false,"t_start":162640,"t_end":166420,"channel":"me"}
+{"text":"The case emitter reads","is_final":false,"t_start":170560,"t_end":172920,"channel":"me"}
+{"text":"The case emitter reads the","is_final":false,"t_start":172960,"t_end":173200,"channel":"me"}
+{"text":"No, gonogo never sees the actual log","is_final":true,"t_start":162640,"t_end":166420,"channel":"me","latency":{"speech_end_ms":6792,"vad_ms":501,"api_ms":6291,"first_delta_ms":5430,"audio_ms":3780}}
+{"text":"The case emitter reads the log","is_final":false,"t_start":172960,"t_end":173800,"channel":"me"}
+{"text":"The case emitter reads the log and","is_final":false,"t_start":172960,"t_end":173800,"channel":"me"}
+{"text":"The case emitter reads the log and writes","is_final":false,"t_start":172960,"t_end":173800,"channel":"me"}
+{"text":"The case emitter reads the log and writes the","is_final":false,"t_start":172960,"t_end":173800,"channel":"me"}
+{"text":"The case emitter reads the log and writes the cases","is_final":false,"t_start":166920,"t_end":170060,"channel":"me"}
+{"text":"The case emitter reads the log and writes the cases.","is_final":false,"t_start":166920,"t_end":170060,"channel":"me"}
+{"text":"Gon","is_final":false,"t_start":172960,"t_end":174120,"channel":"me"}
+{"text":"Gonogo","is_final":false,"t_start":172960,"t_end":174120,"channel":"me"}
+{"text":"Gonogo reads","is_final":false,"t_start":170560,"t_end":172460,"channel":"me"}
+{"text":"The case emitter reads the log and writes the cases.","is_final":true,"t_start":166920,"t_end":170060,"channel":"me","latency":{"speech_end_ms":4422,"vad_ms":500,"api_ms":3922,"first_delta_ms":2866,"audio_ms":3140}}
+{"text":"Gonogo reads those","is_final":false,"t_start":170560,"t_end":172460,"channel":"me"}
+{"text":"Gonogo reads those cases","is_final":false,"t_start":170560,"t_end":172460,"channel":"me"}
+{"text":"Gonogo reads those cases.","is_final":false,"t_start":170560,"t_end":172460,"channel":"me"}
+{"text":"Gonogo reads those cases.","is_final":true,"t_start":170560,"t_end":172460,"channel":"me","latency":{"speech_end_ms":3197,"vad_ms":501,"api_ms":2696,"first_delta_ms":1671,"audio_ms":1900}}
+{"text":"Got","is_final":false,"t_start":168480,"t_end":179880,"channel":"them"}
+{"text":"Got it","is_final":false,"t_start":168480,"t_end":180420,"channel":"them"}
+{"text":"Got it.","is_final":false,"t_start":168480,"t_end":180420,"channel":"them"}
+{"text":"Got it. Log","is_final":false,"t_start":168480,"t_end":180420,"channel":"them"}
+{"text":"Got it. Log to","is_final":false,"t_start":168480,"t_end":180420,"channel":"them"}
+{"text":"Got it. Log to case","is_final":false,"t_start":168480,"t_end":180900,"channel":"them"}
+{"text":"Got it. Log to case emitter","is_final":false,"t_start":168480,"t_end":180900,"channel":"them"}
+{"text":"Got it. Log to case emitter,","is_final":false,"t_start":168480,"t_end":181720,"channel":"them"}
+{"text":"Got it. Log to case emitter, case","is_final":false,"t_start":168480,"t_end":181720,"channel":"them"}
+{"text":"Got it. Log to case emitter, case emitter","is_final":false,"t_start":168480,"t_end":181720,"channel":"them"}
+{"text":"Got it. Log to case emitter, case emitter to","is_final":false,"t_start":182880,"t_end":183980,"channel":"them"}
+{"text":"Got it. Log to case emitter, case emitter to gon","is_final":false,"t_start":182880,"t_end":183980,"channel":"them"}
+{"text":"Got it. Log to case emitter, case emitter to gonogo","is_final":false,"t_start":182880,"t_end":183980,"channel":"them"}
+{"text":"Got it. Log to case emitter, case emitter to gonogo","is_final":true,"t_start":168480,"t_end":182380,"channel":"them","latency":{"speech_end_ms":1608,"vad_ms":501,"api_ms":1107,"first_delta_ms":-2491,"audio_ms":13900}}
+{"text":"Right","is_final":false,"t_start":186100,"t_end":188100,"channel":"me"}
+{"text":"Right.","is_final":false,"t_start":186100,"t_end":188100,"channel":"me"}
+{"text":"Right. Uh","is_final":false,"t_start":186100,"t_end":188100,"channel":"me"}
+{"text":"Right. Uh,","is_final":false,"t_start":186100,"t_end":188240,"channel":"me"}
+{"text":"Right. Uh, before","is_final":false,"t_start":186100,"t_end":188760,"channel":"me"}
+{"text":"Right. Uh, before I","is_final":false,"t_start":186100,"t_end":188780,"channel":"me"}
+{"text":"Right. Uh, before I forget","is_final":false,"t_start":190020,"t_end":190080,"channel":"me"}
+{"text":"Right. Uh, before I forget,","is_final":false,"t_start":190020,"t_end":190080,"channel":"me"}
+{"text":"Right. Uh, before I forget, the","is_final":false,"t_start":190020,"t_end":190080,"channel":"me"}
+{"text":"Right. Uh, before I forget, the submission","is_final":false,"t_start":190020,"t_end":190480,"channel":"me"}
+{"text":"Right. Uh, before I forget, the submission","is_final":true,"t_start":186100,"t_end":189520,"channel":"me","latency":{"speech_end_ms":2407,"vad_ms":500,"api_ms":1907,"first_delta_ms":-1404,"audio_ms":3420}}
+{"text":"The","is_final":false,"t_start":190020,"t_end":191920,"channel":"me"}
+{"text":"The video","is_final":false,"t_start":190020,"t_end":191920,"channel":"me"}
+{"text":"The video goes","is_final":false,"t_start":190020,"t_end":191920,"channel":"me"}
+{"text":"The video goes to","is_final":false,"t_start":190020,"t_end":191920,"channel":"me"}
+{"text":"The video goes to Loom","is_final":false,"t_start":190020,"t_end":191920,"channel":"me"}
+{"text":"The video goes to Loom.","is_final":false,"t_start":190020,"t_end":193120,"channel":"me"}
+{"text":"The video goes to Loom. The","is_final":false,"t_start":190020,"t_end":193120,"channel":"me"}
+{"text":"The video goes to Loom. The Loom","is_final":false,"t_start":190020,"t_end":193120,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link","is_final":false,"t_start":190020,"t_end":193680,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes","is_final":false,"t_start":190020,"t_end":193680,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into","is_final":false,"t_start":190020,"t_end":194000,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the","is_final":false,"t_start":190020,"t_end":194040,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal","is_final":false,"t_start":190020,"t_end":194800,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and","is_final":false,"t_start":190020,"t_end":195440,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the","is_final":false,"t_start":190020,"t_end":195440,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social","is_final":false,"t_start":190020,"t_end":195440,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social post","is_final":false,"t_start":190020,"t_end":196020,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social post tags","is_final":false,"t_start":190020,"t_end":196400,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social post tags the","is_final":false,"t_start":190020,"t_end":196660,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social post tags the sponsors","is_final":false,"t_start":190020,"t_end":196380,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social post tags the sponsors.","is_final":false,"t_start":190020,"t_end":196380,"channel":"me"}
+{"text":"The video goes to Loom. The Loom link goes into the portal and the social post tags the sponsors.","is_final":true,"t_start":190020,"t_end":196380,"channel":"me","latency":{"speech_end_ms":1302,"vad_ms":501,"api_ms":801,"first_delta_ms":-4451,"audio_ms":6360}}
+{"text":"And","is_final":false,"t_start":199240,"t_end":201120,"channel":"them"}
+{"text":"And the","is_final":false,"t_start":199240,"t_end":201360,"channel":"them"}
+{"text":"And the repo","is_final":false,"t_start":199240,"t_end":201800,"channel":"them"}
+{"text":"And the repo link","is_final":false,"t_start":199240,"t_end":201800,"channel":"them"}
+{"text":"And the repo link goes","is_final":false,"t_start":199240,"t_end":202420,"channel":"them"}
+{"text":"And the repo link goes into","is_final":false,"t_start":199240,"t_end":202880,"channel":"them"}
+{"text":"And the repo link goes into the","is_final":false,"t_start":199240,"t_end":203160,"channel":"them"}
+{"text":"And the repo link goes into the portal","is_final":false,"t_start":199240,"t_end":203480,"channel":"them"}
+{"text":"And the repo link goes into the portal too","is_final":false,"t_start":199240,"t_end":203600,"channel":"them"}
+{"text":"Right","is_final":false,"t_start":204820,"t_end":204960,"channel":"me"}
+{"text":"Right.","is_final":false,"t_start":204820,"t_end":204960,"channel":"me"}
+{"text":"Right.","is_final":true,"t_start":203740,"t_end":204320,"channel":"me","latency":{"speech_end_ms":1018,"vad_ms":501,"api_ms":517,"first_delta_ms":647,"audio_ms":580}}
+{"text":"And the repo link goes into the portal too","is_final":true,"t_start":199240,"t_end":205000,"channel":"them","latency":{"speech_end_ms":1460,"vad_ms":500,"api_ms":960,"first_delta_ms":-3872,"audio_ms":5760}}
+{"text":"Okay","is_final":false,"t_start":210860,"t_end":215040,"channel":"them"}
+{"text":"Okay,","is_final":false,"t_start":210860,"t_end":215040,"channel":"them"}
+{"text":"Okay, back","is_final":false,"t_start":210860,"t_end":215480,"channel":"them"}
+{"text":"Okay, back to","is_final":false,"t_start":210860,"t_end":215480,"channel":"them"}
+{"text":"Okay, back to the","is_final":false,"t_start":210860,"t_end":215920,"channel":"them"}
+{"text":"Okay, back to the pipeline","is_final":false,"t_start":210860,"t_end":216420,"channel":"them"}
+{"text":"Okay, back to the pipeline.","is_final":false,"t_start":210860,"t_end":216660,"channel":"them"}
+{"text":"Okay, back to the pipeline. I","is_final":false,"t_start":210860,"t_end":216660,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped","is_final":false,"t_start":210860,"t_end":217360,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a","is_final":false,"t_start":210860,"t_end":217360,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece","is_final":false,"t_start":210860,"t_end":217640,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece.","is_final":false,"t_start":210860,"t_end":218940,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The","is_final":false,"t_start":210860,"t_end":218940,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The trans","is_final":false,"t_start":210860,"t_end":218940,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber","is_final":false,"t_start":210860,"t_end":218940,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't","is_final":false,"t_start":210860,"t_end":219540,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call","is_final":false,"t_start":210860,"t_end":219540,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the","is_final":false,"t_start":210860,"t_end":219540,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor","is_final":false,"t_start":210860,"t_end":220160,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly","is_final":false,"t_start":210860,"t_end":220740,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly.","is_final":false,"t_start":210860,"t_end":221500,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's","is_final":false,"t_start":210860,"t_end":221500,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a","is_final":false,"t_start":210860,"t_end":221500,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batch","is_final":false,"t_start":210860,"t_end":222300,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher","is_final":false,"t_start":210860,"t_end":222300,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in","is_final":false,"t_start":210860,"t_end":222300,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between","is_final":false,"t_start":210860,"t_end":222540,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between.","is_final":false,"t_start":210860,"t_end":222860,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It","is_final":false,"t_start":210860,"t_end":222860,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits","is_final":false,"t_start":210860,"t_end":223180,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for","is_final":false,"t_start":210860,"t_end":223360,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a","is_final":false,"t_start":210860,"t_end":223680,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause","is_final":false,"t_start":210860,"t_end":224800,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and","is_final":false,"t_start":210860,"t_end":224800,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then","is_final":false,"t_start":210860,"t_end":224800,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then sends","is_final":false,"t_start":210860,"t_end":224800,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then sends one","is_final":false,"t_start":210860,"t_end":225160,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then sends one chunk","is_final":false,"t_start":225560,"t_end":225900,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then sends one chunk.","is_final":false,"t_start":225560,"t_end":225900,"channel":"them"}
+{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then sends one chunk.","is_final":true,"t_start":210860,"t_end":225060,"channel":"them","latency":{"speech_end_ms":1665,"vad_ms":500,"api_ms":1165,"first_delta_ms":-10007,"audio_ms":14200}}
+{"text":"Right","is_final":false,"t_start":226740,"t_end":228160,"channel":"me"}
+{"text":"Right.","is_final":false,"t_start":226740,"t_end":228160,"channel":"me"}
+{"text":"Right.","is_final":true,"t_start":225560,"t_end":226240,"channel":"me","latency":{"speech_end_ms":1922,"vad_ms":500,"api_ms":1422,"first_delta_ms":1921,"audio_ms":680}}
+{"text":"And","is_final":false,"t_start":226740,"t_end":228160,"channel":"me"}
+{"text":"And the","is_final":false,"t_start":226740,"t_end":228160,"channel":"me"}
+{"text":"And the reducer","is_final":false,"t_start":226740,"t_end":228800,"channel":"me"}
+{"text":"And the reducer sits","is_final":false,"t_start":226740,"t_end":229340,"channel":"me"}
+{"text":"And the reducer sits between","is_final":false,"t_start":226740,"t_end":229340,"channel":"me"}
+{"text":"And the reducer sits between the","is_final":false,"t_start":226740,"t_end":229680,"channel":"me"}
+{"text":"And the reducer sits between the extractor","is_final":false,"t_start":226740,"t_end":230240,"channel":"me"}
+{"text":"And the reducer sits between the extractor and","is_final":false,"t_start":226740,"t_end":230620,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the","is_final":false,"t_start":226740,"t_end":230620,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log","is_final":false,"t_start":226740,"t_end":232320,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log.","is_final":false,"t_start":226740,"t_end":232320,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It","is_final":false,"t_start":226740,"t_end":232320,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies","is_final":false,"t_start":226740,"t_end":232320,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each","is_final":false,"t_start":226740,"t_end":233260,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation","is_final":false,"t_start":226740,"t_end":233260,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and","is_final":false,"t_start":226740,"t_end":233260,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects","is_final":false,"t_start":226740,"t_end":233860,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects the","is_final":false,"t_start":226740,"t_end":233860,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects the bad","is_final":false,"t_start":234060,"t_end":234600,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects the bad ones","is_final":false,"t_start":234060,"t_end":234600,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects the bad ones.","is_final":false,"t_start":234060,"t_end":234600,"channel":"me"}
+{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects the bad ones.","is_final":true,"t_start":226740,"t_end":233560,"channel":"me","latency":{"speech_end_ms":1045,"vad_ms":499,"api_ms":546,"first_delta_ms":-5398,"audio_ms":6820}}
+{"text":"And","is_final":false,"t_start":235540,"t_end":237980,"channel":"them"}
+{"text":"And when","is_final":false,"t_start":235540,"t_end":238020,"channel":"them"}
+{"text":"And when I","is_final":false,"t_start":235540,"t_end":238300,"channel":"them"}
+{"text":"And when I hit","is_final":false,"t_start":235540,"t_end":239420,"channel":"them"}
+{"text":"And when I hit dismiss","is_final":false,"t_start":235540,"t_end":239420,"channel":"them"}
+{"text":"And when I hit dismiss just","is_final":false,"t_start":235540,"t_end":239420,"channel":"them"}
+{"text":"And when I hit dismiss just now","is_final":false,"t_start":235540,"t_end":240200,"channel":"them"}
+{"text":"And when I hit dismiss just now,","is_final":false,"t_start":235540,"t_end":240200,"channel":"them"}
+{"text":"And when I hit dismiss just now, what","is_final":false,"t_start":235540,"t_end":240200,"channel":"them"}
+{"text":"And when I hit dismiss just now, what happens","is_final":false,"t_start":235540,"t_end":240960,"channel":"them"}
+{"text":"And when I hit dismiss just now, what happens?","is_final":false,"t_start":235540,"t_end":240960,"channel":"them"}
+{"text":"When","is_final":false,"t_start":240880,"t_end":242740,"channel":"me"}
+{"text":"When you","is_final":false,"t_start":240880,"t_end":242740,"channel":"me"}
+{"text":"When you hit","is_final":false,"t_start":240880,"t_end":242740,"channel":"me"}
+{"text":"When you hit dismiss","is_final":false,"t_start":240880,"t_end":243280,"channel":"me"}
+{"text":"When you hit dismiss,","is_final":false,"t_start":240880,"t_end":243280,"channel":"me"}
+{"text":"When you hit dismiss, the","is_final":false,"t_start":240880,"t_end":243280,"channel":"me"}
+{"text":"When you hit dismiss, the parked","is_final":false,"t_start":240880,"t_end":243980,"channel":"me"}
+{"text":"When you hit dismiss, the parked board","is_final":false,"t_start":240880,"t_end":243980,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes","is_final":false,"t_start":240880,"t_end":244500,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into","is_final":false,"t_start":240880,"t_end":244500,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the","is_final":false,"t_start":240880,"t_end":245080,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next","is_final":false,"t_start":240880,"t_end":245080,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few","is_final":false,"t_start":240880,"t_end":245080,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor","is_final":false,"t_start":240880,"t_end":245880,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls","is_final":false,"t_start":240880,"t_end":246320,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as","is_final":false,"t_start":240880,"t_end":246320,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as a","is_final":false,"t_start":240880,"t_end":246440,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as a negative","is_final":false,"t_start":247080,"t_end":247320,"channel":"me"}
+{"text":"And when I hit dismiss just now, what happens?","is_final":true,"t_start":235540,"t_end":246040,"channel":"them","latency":{"speech_end_ms":1293,"vad_ms":500,"api_ms":793,"first_delta_ms":-8050,"audio_ms":10500}}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as a negative example","is_final":false,"t_start":240880,"t_end":246580,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as a negative example.","is_final":false,"t_start":240880,"t_end":246580,"channel":"me"}
+{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as a negative example.","is_final":true,"t_start":240880,"t_end":246580,"channel":"me","latency":{"speech_end_ms":1206,"vad_ms":500,"api_ms":706,"first_delta_ms":-3826,"audio_ms":5700}}
+{"text":"So","is_final":false,"t_start":247080,"t_end":248920,"channel":"me"}
+{"text":"So it","is_final":false,"t_start":247080,"t_end":248920,"channel":"me"}
+{"text":"So it stops","is_final":false,"t_start":247080,"t_end":248920,"channel":"me"}
+{"text":"So it stops drawing","is_final":false,"t_start":247080,"t_end":249220,"channel":"me"}
+{"text":"So it stops drawing the","is_final":false,"t_start":247080,"t_end":249220,"channel":"me"}
+{"text":"So it stops drawing the submission","is_final":false,"t_start":247080,"t_end":249580,"channel":"me"}
+{"text":"So it stops drawing the submission flow","is_final":false,"t_start":247080,"t_end":249160,"channel":"me"}
+{"text":"So it stops drawing the submission flow.","is_final":false,"t_start":247080,"t_end":249160,"channel":"me"}
+{"text":"So it stops drawing the submission flow.","is_final":true,"t_start":247080,"t_end":249160,"channel":"me","latency":{"speech_end_ms":1323,"vad_ms":500,"api_ms":823,"first_delta_ms":-222,"audio_ms":2080}}
+{"text":"That's","is_final":false,"t_start":246540,"t_end":253620,"channel":"them"}
+{"text":"That's the","is_final":false,"t_start":246540,"t_end":254120,"channel":"them"}
+{"text":"That's the whole","is_final":false,"t_start":246540,"t_end":254120,"channel":"them"}
+{"text":"That's the whole thing","is_final":false,"t_start":246540,"t_end":254120,"channel":"them"}
+{"text":"That's the whole thing.","is_final":false,"t_start":246540,"t_end":254120,"channel":"them"}
+{"text":"That's the whole thing.","is_final":true,"t_start":246540,"t_end":261560,"channel":"them","latency":{"speech_end_ms":966,"vad_ms":0,"api_ms":966,"first_delta_ms":-8327,"audio_ms":15020}}
+{"text":"Okay","is_final":false,"t_start":267480,"t_end":269540,"channel":"them"}
+{"text":"Okay,","is_final":false,"t_start":267480,"t_end":269540,"channel":"them"}
+{"text":"Okay, well","is_final":false,"t_start":267480,"t_end":270260,"channel":"them"}
+{"text":"Okay, well","is_final":true,"t_start":267480,"t_end":276960,"channel":"them","latency":{"speech_end_ms":1381,"vad_ms":500,"api_ms":881,"first_delta_ms":-7419,"audio_ms":9480}}
+{"text":"Uh","is_final":false,"t_start":489700,"t_end":490160,"channel":"me"}
+{"text":"Uh,","is_final":false,"t_start":488540,"t_end":489200,"channel":"me"}
+{"text":"Uh,","is_final":true,"t_start":488540,"t_end":489200,"channel":"me","latency":{"speech_end_ms":1525,"vad_ms":499,"api_ms":1026,"first_delta_ms":961,"audio_ms":660}}
+{"text":"I'm","is_final":false,"t_start":490140,"t_end":491200,"channel":"me"}
+{"text":"I'm having","is_final":false,"t_start":490140,"t_end":491500,"channel":"me"}
+{"text":"I'm having a","is_final":false,"t_start":490140,"t_end":492140,"channel":"me"}
+{"text":"I'm having a score","is_final":false,"t_start":492500,"t_end":492560,"channel":"me"}
+{"text":"I'm having a score mind","is_final":false,"t_start":492500,"t_end":492560,"channel":"me"}
+{"text":"I'm having a score mind","is_final":true,"t_start":490140,"t_end":492000,"channel":"me","latency":{"speech_end_ms":1132,"vad_ms":501,"api_ms":631,"first_delta_ms":-793,"audio_ms":1860}}

@@ -1,0 +1,66 @@
+{"seq":0,"t_ms":15020,"event":{"kind":"transcript","event":{"text":"The","is_final":true,"t_start":0,"t_end":15020,"channel":"them"}}}
+{"seq":1,"t_ms":19074,"event":{"kind":"ops","call_id":"c1","transcript_cursor":1,"ops":[],"rejected":[],"latency_ms":8841}}
+{"seq":2,"t_ms":60080,"event":{"kind":"transcript","event":{"text":"Success","is_final":true,"t_start":45060,"t_end":60080,"channel":"them"}}}
+{"seq":3,"t_ms":61112,"event":{"kind":"ops","call_id":"c2","transcript_cursor":2,"ops":[],"rejected":[],"latency_ms":3297}}
+{"seq":4,"t_ms":73580,"event":{"kind":"transcript","event":{"text":"So","is_final":true,"t_start":72220,"t_end":73580,"channel":"me"}}}
+{"seq":5,"t_ms":77120,"event":{"kind":"transcript","event":{"text":"Yes Okay so let me say the whole chain back to you and you can stop me when I get it wrong.","is_final":true,"t_start":62100,"t_end":77120,"channel":"them"}}}
+{"seq":6,"t_ms":77360,"event":{"kind":"transcript","event":{"text":"wrong.","is_final":true,"t_start":77120,"t_end":77360,"channel":"them"}}}
+{"seq":7,"t_ms":82880,"event":{"kind":"transcript","event":{"text":"Okay, go.","is_final":true,"t_start":79360,"t_end":82880,"channel":"me"}}}
+{"seq":8,"t_ms":81304,"event":{"kind":"ops","call_id":"c3","transcript_cursor":5,"ops":[],"rejected":[],"latency_ms":4460}}
+{"seq":9,"t_ms":92270,"event":{"kind":"ops","call_id":"c4","transcript_cursor":6,"ops":[],"rejected":[],"latency_ms":1682}}
+{"seq":10,"t_ms":91620,"event":{"kind":"transcript","event":{"text":"Let's see, the Google Meet tab is the input. The Chrome extension captures the tab audio and my mic and sends both to a local server","is_final":true,"t_start":81200,"t_end":91620,"channel":"them"}}}
+{"seq":11,"t_ms":95066,"event":{"kind":"ops","call_id":"c5","transcript_cursor":7,"ops":[{"op":"new_diagram","type":"flowchart","title":"Audio Capture and Processing"},{"op":"add_node","id":"google_meet_tab","label":"Google Meet Tab (Input)"},{"op":"add_node","id":"chrome_extension","label":"Chrome Extension"},{"op":"add_node","id":"local_server","label":"Local Server"},{"op":"add_edge","from":"google_meet_tab","to":"chrome_extension","label":"audio capture"},{"op":"add_edge","from":"chrome_extension","to":"local_server","label":"sends audio"}],"rejected":[],"latency_ms":1915}}
+{"seq":12,"t_ms":98140,"event":{"kind":"transcript","event":{"text":"Right. And the server runs the transcriber, which is OpenAI real-time","is_final":true,"t_start":92920,"t_end":98140,"channel":"me"}}}
+{"seq":13,"t_ms":102385,"event":{"kind":"ops","call_id":"c6","transcript_cursor":8,"ops":[{"op":"add_node","id":"transcriber","label":"OpenAI Real-time Transcriber"},{"op":"add_edge","from":"local_server","to":"transcriber","label":"runs"}],"rejected":[],"latency_ms":2095}}
+{"seq":14,"t_ms":106600,"event":{"kind":"transcript","event":{"text":"Uh, and the transcriber feeds the extractor. The extractor decides what goes on the bullet.","is_final":true,"t_start":100360,"t_end":106600,"channel":"them"}}}
+{"seq":15,"t_ms":110000,"event":{"kind":"transcript","event":{"text":"But it never draws.","is_final":true,"t_start":107800,"t_end":110000,"channel":"me"}}}
+{"seq":16,"t_ms":112644,"event":{"kind":"ops","call_id":"c7","transcript_cursor":10,"ops":[{"op":"add_node","id":"extractor","label":"Extractor"},{"op":"add_edge","from":"transcriber","to":"extractor","label":"feeds"}],"rejected":[],"latency_ms":1942}}
+{"seq":17,"t_ms":117740,"event":{"kind":"transcript","event":{"text":"It emits small edits to the graph. Every edit goes into a log and the side panel draws from the log.","is_final":true,"t_start":110500,"t_end":117740,"channel":"me"}}}
+{"seq":18,"t_ms":121575,"event":{"kind":"ops","call_id":"c8","transcript_cursor":11,"ops":[],"rejected":[],"latency_ms":1659}}
+{"seq":19,"t_ms":124740,"event":{"kind":"transcript","event":{"text":"Okay, so the extractor writes to the log and the panel reads from the log","is_final":true,"t_start":116240,"t_end":124740,"channel":"them"}}}
+{"seq":20,"t_ms":126560,"event":{"kind":"transcript","event":{"text":"Right.","is_final":true,"t_start":126080,"t_end":126560,"channel":"me"}}}
+{"seq":21,"t_ms":127305,"event":{"kind":"ops","call_id":"c9","transcript_cursor":12,"ops":[{"op":"add_node","id":"log","label":"Edit Log"},{"op":"add_node","id":"side_panel","label":"Side Panel"},{"op":"add_edge","from":"extractor","to":"log","label":"writes to"},{"op":"add_edge","from":"side_panel","to":"log","label":"reads from"}],"rejected":[],"latency_ms":6283}}
+{"seq":22,"t_ms":131860,"event":{"kind":"transcript","event":{"text":"Okay, now gonogo.","is_final":true,"t_start":127840,"t_end":131860,"channel":"them"}}}
+{"seq":23,"t_ms":130979,"event":{"kind":"ops","call_id":"c10","transcript_cursor":13,"ops":[],"rejected":[],"latency_ms":3085}}
+{"seq":24,"t_ms":133620,"event":{"kind":"transcript","event":{"text":"My","is_final":true,"t_start":132360,"t_end":133620,"channel":"them"}}}
+{"seq":25,"t_ms":136120,"event":{"kind":"ops","call_id":"c11","transcript_cursor":14,"ops":[],"rejected":[],"latency_ms":3956}}
+{"seq":26,"t_ms":138832,"event":{"kind":"ops","call_id":"c12","transcript_cursor":15,"ops":[],"rejected":[],"latency_ms":6964}}
+{"seq":27,"t_ms":139580,"event":{"kind":"transcript","event":{"text":"Standing is the go/no-go is the judge. It reads the Loom and scores the board.","is_final":true,"t_start":134120,"t_end":139580,"channel":"them"}}}
+{"seq":28,"t_ms":142500,"event":{"kind":"transcript","event":{"text":"Not quite.","is_final":true,"t_start":141320,"t_end":142500,"channel":"me"}}}
+{"seq":29,"t_ms":150577,"event":{"kind":"ops","call_id":"c13","transcript_cursor":16,"ops":[{"op":"add_node","id":"go_no_go","label":"Go/No-Go Judge"},{"op":"add_edge","from":"go_no_go","to":"log","label":"reads and scores"}],"rejected":[],"latency_ms":12985}}
+{"seq":30,"t_ms":162164,"event":{"kind":"ops","call_id":"c14","transcript_cursor":17,"ops":[],"rejected":[],"latency_ms":1722}}
+{"seq":31,"t_ms":150860,"event":{"kind":"transcript","event":{"text":"Go no go is the harness, not the judge. It runs the judge over many cases and turns the scores into pass rate","is_final":true,"t_start":143000,"t_end":150860,"channel":"me"}}}
+{"seq":32,"t_ms":152180,"event":{"kind":"transcript","event":{"text":"Well what's an interval?","is_final":true,"t_start":151360,"t_end":152180,"channel":"me"}}}
+{"seq":33,"t_ms":170997,"event":{"kind":"ops","call_id":"c15","transcript_cursor":19,"ops":[{"op":"rename","id":"go_no_go","label":"Go/No-Go Harness"}],"rejected":[],"latency_ms":2078}}
+{"seq":34,"t_ms":161400,"event":{"kind":"transcript","event":{"text":"Okay, so the harness and the cases come straight out of the log","is_final":true,"t_start":155880,"t_end":161400,"channel":"them"}}}
+{"seq":35,"t_ms":166420,"event":{"kind":"transcript","event":{"text":"No, gonogo never sees the actual log","is_final":true,"t_start":162640,"t_end":166420,"channel":"me"}}}
+{"seq":36,"t_ms":174439,"event":{"kind":"ops","call_id":"c16","transcript_cursor":21,"ops":[],"rejected":[],"latency_ms":1269}}
+{"seq":37,"t_ms":170060,"event":{"kind":"transcript","event":{"text":"The case emitter reads the log and writes the cases.","is_final":true,"t_start":166920,"t_end":170060,"channel":"me"}}}
+{"seq":38,"t_ms":172460,"event":{"kind":"transcript","event":{"text":"Gonogo reads those cases.","is_final":true,"t_start":170560,"t_end":172460,"channel":"me"}}}
+{"seq":39,"t_ms":178383,"event":{"kind":"ops","call_id":"c17","transcript_cursor":23,"ops":[{"op":"add_node","id":"case_emitter","label":"Case Emitter"},{"op":"add_edge","from":"log","to":"case_emitter","label":"reads"},{"op":"add_edge","from":"case_emitter","to":"go_no_go","label":"writes cases for"}],"rejected":[],"latency_ms":2263}}
+{"seq":40,"t_ms":182380,"event":{"kind":"transcript","event":{"text":"Got it. Log to case emitter, case emitter to gonogo","is_final":true,"t_start":168480,"t_end":182380,"channel":"them"}}}
+{"seq":41,"t_ms":185212,"event":{"kind":"ops","call_id":"c18","transcript_cursor":24,"ops":[],"rejected":[],"latency_ms":4792}}
+{"seq":42,"t_ms":189520,"event":{"kind":"transcript","event":{"text":"Right. Uh, before I forget, the submission","is_final":true,"t_start":186100,"t_end":189520,"channel":"me"}}}
+{"seq":43,"t_ms":196380,"event":{"kind":"transcript","event":{"text":"The video goes to Loom. The Loom link goes into the portal and the social post tags the sponsors.","is_final":true,"t_start":190020,"t_end":196380,"channel":"me"}}}
+{"seq":44,"t_ms":198906,"event":{"kind":"ops","call_id":"c19","transcript_cursor":26,"ops":[{"op":"add_node","id":"loom","label":"Loom Video Service"},{"op":"add_node","id":"portal","label":"Portal"},{"op":"add_node","id":"social_post","label":"Social Post"},{"op":"add_edge","from":"case_emitter","to":"loom","label":"submits video to"},{"op":"add_edge","from":"loom","to":"portal","label":"provides link to"},{"op":"add_edge","from":"social_post","to":"portal","label":"tags sponsors in"}],"rejected":[],"latency_ms":2637}}
+{"seq":45,"t_ms":204320,"event":{"kind":"transcript","event":{"text":"Right.","is_final":true,"t_start":203740,"t_end":204320,"channel":"me"}}}
+{"seq":46,"t_ms":205000,"event":{"kind":"transcript","event":{"text":"And the repo link goes into the portal too","is_final":true,"t_start":199240,"t_end":205000,"channel":"them"}}}
+{"seq":47,"t_ms":209186,"event":{"kind":"ops","call_id":"c20","transcript_cursor":28,"ops":[{"op":"add_node","id":"repo_link","label":"Repo Link"},{"op":"add_edge","from":"repo_link","to":"portal","label":"goes into"}],"rejected":[],"latency_ms":3928}}
+{"seq":48,"t_ms":225060,"event":{"kind":"transcript","event":{"text":"Okay, back to the pipeline. I skipped a piece. The transcriber doesn't call the extractor directly. There's a batcher in between. It waits for a pause and then sends one chunk.","is_final":true,"t_start":210860,"t_end":225060,"channel":"them"}}}
+{"seq":49,"t_ms":226240,"event":{"kind":"transcript","event":{"text":"Right.","is_final":true,"t_start":225560,"t_end":226240,"channel":"me"}}}
+{"seq":50,"t_ms":227950,"event":{"kind":"ops","call_id":"c21","transcript_cursor":29,"ops":[{"op":"add_node","id":"batcher","label":"Batcher"},{"op":"remove","id":"transcriber->extractor"},{"op":"add_edge","from":"transcriber","to":"batcher","label":"feeds"},{"op":"add_edge","from":"batcher","to":"extractor","label":"sends chunk to"}],"rejected":[],"latency_ms":3895}}
+{"seq":51,"t_ms":233347,"event":{"kind":"ops","call_id":"c22","transcript_cursor":30,"ops":[],"rejected":[],"latency_ms":1147}}
+{"seq":52,"t_ms":233560,"event":{"kind":"transcript","event":{"text":"And the reducer sits between the extractor and the log. It applies each operation and rejects the bad ones.","is_final":true,"t_start":226740,"t_end":233560,"channel":"me"}}}
+{"seq":53,"t_ms":237330,"event":{"kind":"ops","call_id":"c23","transcript_cursor":31,"ops":[{"op":"add_node","id":"reducer","label":"Reducer"},{"op":"remove","id":"extractor->log"},{"op":"add_edge","from":"extractor","to":"reducer","label":"sends operations to"},{"op":"add_edge","from":"reducer","to":"log","label":"applies operations to"}],"rejected":[],"latency_ms":1200}}
+{"seq":54,"t_ms":246040,"event":{"kind":"transcript","event":{"text":"And when I hit dismiss just now, what happens?","is_final":true,"t_start":235540,"t_end":246040,"channel":"them"}}}
+{"seq":55,"t_ms":246580,"event":{"kind":"transcript","event":{"text":"When you hit dismiss, the parked board goes into the next few extractor calls as a negative example.","is_final":true,"t_start":240880,"t_end":246580,"channel":"me"}}}
+{"seq":56,"t_ms":248556,"event":{"kind":"ops","call_id":"c24","transcript_cursor":32,"ops":[],"rejected":[],"latency_ms":3150}}
+{"seq":57,"t_ms":249160,"event":{"kind":"transcript","event":{"text":"So it stops drawing the submission flow.","is_final":true,"t_start":247080,"t_end":249160,"channel":"me"}}}
+{"seq":58,"t_ms":251706,"event":{"kind":"ops","call_id":"c25","transcript_cursor":34,"ops":[],"rejected":[],"latency_ms":971}}
+{"seq":59,"t_ms":261560,"event":{"kind":"transcript","event":{"text":"That's the whole thing.","is_final":true,"t_start":246540,"t_end":261560,"channel":"them"}}}
+{"seq":60,"t_ms":264140,"event":{"kind":"ops","call_id":"c26","transcript_cursor":35,"ops":[],"rejected":[],"latency_ms":1764}}
+{"seq":61,"t_ms":276960,"event":{"kind":"transcript","event":{"text":"Okay, well","is_final":true,"t_start":267480,"t_end":276960,"channel":"them"}}}
+{"seq":62,"t_ms":280104,"event":{"kind":"ops","call_id":"c27","transcript_cursor":36,"ops":[],"rejected":[],"latency_ms":1702}}
+{"seq":63,"t_ms":489200,"event":{"kind":"transcript","event":{"text":"Uh,","is_final":true,"t_start":488540,"t_end":489200,"channel":"me"}}}
+{"seq":64,"t_ms":492000,"event":{"kind":"transcript","event":{"text":"I'm having a score mind","is_final":true,"t_start":490140,"t_end":492000,"channel":"me"}}}
+{"seq":65,"t_ms":571756,"event":{"kind":"ops","call_id":"c28","transcript_cursor":38,"ops":[],"rejected":[],"latency_ms":1156}}

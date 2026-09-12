@@ -62,7 +62,7 @@ const transcripts = entries.flatMap((e) =>
 );
 const opBatches = entries.flatMap((e) =>
   e.event.kind === "ops"
-    ? [{ t: abs(e.t_ms), ops: e.event.ops as Op[], rejected: e.event.rejected, latency: e.event.latency_ms }]
+    ? [{ t: abs(e.t_ms), cursor: e.event.transcript_cursor, ops: e.event.ops as Op[], rejected: e.event.rejected, latency: e.event.latency_ms }]
     : [],
 );
 
@@ -86,6 +86,31 @@ const stateAt = (tAbs: number): CompactGraphState => {
     const ev = e.event;
     if (ev.kind === "ops") s = applyOps(s, ev.ops).state;
     else if (ev.kind === "dismiss") {
+      s = {
+        active: s.active === ev.diagram_id ? null : s.active,
+        diagrams: s.diagrams.filter((d) => d.diagram_id !== ev.diagram_id),
+      };
+    }
+  }
+  return s;
+};
+
+/**
+ * Replay up to the extractor call that consumed the first `n` final transcript
+ * events, applying dismisses that happened before it. A segment is graded on
+ * the board once its speech has been processed, not on the board at the clock
+ * instant the next beat began: live, ops land seconds after speech (ASR plus
+ * the call), so a clock-time cut systematically grades a board that is behind.
+ * On an unpaced gold replay the two agree.
+ */
+const stateAtCursor = (n: number): CompactGraphState => {
+  let s = emptyState();
+  for (const e of entries) {
+    const ev = e.event;
+    if (ev.kind === "ops") {
+      if (ev.transcript_cursor > n) break;
+      s = applyOps(s, ev.ops).state;
+    } else if (ev.kind === "dismiss") {
       s = {
         active: s.active === ev.diagram_id ? null : s.active,
         diagrams: s.diagrams.filter((d) => d.diagram_id !== ev.diagram_id),
@@ -129,9 +154,14 @@ for (const seg of segments) {
   const evs = transcripts.filter((x) => x.t >= lo && x.t < hi);
   if (evs.length === 0) continue;
 
-  const batches = opBatches.filter((b) => b.t >= lo && b.t < hi);
-  const before = stateAt(lo);
-  const after = stateAt(hi);
+  // Attribute calls to the segment whose speech they consumed, and grade the
+  // board after the last of them, so pipeline latency does not shift work into
+  // the next segment.
+  const cStart = transcripts.filter((x) => x.t < lo).length;
+  const cEnd = transcripts.filter((x) => x.t < hi).length;
+  const batches = opBatches.filter((b) => b.cursor > cStart && b.cursor <= cEnd);
+  const before = stateAtCursor(cStart);
+  const after = stateAtCursor(cEnd);
   const beforeD = activeOf(before);
   const afterD = activeOf(after);
 

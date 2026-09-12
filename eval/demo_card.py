@@ -28,10 +28,9 @@ so real and target are compared on identical footing.
 
 Vacuous segments
 ----------------
-A segment whose intended board is empty is not counted: the matcher would pass
-any real board against it. On DEMO01 that is the tangent segment after the
-dismiss (the mock parks the tangent on its own diagram, so no board is active
-there); the "board at the dismiss" case carries that segment's content.
+When the storyboard expects no active board and the real run has none either,
+the segment tells you nothing and is not counted. On DEMO01 that is the tail
+of the tangent segment, after the dismiss; the dismiss case carries its content.
 """
 import argparse, html, json, os
 from gonogo import Case, evaluate
@@ -83,9 +82,28 @@ def f1(got, want):
     return (0.0 if p + r == 0 else 2 * p * r / (p + r)), p, r
 
 
+def bait_scorer(output, expected):
+    """The board at the dismiss. The storyboard puts the submission flow "on the
+    architecture board or on a fresh diagram of its own", so precision against
+    a tangent-only target is meaningless here; the question is whether the bait
+    was drawn. Recall over the intended tangent nodes, pass at 0.75."""
+    m = match(output["nodes"], expected["nodes"])
+    want = {n["id"] for n in expected["nodes"]}
+    r = len(set(m.values())) / len(want) if want else 1.0
+    return r >= 0.75, r, f"bait drawn: {len(set(m.values()))} of {len(want)} intended nodes (recall {r:.2f})"
+
+
 def board_scorer(output, expected):
     m = match(output["nodes"], expected["nodes"])
-    nf, npv, nr = f1(set(m.values()), {n["id"] for n in expected["nodes"]})
+    want = {n["id"] for n in expected["nodes"]}
+    matched = set(m.values())
+    # Precision over ALL real nodes, not over the matched ones: an unmatched
+    # node on the real board is a node the storyboard did not ask for, and it
+    # has to cost something or a board can carry any amount of junk and pass.
+    ngot = len(output["nodes"])
+    npv = len(matched) / ngot if ngot else (1.0 if not want else 0.0)
+    nr = len(matched) / len(want) if want else (1.0 if not ngot else 0.0)
+    nf = 0.0 if npv + nr == 0 else 2 * npv * nr / (npv + nr)
     got_e = {(m.get(e["from"]), m.get(e["to"])) for e in output["edges"]
              if e["from"] in m and e["to"] in m}
     ef, _, _ = f1(got_e, {(e["from"], e["to"]) for e in expected["edges"]})
@@ -103,10 +121,21 @@ def edges_by_label(case):
 
 def beats(real):
     """The things the storyboard exists to show, as checks on the real run.
-    Segment starts are DEMO01's; other storyboards need their own table."""
-    after3 = real.get(("00:44", False))
-    before = real.get(("01:26", True))
-    after5 = real.get(("01:43", False))
+
+    Segments are found by topic, not by clock time, so the same checks apply to
+    the storyboard's synthetic timing and to a real take re-timed to its cue
+    lines. The two dismiss checks are skipped, not failed, when no dismiss was
+    clicked on the machine that produced the log.
+    """
+    def seg(word):
+        for (start, dismissed), c in real.items():
+            if not dismissed and word in " ".join(c["expected"].get("topic_path") or [c["expected"].get("topic", "")]).lower():
+                return c
+        return None
+    after3 = seg("gonogo")
+    tangent_seg = seg("tangent")
+    after5 = seg("recovery")
+    before = next((c for (s_, d), c in real.items() if d), None)  # board at the dismiss, if one happened
     tangent = ("loom", "portal", "social", "sponsor", "submission")
     has_t = lambda c: sum(any(t in l for t in tangent) for l in labels(c)) if c else 0
     checks = {}
@@ -114,12 +143,19 @@ def beats(real):
         e3 = edges_by_label(after3)
         checks["rename: a 'harness' node exists after beat 3"] = any("harness" in l for l in labels(after3))
         checks["redirect: log -> case emitter drawn"] = any("log" in a and "case" in b for a, b in e3)
-        checks["redirect: old log -> gonogo edge removed"] = not any("log" in a and "gonogo" in b for a, b in e3)
-    if before:
-        checks["tangent drawn before the dismiss"] = has_t(before) >= 3
-    if after5:
+        # The misconception was "gonogo reads the log"; the extractor may draw
+        # that in either direction, so any edge between a gonogo node and a log
+        # node counts as the old edge still being there.
+        gl = lambda a, b: ("gonogo" in a or "go/no-go" in a or "go no go" in a) and "log" in b
+        checks["redirect: old gonogo<->log edge removed"] = not any(gl(a, b) or gl(b, a) for a, b in e3)
+    drawn_on = before or tangent_seg
+    if drawn_on:
+        checks["tangent drawn (the dismiss bait)"] = has_t(drawn_on) >= 3
+    if before and after5:
         checks["tangent gone after the dismiss"] = has_t(after5) == 0
         checks["architecture survives the dismiss"] = len(labels(after5)) >= 8
+    elif after5:
+        checks["(no dismiss on this machine: the two dismiss beats are not graded)"] = True
     return checks
 
 
@@ -214,19 +250,34 @@ def main():
                 continue
             if not target[k]["diagram_after"]["nodes"]:
                 # No intended board here (the storyboard's mock leaves no active
-                # diagram in this window), so there is nothing to grade against:
-                # the matcher would pass any real board with F1 1.0. Not counted.
+                # diagram in this window), so there is nothing to grade against.
                 continue
             name = f"{k[0]} {target[k]['expected']['topic']}" + (" (board at the dismiss)" if k[1] else "")
             if multi:
                 name = f"[{run}] {name}"
-            seg_cases.append(Case(input=real[k]["diagram_after"], expected=target[k]["diagram_after"], id=name))
+            seg_cases.append(Case(input=real[k]["diagram_after"], expected=target[k]["diagram_after"], id=name,
+                                  metadata={"bait": k[1]}))
         for n, ok in beats(real).items():
             cid = f"[{run}] {n}" if multi else n
             checks[cid] = ok
             beat_cases.append(Case(input=cid, expected=True, id=cid))
 
-    seg_rep = evaluate(lambda c: c.input, seg_cases, scorer=board_scorer, task="board vs storyboard target", target=0.80)
+    def seg_scorer_for(case):
+        return bait_scorer if case.metadata.get("bait") else board_scorer
+    class _Dispatch:
+        def __call__(self, output, expected):
+            raise RuntimeError("dispatch scorer needs the case")
+    # gonogo's scorer sees (output, expected) only, so route by wrapping the agent output.
+    tagged = {c.id: c for c in seg_cases}
+    def agent(c):
+        return c.input
+    def scorer_with_case(output, expected):
+        # find the case by identity of its expected board (unique per segment)
+        for c in seg_cases:
+            if c.expected is expected:
+                return seg_scorer_for(c)(output, expected)
+        return board_scorer(output, expected)
+    seg_rep = evaluate(agent, seg_cases, scorer=scorer_with_case, task="board vs storyboard target", target=0.80)
     beat_rep = evaluate(lambda c: checks[c.input], beat_cases, task="storyboard beats", target=0.80)
 
     # Run-level: one case per run, passing only if every check in that run passed.
