@@ -1,0 +1,13 @@
+{"text":"Okay","is_final":false,"t_start":0,"t_end":14020,"channel":"me"}
+{"text":"Okay,","is_final":false,"t_start":0,"t_end":14020,"channel":"me"}
+{"text":"Okay, let","is_final":false,"t_start":0,"t_end":14340,"channel":"me"}
+{"text":"Okay, let me","is_final":false,"t_start":15020,"t_end":15060,"channel":"me"}
+{"text":"Okay, let me say","is_final":false,"t_start":15020,"t_end":15060,"channel":"me"}
+{"text":"Okay, let me say the","is_final":false,"t_start":15020,"t_end":15060,"channel":"me"}
+{"text":"Okay, let me say the whole","is_final":false,"t_start":15020,"t_end":15060,"channel":"me"}
+{"text":"Okay, let me say the whole thing","is_final":false,"t_start":0,"t_end":15020,"channel":"me"}
+{"text":"Okay, let me say the whole thing back","is_final":false,"t_start":0,"t_end":15020,"channel":"me"}
+{"text":"Okay, let me say the whole thing back to","is_final":false,"t_start":0,"t_end":15020,"channel":"me"}
+{"text":"Okay, let me say the whole thing back to you","is_final":false,"t_start":0,"t_end":15020,"channel":"me"}
+{"text":"Okay, let me say the whole thing back to you.","is_final":false,"t_start":0,"t_end":15020,"channel":"me"}
+{"text":"Okay, let me say the whole thing back to you.","is_final":true,"t_start":0,"t_end":15020,"channel":"me","latency":{"speech_end_ms":838,"vad_ms":1,"api_ms":837,"first_delta_ms":-987,"audio_ms":15020}}

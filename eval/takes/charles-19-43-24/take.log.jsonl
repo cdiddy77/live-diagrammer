@@ -1,0 +1,22 @@
+{"seq":0,"t_ms":9180,"event":{"kind":"transcript","event":{"text":"Uh, so where do we want to go from here?","is_final":true,"t_start":6140,"t_end":9180,"channel":"me"}}}
+{"seq":1,"t_ms":12412,"event":{"kind":"ops","call_id":"c1","transcript_cursor":1,"ops":[],"rejected":[],"latency_ms":1584}}
+{"seq":2,"t_ms":24700,"event":{"kind":"transcript","event":{"text":"What? Um Try to just do the","is_final":true,"t_start":9680,"t_end":24700,"channel":"me"}}}
+{"seq":3,"t_ms":25395,"event":{"kind":"ops","call_id":"c2","transcript_cursor":2,"ops":[],"rejected":[],"latency_ms":2373}}
+{"seq":4,"t_ms":33940,"event":{"kind":"transcript","event":{"text":"I think it would probably be better to do it in the segments and record each one separately","is_final":true,"t_start":24700,"t_end":33940,"channel":"me"}}}
+{"seq":5,"t_ms":35564,"event":{"kind":"ops","call_id":"c3","transcript_cursor":3,"ops":[{"op":"new_diagram","type":"flowchart","title":"Segmented Recording Process"},{"op":"add_node","id":"segments","label":"Segments"},{"op":"add_node","id":"record_each_segment","label":"Record Each Segment Separately"},{"op":"add_edge","from":"segments","to":"record_each_segment","label":"input for"}],"rejected":[],"latency_ms":2590}}
+{"seq":6,"t_ms":49460,"event":{"kind":"transcript","event":{"text":"Um, I'll save all five files  Yeah when you say the files yeah, so why are","is_final":true,"t_start":34440,"t_end":49460,"channel":"me"}}}
+{"seq":7,"t_ms":50604,"event":{"kind":"ops","call_id":"c4","transcript_cursor":4,"ops":[],"rejected":[],"latency_ms":2313}}
+{"seq":8,"t_ms":64480,"event":{"kind":"transcript","event":{"text":"Are we saving the JSONL? Just for the data, not for the demo?","is_final":true,"t_start":49460,"t_end":64480,"channel":"me"}}}
+{"seq":9,"t_ms":65421,"event":{"kind":"ops","call_id":"c5","transcript_cursor":5,"ops":[],"rejected":[],"latency_ms":1759}}
+{"seq":10,"t_ms":79500,"event":{"kind":"transcript","event":{"text":"Oh, it's I was gonna say it might, so","is_final":true,"t_start":64480,"t_end":79500,"channel":"me"}}}
+{"seq":11,"t_ms":80325,"event":{"kind":"ops","call_id":"c6","transcript_cursor":6,"ops":[],"rejected":[],"latency_ms":2160}}
+{"seq":12,"t_ms":94520,"event":{"kind":"transcript","event":{"text":"Thing one, that I'm really tempted to do is write the, you know, the new button so that it stops constantly recording  Yeah, let me do that","is_final":true,"t_start":79500,"t_end":94520,"channel":"me"}}}
+{"seq":13,"t_ms":95596,"event":{"kind":"ops","call_id":"c7","transcript_cursor":7,"ops":[{"op":"add_node","id":"stop_button","label":"Stop Recording Button"}],"rejected":[],"latency_ms":2507}}
+{"seq":14,"t_ms":109540,"event":{"kind":"transcript","event":{"text":"I think and then at yeah no and uh and then once I have that like let's shoot for one o'clock. We'll do the the take of the first","is_final":true,"t_start":94520,"t_end":109540,"channel":"me"}}}
+{"seq":15,"t_ms":110975,"event":{"kind":"ops","call_id":"c8","transcript_cursor":8,"ops":[],"rejected":[],"latency_ms":1615}}
+{"seq":16,"t_ms":124580,"event":{"kind":"transcript","event":{"text":"Person Or you know, I don't know. Maybe we should just run through it and then we can chop it up as needed. Like let's try doing a full run see what happens. Yeah Then I can at least have my car help buttons","is_final":true,"t_start":109540,"t_end":124580,"channel":"me"}}}
+{"seq":17,"t_ms":125405,"event":{"kind":"ops","call_id":"c9","transcript_cursor":9,"ops":[],"rejected":[],"latency_ms":3575}}
+{"seq":18,"t_ms":134420,"event":{"kind":"transcript","event":{"text":"See Maybe I   quickly Yeah okay I'm gonna get off the call","is_final":true,"t_start":124580,"t_end":134420,"channel":"me"}}}
+{"seq":19,"t_ms":135600,"event":{"kind":"ops","call_id":"c10","transcript_cursor":10,"ops":[],"rejected":[],"latency_ms":3768}}
+{"seq":20,"t_ms":149940,"event":{"kind":"transcript","event":{"text":"Okay, so when the capture closes the vlog prints the session summary","is_final":true,"t_start":134920,"t_end":149940,"channel":"me"}}}
+{"seq":21,"t_ms":150904,"event":{"kind":"ops","call_id":"c11","transcript_cursor":11,"ops":[{"op":"add_node","id":"session_summary","label":"Session Summary"},{"op":"add_edge","from":"stop_button","to":"session_summary","label":"triggers"}],"rejected":[],"latency_ms":3232}}

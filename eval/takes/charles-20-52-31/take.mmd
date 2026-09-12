@@ -1,0 +1,24 @@
+%% d1 — Pressure Extension (active)
+flowchart LR
+  google_meet_tab["Google Meet Tab (input)"]
+  chrome_extension["Chrome Extension"]
+  local_server["Local Server"]
+  openai_realtime["OpenAI Realtime Transcriber"]
+  extractor["Extractor"]
+  board["Board"]
+  edit_log["Edit Log"]
+  side_panel["Side Panel"]
+  gonogo["Gonogo Harness"]
+  judge["Judge"]
+  case_emitter["Case Emitter"]
+  google_meet_tab -->|audio source| chrome_extension
+  chrome_extension -->|sends audio| local_server
+  local_server -->|runs transcriber| openai_realtime
+  openai_realtime -->|feeds| extractor
+  extractor -->|decides content| board
+  extractor -->|emits edits| edit_log
+  edit_log -->|feeds| side_panel
+  side_panel -->|draws from log| board
+  gonogo -->|runs over cases| judge
+  gonogo -->|turns scores into pass rate| gonogo
+  case_emitter -->|writes cases for| gonogo

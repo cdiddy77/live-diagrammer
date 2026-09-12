@@ -1,0 +1,9 @@
+{"seq":0,"t_ms":2280,"event":{"kind":"transcript","event":{"text":"Oh, I can't hear you yet.","is_final":true,"t_start":560,"t_end":2280,"channel":"them"}}}
+{"seq":1,"t_ms":5142,"event":{"kind":"ops","call_id":"c1","transcript_cursor":1,"ops":[],"rejected":[],"latency_ms":1920}}
+{"seq":2,"t_ms":8880,"event":{"kind":"transcript","event":{"text":"Can you hear me?","is_final":true,"t_start":8100,"t_end":8880,"channel":"them"}}}
+{"seq":3,"t_ms":12802,"event":{"kind":"ops","call_id":"c2","transcript_cursor":2,"ops":[],"rejected":[],"latency_ms":1262}}
+{"seq":4,"t_ms":15080,"event":{"kind":"transcript","event":{"text":"Nice.","is_final":true,"t_start":14500,"t_end":15080,"channel":"them"}}}
+{"seq":5,"t_ms":16460,"event":{"kind":"transcript","event":{"text":"Yeah, I was on mute. I was on mute","is_final":true,"t_start":1440,"t_end":16460,"channel":"me"}}}
+{"seq":6,"t_ms":19597,"event":{"kind":"ops","call_id":"c3","transcript_cursor":4,"ops":[],"rejected":[],"latency_ms":1618}}
+{"seq":7,"t_ms":31480,"event":{"kind":"transcript","event":{"text":"Adding  Okay, so let me see","is_final":true,"t_start":16460,"t_end":31480,"channel":"me"}}}
+{"seq":8,"t_ms":32547,"event":{"kind":"ops","call_id":"c4","transcript_cursor":5,"ops":[],"rejected":[],"latency_ms":2775}}

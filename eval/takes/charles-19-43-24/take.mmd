@@ -1,0 +1,8 @@
+%% d1 — Segmented Recording Process (active)
+flowchart LR
+  segments["Segments"]
+  record_each_segment["Record Each Segment Separately"]
+  stop_button["Stop Recording Button"]
+  session_summary["Session Summary"]
+  segments -->|input for| record_each_segment
+  stop_button -->|triggers| session_summary

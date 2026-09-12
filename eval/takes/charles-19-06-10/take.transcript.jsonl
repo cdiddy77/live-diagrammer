@@ -1,0 +1,937 @@
+{"text":"Okay","is_final":false,"t_start":3300,"t_end":3700,"channel":"them"}
+{"text":"Okay","is_final":true,"t_start":3300,"t_end":3700,"channel":"them","latency":{"speech_end_ms":1053,"vad_ms":499,"api_ms":554,"first_delta_ms":824,"audio_ms":400}}
+{"text":"Okay","is_final":false,"t_start":0,"t_end":8040,"channel":"me"}
+{"text":"Okay,","is_final":false,"t_start":0,"t_end":8040,"channel":"me"}
+{"text":"Okay, how","is_final":false,"t_start":0,"t_end":8840,"channel":"me"}
+{"text":"Okay, how about","is_final":false,"t_start":0,"t_end":9200,"channel":"me"}
+{"text":"Okay, how about now","is_final":false,"t_start":0,"t_end":9200,"channel":"me"}
+{"text":"Okay, how about now?","is_final":false,"t_start":0,"t_end":9200,"channel":"me"}
+{"text":"Okay, how about now? I","is_final":false,"t_start":0,"t_end":10580,"channel":"me"}
+{"text":"Okay, how about now? I am","is_final":false,"t_start":0,"t_end":10580,"channel":"me"}
+{"text":"Okay, how about now? I am testing","is_final":false,"t_start":0,"t_end":11700,"channel":"me"}
+{"text":"Okay, how about now? I am testing seeing","is_final":false,"t_start":0,"t_end":13660,"channel":"me"}
+{"text":"Okay, how about now? I am testing seeing things","is_final":false,"t_start":0,"t_end":13660,"channel":"me"}
+{"text":"I","is_final":false,"t_start":13180,"t_end":14400,"channel":"them"}
+{"text":"Okay, how about now? I am testing seeing things","is_final":true,"t_start":0,"t_end":13540,"channel":"me","latency":{"speech_end_ms":1529,"vad_ms":500,"api_ms":1029,"first_delta_ms":-5482,"audio_ms":13540}}
+{"text":"I can","is_final":false,"t_start":13180,"t_end":15060,"channel":"them"}
+{"text":"I can hear","is_final":false,"t_start":13180,"t_end":15060,"channel":"them"}
+{"text":"I can hear you","is_final":false,"t_start":13180,"t_end":15060,"channel":"them"}
+{"text":"I can hear you pretty","is_final":false,"t_start":13180,"t_end":15420,"channel":"them"}
+{"text":"I can hear you pretty good","is_final":false,"t_start":13180,"t_end":15420,"channel":"them"}
+{"text":"I can hear you pretty good now","is_final":false,"t_start":13180,"t_end":15800,"channel":"them"}
+{"text":"I can hear you pretty good now.","is_final":false,"t_start":13180,"t_end":15800,"channel":"them"}
+{"text":"I can hear you pretty good now.","is_final":true,"t_start":13180,"t_end":15320,"channel":"them","latency":{"speech_end_ms":1648,"vad_ms":504,"api_ms":1144,"first_delta_ms":-910,"audio_ms":2140}}
+{"text":"Can","is_final":false,"t_start":16680,"t_end":18000,"channel":"them"}
+{"text":"Can you","is_final":false,"t_start":16680,"t_end":18000,"channel":"them"}
+{"text":"Can you hear","is_final":false,"t_start":16680,"t_end":18000,"channel":"them"}
+{"text":"Can you hear me","is_final":false,"t_start":16680,"t_end":18360,"channel":"them"}
+{"text":"Can you hear me?","is_final":false,"t_start":16680,"t_end":18360,"channel":"them"}
+{"text":"Can you hear me? Pretty","is_final":false,"t_start":16680,"t_end":18740,"channel":"them"}
+{"text":"Can you hear me? Pretty good","is_final":false,"t_start":16680,"t_end":18740,"channel":"them"}
+{"text":"Can you hear me? Pretty good or","is_final":false,"t_start":16680,"t_end":18800,"channel":"them"}
+{"text":"Yes","is_final":false,"t_start":17580,"t_end":20280,"channel":"me"}
+{"text":"Can you hear me? Pretty good or is","is_final":false,"t_start":20260,"t_end":20280,"channel":"them"}
+{"text":"Yes.","is_final":false,"t_start":17580,"t_end":20280,"channel":"me"}
+{"text":"Can you hear me? Pretty good or is there","is_final":false,"t_start":20260,"t_end":20280,"channel":"them"}
+{"text":"Can you hear me? Pretty good or is there background","is_final":false,"t_start":16680,"t_end":19760,"channel":"them"}
+{"text":"Can you hear me? Pretty good or is there background noise","is_final":false,"t_start":16680,"t_end":19760,"channel":"them"}
+{"text":"Can you hear me? Pretty good or is there background noise?","is_final":false,"t_start":16680,"t_end":19760,"channel":"them"}
+{"text":"Can you hear me? Pretty good or is there background noise?","is_final":true,"t_start":16680,"t_end":19760,"channel":"them","latency":{"speech_end_ms":1601,"vad_ms":500,"api_ms":1101,"first_delta_ms":-1749,"audio_ms":3080}}
+{"text":"Yes. And","is_final":false,"t_start":17580,"t_end":21360,"channel":"me"}
+{"text":"Yes. And more","is_final":false,"t_start":17580,"t_end":21560,"channel":"me"}
+{"text":"Yes. And more importantly","is_final":false,"t_start":17580,"t_end":22740,"channel":"me"}
+{"text":"Yes. And more importantly,","is_final":false,"t_start":17580,"t_end":22740,"channel":"me"}
+{"text":"Yes. And more importantly, the","is_final":false,"t_start":17580,"t_end":22740,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom","is_final":false,"t_start":17580,"t_end":22740,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can","is_final":false,"t_start":17580,"t_end":23200,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can hear","is_final":false,"t_start":17580,"t_end":23200,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can hear us","is_final":false,"t_start":17580,"t_end":23700,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can hear us both","is_final":false,"t_start":17580,"t_end":23700,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can hear us both.","is_final":false,"t_start":17580,"t_end":23700,"channel":"me"}
+{"text":"Okay","is_final":false,"t_start":25700,"t_end":26080,"channel":"them"}
+{"text":"Okay.","is_final":false,"t_start":25700,"t_end":26080,"channel":"them"}
+{"text":"Okay.","is_final":true,"t_start":24520,"t_end":25200,"channel":"them","latency":{"speech_end_ms":1401,"vad_ms":501,"api_ms":900,"first_delta_ms":873,"audio_ms":680}}
+{"text":"Yes. And more importantly, the bottom can hear us both. So","is_final":false,"t_start":17580,"t_end":27140,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can hear us both. So let's","is_final":false,"t_start":17580,"t_end":28660,"channel":"me"}
+{"text":"Yes. And more importantly, the bottom can hear us both. So let's","is_final":true,"t_start":17580,"t_end":32620,"channel":"me","latency":{"speech_end_ms":1192,"vad_ms":1,"api_ms":1191,"first_delta_ms":-12334,"audio_ms":15040}}
+{"text":"I","is_final":false,"t_start":32300,"t_end":33800,"channel":"them"}
+{"text":"I gotta","is_final":false,"t_start":32300,"t_end":33820,"channel":"them"}
+{"text":"I gotta find","is_final":false,"t_start":32300,"t_end":34360,"channel":"them"}
+{"text":"I gotta find the","is_final":false,"t_start":32300,"t_end":34360,"channel":"them"}
+{"text":"I gotta find the script","is_final":false,"t_start":35100,"t_end":35180,"channel":"them"}
+{"text":"I gotta find the script","is_final":true,"t_start":32300,"t_end":34600,"channel":"them","latency":{"speech_end_ms":1449,"vad_ms":503,"api_ms":946,"first_delta_ms":-776,"audio_ms":2300}}
+{"text":"Oh","is_final":false,"t_start":35100,"t_end":36280,"channel":"them"}
+{"text":"Oh,","is_final":false,"t_start":35100,"t_end":36280,"channel":"them"}
+{"text":"Oh, here","is_final":false,"t_start":37200,"t_end":37480,"channel":"them"}
+{"text":"Oh, here it","is_final":false,"t_start":37200,"t_end":37480,"channel":"them"}
+{"text":"Oh, here it is","is_final":false,"t_start":37200,"t_end":37480,"channel":"them"}
+{"text":"Oh, here it is.","is_final":false,"t_start":37200,"t_end":37480,"channel":"them"}
+{"text":"Oh, here it is. Okay","is_final":false,"t_start":37200,"t_end":37480,"channel":"them"}
+{"text":"Oh, here it is. Okay.","is_final":false,"t_start":37200,"t_end":37480,"channel":"them"}
+{"text":"Oh, here it is. Okay.","is_final":true,"t_start":35100,"t_end":36700,"channel":"them","latency":{"speech_end_ms":1687,"vad_ms":500,"api_ms":1187,"first_delta_ms":-411,"audio_ms":1600}}
+{"text":"Okay","is_final":false,"t_start":32620,"t_end":45540,"channel":"me"}
+{"text":"Okay","is_final":true,"t_start":32620,"t_end":47660,"channel":"me","latency":{"speech_end_ms":660,"vad_ms":0,"api_ms":660,"first_delta_ms":-2616,"audio_ms":15040}}
+{"text":"Yeah","is_final":false,"t_start":47660,"t_end":53480,"channel":"me"}
+{"text":"Yeah,","is_final":false,"t_start":47660,"t_end":53480,"channel":"me"}
+{"text":"Yeah, the","is_final":false,"t_start":47660,"t_end":53480,"channel":"me"}
+{"text":"Yeah, the script","is_final":false,"t_start":47660,"t_end":53860,"channel":"me"}
+{"text":"Yeah, the script opened","is_final":false,"t_start":47660,"t_end":54300,"channel":"me"}
+{"text":"Yeah, the script opened like","is_final":false,"t_start":47660,"t_end":54340,"channel":"me"}
+{"text":"Yeah, the script opened like fifty","is_final":false,"t_start":47660,"t_end":54880,"channel":"me"}
+{"text":"Yeah, the script opened like fifty times","is_final":false,"t_start":47660,"t_end":55280,"channel":"me"}
+{"text":"Yeah, the script opened like fifty times.","is_final":false,"t_start":47660,"t_end":55280,"channel":"me"}
+{"text":"Yeah, the script opened like fifty times. There","is_final":false,"t_start":47660,"t_end":56360,"channel":"me"}
+{"text":"Yeah, the script opened like fifty times. There we","is_final":false,"t_start":47660,"t_end":56360,"channel":"me"}
+{"text":"Yeah, the script opened like fifty times. There we go","is_final":false,"t_start":47660,"t_end":56800,"channel":"me"}
+{"text":"Yeah, the script opened like fifty times. There we go.","is_final":false,"t_start":47660,"t_end":56800,"channel":"me"}
+{"text":"We","is_final":false,"t_start":59520,"t_end":60880,"channel":"them"}
+{"text":"Yeah, the script opened like fifty times. There we go. Okay","is_final":false,"t_start":47660,"t_end":60880,"channel":"me"}
+{"text":"We know","is_final":false,"t_start":59520,"t_end":60880,"channel":"them"}
+{"text":"Yeah, the script opened like fifty times. There we go. Okay,","is_final":false,"t_start":47660,"t_end":60880,"channel":"me"}
+{"text":"We know what","is_final":false,"t_start":61180,"t_end":63140,"channel":"them"}
+{"text":"Yeah, the script opened like fifty times. There we go. Okay, so","is_final":false,"t_start":62680,"t_end":63140,"channel":"me"}
+{"text":"We know what we're","is_final":false,"t_start":61180,"t_end":63140,"channel":"them"}
+{"text":"We know what we're doing","is_final":false,"t_start":59520,"t_end":60680,"channel":"them"}
+{"text":"We know what we're doing.","is_final":false,"t_start":59520,"t_end":60680,"channel":"them"}
+{"text":"We know what we're doing.","is_final":true,"t_start":59520,"t_end":60680,"channel":"them","latency":{"speech_end_ms":2474,"vad_ms":501,"api_ms":1973,"first_delta_ms":216,"audio_ms":1160}}
+{"text":"Yeah, the script opened like fifty times. There we go. Okay, so","is_final":true,"t_start":47660,"t_end":62680,"channel":"me","latency":{"speech_end_ms":1687,"vad_ms":0,"api_ms":1687,"first_delta_ms":-9193,"audio_ms":15020}}
+{"text":"Start","is_final":false,"t_start":62680,"t_end":64860,"channel":"me"}
+{"text":"Start reading","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through it","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through it.","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through it. Just","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through it. Just a","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through it. Just a couple","is_final":false,"t_start":62680,"t_end":66200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times,","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can","is_final":false,"t_start":62680,"t_end":67200,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get","is_final":false,"t_start":62680,"t_end":68020,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a","is_final":false,"t_start":62680,"t_end":68780,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram","is_final":false,"t_start":62680,"t_end":68780,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to","is_final":false,"t_start":62680,"t_end":68780,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear","is_final":false,"t_start":62680,"t_end":68780,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on","is_final":false,"t_start":62680,"t_end":68780,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my","is_final":false,"t_start":62680,"t_end":68780,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen","is_final":false,"t_start":62680,"t_end":70980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen.","is_final":false,"t_start":62680,"t_end":70980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let","is_final":false,"t_start":62680,"t_end":72320,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me","is_final":false,"t_start":62680,"t_end":72320,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and","is_final":false,"t_start":62680,"t_end":72980,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you","is_final":false,"t_start":73360,"t_end":73500,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop","is_final":false,"t_start":73360,"t_end":73520,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me","is_final":false,"t_start":73360,"t_end":73520,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when","is_final":false,"t_start":73360,"t_end":73520,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when I","is_final":false,"t_start":73360,"t_end":73520,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when I get","is_final":false,"t_start":62680,"t_end":72860,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when I get it","is_final":false,"t_start":62680,"t_end":72860,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when I get it wrong","is_final":false,"t_start":62680,"t_end":72860,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when I get it wrong.","is_final":false,"t_start":62680,"t_end":72860,"channel":"me"}
+{"text":"Start reading through it. Just a couple times, just to see if we can get a diagram to appear on my screen. Let me say the whole chain back to you and you stop me when I get it wrong.","is_final":true,"t_start":62680,"t_end":72860,"channel":"me","latency":{"speech_end_ms":1377,"vad_ms":500,"api_ms":877,"first_delta_ms":-8010,"audio_ms":10180}}
+{"text":"Yeah","is_final":false,"t_start":74160,"t_end":76680,"channel":"me"}
+{"text":"Go","is_final":false,"t_start":76980,"t_end":77200,"channel":"them"}
+{"text":"Go.","is_final":false,"t_start":76980,"t_end":77200,"channel":"them"}
+{"text":"Go.","is_final":true,"t_start":75960,"t_end":76480,"channel":"them","latency":{"speech_end_ms":1125,"vad_ms":501,"api_ms":624,"first_delta_ms":728,"audio_ms":520}}
+{"text":"Yeah Okay","is_final":false,"t_start":74160,"t_end":79660,"channel":"me"}
+{"text":"Yeah Okay,","is_final":false,"t_start":74160,"t_end":79660,"channel":"me"}
+{"text":"Yeah Okay, the","is_final":false,"t_start":74160,"t_end":80840,"channel":"me"}
+{"text":"Yeah Okay, the Google","is_final":false,"t_start":74160,"t_end":80840,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet","is_final":false,"t_start":74160,"t_end":80840,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab","is_final":false,"t_start":74160,"t_end":82500,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is","is_final":false,"t_start":74160,"t_end":82500,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the","is_final":false,"t_start":74160,"t_end":82500,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input","is_final":false,"t_start":74160,"t_end":82500,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input.","is_final":false,"t_start":74160,"t_end":82500,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome","is_final":false,"t_start":74160,"t_end":84600,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension","is_final":false,"t_start":74160,"t_end":84600,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures","is_final":false,"t_start":74160,"t_end":85540,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the","is_final":false,"t_start":74160,"t_end":85540,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab","is_final":false,"t_start":74160,"t_end":86680,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio","is_final":false,"t_start":74160,"t_end":86680,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and","is_final":false,"t_start":74160,"t_end":86680,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my","is_final":false,"t_start":74160,"t_end":86680,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic","is_final":false,"t_start":74160,"t_end":86680,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and","is_final":false,"t_start":74160,"t_end":87720,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends","is_final":false,"t_start":74160,"t_end":87720,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends both","is_final":false,"t_start":74160,"t_end":87720,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends both to","is_final":false,"t_start":74160,"t_end":89280,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends both to a","is_final":false,"t_start":74160,"t_end":89280,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends both to a local","is_final":false,"t_start":74160,"t_end":89280,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends both to a local server","is_final":false,"t_start":74160,"t_end":89280,"channel":"me"}
+{"text":"Yeah Okay, the Google Meet tab is the input. Chrome extension captures the tab audio and my mic and sends both to a local server","is_final":true,"t_start":74160,"t_end":89360,"channel":"me","latency":{"speech_end_ms":1350,"vad_ms":0,"api_ms":1350,"first_delta_ms":-12665,"audio_ms":15200}}
+{"text":"Right","is_final":false,"t_start":90800,"t_end":93960,"channel":"them"}
+{"text":"Right,","is_final":false,"t_start":90800,"t_end":93960,"channel":"them"}
+{"text":"Right, and","is_final":false,"t_start":90800,"t_end":94320,"channel":"them"}
+{"text":"Right, and the","is_final":false,"t_start":90800,"t_end":95420,"channel":"them"}
+{"text":"Right, and the server","is_final":false,"t_start":90800,"t_end":96640,"channel":"them"}
+{"text":"Right, and the server runs","is_final":false,"t_start":96780,"t_end":97500,"channel":"them"}
+{"text":"Right, and the server runs the","is_final":false,"t_start":96780,"t_end":97500,"channel":"them"}
+{"text":"Right, and the server runs the trans","is_final":false,"t_start":96780,"t_end":98560,"channel":"them"}
+{"text":"Right, and the server runs the transcriber","is_final":false,"t_start":96780,"t_end":98560,"channel":"them"}
+{"text":"Right, and the server runs the transcriber,","is_final":false,"t_start":96780,"t_end":100120,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which","is_final":false,"t_start":96780,"t_end":100120,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is","is_final":false,"t_start":96780,"t_end":100120,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is Open","is_final":false,"t_start":90800,"t_end":96280,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is OpenAI","is_final":false,"t_start":90800,"t_end":96280,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is OpenAI Re","is_final":false,"t_start":90800,"t_end":96280,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is OpenAI Realtime","is_final":false,"t_start":90800,"t_end":96280,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is OpenAI Realtime.","is_final":false,"t_start":90800,"t_end":96280,"channel":"them"}
+{"text":"Right, and the server runs the transcriber, which is OpenAI Realtime.","is_final":true,"t_start":90800,"t_end":96280,"channel":"them","latency":{"speech_end_ms":5395,"vad_ms":501,"api_ms":4894,"first_delta_ms":-2307,"audio_ms":5480}}
+{"text":"The","is_final":false,"t_start":89360,"t_end":102740,"channel":"me"}
+{"text":"The trans","is_final":false,"t_start":89360,"t_end":103920,"channel":"me"}
+{"text":"Right","is_final":false,"t_start":101580,"t_end":103920,"channel":"them"}
+{"text":"The transcriber","is_final":false,"t_start":89360,"t_end":103920,"channel":"me"}
+{"text":"Right,","is_final":false,"t_start":101580,"t_end":103920,"channel":"them"}
+{"text":"Right, and","is_final":false,"t_start":101580,"t_end":103920,"channel":"them"}
+{"text":"Right, and the","is_final":false,"t_start":101580,"t_end":103920,"channel":"them"}
+{"text":"Right, and the server","is_final":false,"t_start":101580,"t_end":103920,"channel":"them"}
+{"text":"Right, and the server runs","is_final":false,"t_start":101580,"t_end":103920,"channel":"them"}
+{"text":"Right, and the server runs the","is_final":false,"t_start":101580,"t_end":104300,"channel":"them"}
+{"text":"Right, and the server runs the","is_final":false,"t_start":104420,"t_end":104440,"channel":"them"}
+{"text":"Right, and the server runs the","is_final":true,"t_start":101580,"t_end":103920,"channel":"them","latency":{"speech_end_ms":1059,"vad_ms":503,"api_ms":556,"first_delta_ms":14,"audio_ms":2340}}
+{"text":"The transcriber","is_final":true,"t_start":89360,"t_end":104420,"channel":"me","latency":{"speech_end_ms":922,"vad_ms":0,"api_ms":922,"first_delta_ms":-1686,"audio_ms":15060}}
+{"text":"Okay","is_final":false,"t_start":104420,"t_end":113000,"channel":"me"}
+{"text":"Okay,","is_final":false,"t_start":104420,"t_end":113440,"channel":"me"}
+{"text":"Okay, so","is_final":false,"t_start":104420,"t_end":113440,"channel":"me"}
+{"text":"Okay, so then","is_final":false,"t_start":104420,"t_end":114320,"channel":"me"}
+{"text":"Okay, so then the","is_final":false,"t_start":104420,"t_end":114320,"channel":"me"}
+{"text":"Okay, so then the,","is_final":false,"t_start":104420,"t_end":114320,"channel":"me"}
+{"text":"Okay, so then the, the","is_final":false,"t_start":104420,"t_end":114320,"channel":"me"}
+{"text":"Okay, so then the, the trans","is_final":false,"t_start":104420,"t_end":115100,"channel":"me"}
+{"text":"Okay, so then the, the transcriber","is_final":false,"t_start":104420,"t_end":115100,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds","is_final":false,"t_start":104420,"t_end":115460,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the","is_final":false,"t_start":104420,"t_end":116060,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor","is_final":false,"t_start":104420,"t_end":116060,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor.","is_final":false,"t_start":104420,"t_end":117280,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extract","is_final":false,"t_start":104420,"t_end":117280,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor","is_final":false,"t_start":104420,"t_end":117280,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides","is_final":false,"t_start":104420,"t_end":118800,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what","is_final":false,"t_start":104420,"t_end":118800,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what goes","is_final":false,"t_start":104420,"t_end":118800,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what goes on","is_final":false,"t_start":104420,"t_end":118800,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what goes on the","is_final":false,"t_start":104420,"t_end":118800,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what goes on the board","is_final":false,"t_start":104420,"t_end":119320,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what goes on the board.","is_final":false,"t_start":119560,"t_end":120200,"channel":"me"}
+{"text":"Okay, so then the, the transcriber feeds the extractor. Extractor decides what goes on the board.","is_final":true,"t_start":104420,"t_end":119560,"channel":"me","latency":{"speech_end_ms":1198,"vad_ms":0,"api_ms":1198,"first_delta_ms":-6541,"audio_ms":15140}}
+{"text":"But","is_final":false,"t_start":119560,"t_end":122300,"channel":"me"}
+{"text":"But","is_final":false,"t_start":121440,"t_end":122820,"channel":"them"}
+{"text":"But it","is_final":false,"t_start":121440,"t_end":123280,"channel":"them"}
+{"text":"But it never","is_final":false,"t_start":121440,"t_end":123280,"channel":"them"}
+{"text":"But it never draws","is_final":false,"t_start":123580,"t_end":123720,"channel":"them"}
+{"text":"But it never draws.","is_final":false,"t_start":123580,"t_end":123720,"channel":"them"}
+{"text":"But it never draws.","is_final":true,"t_start":121440,"t_end":123080,"channel":"them","latency":{"speech_end_ms":1156,"vad_ms":502,"api_ms":654,"first_delta_ms":-254,"audio_ms":1640}}
+{"text":"It","is_final":false,"t_start":123580,"t_end":124480,"channel":"them"}
+{"text":"It admits","is_final":false,"t_start":123580,"t_end":124840,"channel":"them"}
+{"text":"It admits small","is_final":false,"t_start":123580,"t_end":125460,"channel":"them"}
+{"text":"It admits small edits","is_final":false,"t_start":123580,"t_end":125700,"channel":"them"}
+{"text":"It admits small edits to","is_final":false,"t_start":123580,"t_end":125700,"channel":"them"}
+{"text":"It admits small edits to the","is_final":false,"t_start":123580,"t_end":125960,"channel":"them"}
+{"text":"It admits small edits to the graph","is_final":false,"t_start":123580,"t_end":126660,"channel":"them"}
+{"text":"It admits small edits to the graph.","is_final":false,"t_start":123580,"t_end":126660,"channel":"them"}
+{"text":"It admits small edits to the graph. Every","is_final":false,"t_start":123580,"t_end":126660,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit","is_final":false,"t_start":123580,"t_end":127440,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes","is_final":false,"t_start":123580,"t_end":127440,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into","is_final":false,"t_start":123580,"t_end":128760,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a","is_final":false,"t_start":123580,"t_end":128760,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log","is_final":false,"t_start":123580,"t_end":129540,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and","is_final":false,"t_start":123580,"t_end":129540,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the","is_final":false,"t_start":123580,"t_end":129540,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side","is_final":false,"t_start":123580,"t_end":129540,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel","is_final":false,"t_start":123580,"t_end":130020,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel draws","is_final":false,"t_start":123580,"t_end":130680,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel draws from","is_final":false,"t_start":123580,"t_end":130680,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel draws from the","is_final":false,"t_start":123580,"t_end":130680,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel draws from the log","is_final":false,"t_start":123580,"t_end":130240,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel draws from the log.","is_final":false,"t_start":123580,"t_end":130240,"channel":"them"}
+{"text":"It admits small edits to the graph. Every edit goes into a log and the side panel draws from the log.","is_final":true,"t_start":123580,"t_end":130240,"channel":"them","latency":{"speech_end_ms":1401,"vad_ms":463,"api_ms":938,"first_delta_ms":-5809,"audio_ms":6660}}
+{"text":"But","is_final":true,"t_start":119560,"t_end":134580,"channel":"me","latency":{"speech_end_ms":832,"vad_ms":0,"api_ms":832,"first_delta_ms":-12361,"audio_ms":15020}}
+{"text":"Okay","is_final":false,"t_start":156080,"t_end":157460,"channel":"them"}
+{"text":"Okay,","is_final":false,"t_start":156080,"t_end":157460,"channel":"them"}
+{"text":"Okay, so","is_final":false,"t_start":157660,"t_end":157880,"channel":"them"}
+{"text":"Okay, so no","is_final":false,"t_start":156080,"t_end":157160,"channel":"them"}
+{"text":"Okay, so no","is_final":true,"t_start":156080,"t_end":157160,"channel":"them","latency":{"speech_end_ms":2271,"vad_ms":501,"api_ms":1770,"first_delta_ms":308,"audio_ms":1080}}
+{"text":"Um","is_final":false,"t_start":157660,"t_end":159700,"channel":"them"}
+{"text":"Um,","is_final":false,"t_start":157660,"t_end":159700,"channel":"them"}
+{"text":"Um, okay","is_final":false,"t_start":157660,"t_end":159300,"channel":"them"}
+{"text":"Um, okay,","is_final":false,"t_start":157660,"t_end":159300,"channel":"them"}
+{"text":"Um, okay,","is_final":true,"t_start":157660,"t_end":159300,"channel":"them","latency":{"speech_end_ms":1318,"vad_ms":496,"api_ms":822,"first_delta_ms":403,"audio_ms":1640}}
+{"text":"Well","is_final":false,"t_start":161040,"t_end":161200,"channel":"them"}
+{"text":"Well,","is_final":false,"t_start":161040,"t_end":161200,"channel":"them"}
+{"text":"Well,","is_final":true,"t_start":159860,"t_end":160540,"channel":"them","latency":{"speech_end_ms":1317,"vad_ms":500,"api_ms":817,"first_delta_ms":675,"audio_ms":680}}
+{"text":"The","is_final":false,"t_start":161040,"t_end":162340,"channel":"them"}
+{"text":"The difference","is_final":false,"t_start":161040,"t_end":162340,"channel":"them"}
+{"text":"The difference is","is_final":false,"t_start":161040,"t_end":162900,"channel":"them"}
+{"text":"The difference is it","is_final":false,"t_start":161040,"t_end":162900,"channel":"them"}
+{"text":"The difference is it never","is_final":false,"t_start":163160,"t_end":163200,"channel":"them"}
+{"text":"The difference is it never draws","is_final":false,"t_start":163160,"t_end":163520,"channel":"them"}
+{"text":"The difference is it never draws.","is_final":false,"t_start":163160,"t_end":163520,"channel":"them"}
+{"text":"The difference is it never draws.","is_final":true,"t_start":161040,"t_end":162660,"channel":"them","latency":{"speech_end_ms":1252,"vad_ms":501,"api_ms":751,"first_delta_ms":-304,"audio_ms":1620}}
+{"text":"Hold","is_final":false,"t_start":164640,"t_end":166440,"channel":"me"}
+{"text":"Hold on","is_final":false,"t_start":164640,"t_end":166440,"channel":"me"}
+{"text":"Hold on","is_final":true,"t_start":164640,"t_end":179720,"channel":"me","latency":{"speech_end_ms":1293,"vad_ms":0,"api_ms":1293,"first_delta_ms":-13260,"audio_ms":15080}}
+{"text":"Hmm","is_final":false,"t_start":194740,"t_end":198760,"channel":"me"}
+{"text":"Hmm","is_final":true,"t_start":194740,"t_end":205500,"channel":"me","latency":{"speech_end_ms":1298,"vad_ms":502,"api_ms":796,"first_delta_ms":-6732,"audio_ms":10760}}
+{"text":"All","is_final":false,"t_start":206000,"t_end":208420,"channel":"me"}
+{"text":"All right","is_final":false,"t_start":206000,"t_end":208980,"channel":"me"}
+{"text":"All right,","is_final":false,"t_start":206000,"t_end":208980,"channel":"me"}
+{"text":"All right, so","is_final":false,"t_start":206000,"t_end":208980,"channel":"me"}
+{"text":"All right, so let's","is_final":false,"t_start":206000,"t_end":209980,"channel":"me"}
+{"text":"All right, so let's pause","is_final":false,"t_start":206000,"t_end":210780,"channel":"me"}
+{"text":"All right, so let's pause.","is_final":false,"t_start":206000,"t_end":210960,"channel":"me"}
+{"text":"Cut","is_final":false,"t_start":212460,"t_end":212920,"channel":"them"}
+{"text":"Cut","is_final":true,"t_start":212460,"t_end":212920,"channel":"them","latency":{"speech_end_ms":1273,"vad_ms":503,"api_ms":770,"first_delta_ms":957,"audio_ms":460}}
+{"text":"All right, so let's pause. Success","is_final":false,"t_start":206000,"t_end":216760,"channel":"me"}
+{"text":"All right, so let's pause. Success","is_final":true,"t_start":206000,"t_end":221140,"channel":"me","latency":{"speech_end_ms":482,"vad_ms":0,"api_ms":482,"first_delta_ms":-12699,"audio_ms":15140}}
+{"text":"Operating","is_final":false,"t_start":221140,"t_end":223500,"channel":"me"}
+{"text":"Operating basically","is_final":false,"t_start":221140,"t_end":224700,"channel":"me"}
+{"text":"Operating basically when","is_final":false,"t_start":221140,"t_end":224700,"channel":"me"}
+{"text":"Operating basically when all","is_final":false,"t_start":221140,"t_end":225180,"channel":"me"}
+{"text":"Operating basically when all that","is_final":false,"t_start":221140,"t_end":225180,"channel":"me"}
+{"text":"Operating basically when all that sentence","is_final":false,"t_start":221140,"t_end":225480,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah","is_final":false,"t_start":221140,"t_end":228540,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah,","is_final":false,"t_start":221140,"t_end":228540,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's","is_final":false,"t_start":221140,"t_end":228540,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said","is_final":false,"t_start":221140,"t_end":228760,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said","is_final":false,"t_start":221140,"t_end":228880,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I","is_final":false,"t_start":221140,"t_end":231220,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think","is_final":false,"t_start":221140,"t_end":231220,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's","is_final":false,"t_start":221140,"t_end":231220,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said","is_final":false,"t_start":221140,"t_end":231600,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there","is_final":false,"t_start":221140,"t_end":232020,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was","is_final":false,"t_start":221140,"t_end":232020,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just","is_final":false,"t_start":221140,"t_end":232380,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a","is_final":false,"t_start":221140,"t_end":233060,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss","is_final":false,"t_start":221140,"t_end":233060,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there","is_final":false,"t_start":221140,"t_end":234060,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there.","is_final":false,"t_start":221140,"t_end":234080,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But","is_final":false,"t_start":221140,"t_end":234080,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if","is_final":false,"t_start":221140,"t_end":234540,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if you","is_final":false,"t_start":221140,"t_end":235060,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if you could","is_final":false,"t_start":221140,"t_end":235060,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if you could have","is_final":false,"t_start":221140,"t_end":235060,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if you could have corrected","is_final":false,"t_start":221140,"t_end":235700,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if you could have corrected it","is_final":false,"t_start":221140,"t_end":235700,"channel":"me"}
+{"text":"Operating basically when all that sentence Yeah, it's said  I think it's said there was just a miss there. But if you could have corrected it","is_final":true,"t_start":221140,"t_end":236160,"channel":"me","latency":{"speech_end_ms":758,"vad_ms":0,"api_ms":758,"first_delta_ms":-12644,"audio_ms":15020}}
+{"text":"Okay","is_final":false,"t_start":251180,"t_end":253740,"channel":"me"}
+{"text":"Okay","is_final":true,"t_start":251180,"t_end":266200,"channel":"me","latency":{"speech_end_ms":897,"vad_ms":0,"api_ms":897,"first_delta_ms":-12452,"audio_ms":15020}}
+{"text":"Still","is_final":false,"t_start":311300,"t_end":313780,"channel":"me"}
+{"text":"Still audio","is_final":false,"t_start":311300,"t_end":314000,"channel":"me"}
+{"text":"Still audio router","is_final":false,"t_start":311300,"t_end":314560,"channel":"me"}
+{"text":"Still audio router","is_final":false,"t_start":311300,"t_end":314940,"channel":"me"}
+{"text":"Still audio router  Yes","is_final":false,"t_start":311300,"t_end":324920,"channel":"me"}
+{"text":"Still audio router  Yes this","is_final":false,"t_start":311300,"t_end":325200,"channel":"me"}
+{"text":"Still audio router  Yes this is","is_final":false,"t_start":311300,"t_end":325460,"channel":"me"}
+{"text":"Still audio router  Yes this is the","is_final":false,"t_start":311300,"t_end":325460,"channel":"me"}
+{"text":"Still audio router  Yes this is the world","is_final":false,"t_start":311300,"t_end":325720,"channel":"me"}
+{"text":"Still audio router  Yes this is the world we","is_final":false,"t_start":311300,"t_end":325920,"channel":"me"}
+{"text":"Still audio router  Yes this is the world we live","is_final":false,"t_start":311300,"t_end":326140,"channel":"me"}
+{"text":"Still audio router  Yes this is the world we live in","is_final":false,"t_start":311300,"t_end":326140,"channel":"me"}
+{"text":"Still audio router  Yes this is the world we live in now","is_final":false,"t_start":326320,"t_end":326640,"channel":"me"}
+{"text":"Still audio router  Yes this is the world we live in now","is_final":true,"t_start":311300,"t_end":326320,"channel":"me","latency":{"speech_end_ms":609,"vad_ms":0,"api_ms":609,"first_delta_ms":-12540,"audio_ms":15020}}
+{"text":"There's","is_final":false,"t_start":326320,"t_end":330400,"channel":"me"}
+{"text":"There's a","is_final":false,"t_start":326320,"t_end":330400,"channel":"me"}
+{"text":"There's a hack","is_final":false,"t_start":326320,"t_end":330980,"channel":"me"}
+{"text":"There's a hackathon","is_final":false,"t_start":326320,"t_end":330980,"channel":"me"}
+{"text":"There's a hackathon and","is_final":false,"t_start":326320,"t_end":331460,"channel":"me"}
+{"text":"There's a hackathon and then","is_final":false,"t_start":326320,"t_end":331460,"channel":"me"}
+{"text":"There's a hackathon and then there's","is_final":false,"t_start":326320,"t_end":331720,"channel":"me"}
+{"text":"There's a hackathon and then there's the","is_final":false,"t_start":326320,"t_end":332400,"channel":"me"}
+{"text":"There's a hackathon and then there's the hack","is_final":false,"t_start":326320,"t_end":332680,"channel":"me"}
+{"text":"There's a hackathon and then there's the hackathon","is_final":false,"t_start":326320,"t_end":332680,"channel":"me"}
+{"text":"There's a hackathon and then there's the hackathon","is_final":false,"t_start":326320,"t_end":333460,"channel":"me"}
+{"text":"There's a hackathon and then there's the hackathon","is_final":false,"t_start":326320,"t_end":333940,"channel":"me"}
+{"text":"There's a hackathon and then there's the hackathon","is_final":true,"t_start":326320,"t_end":341340,"channel":"me","latency":{"speech_end_ms":1573,"vad_ms":0,"api_ms":1573,"first_delta_ms":-12771,"audio_ms":15020}}
+{"text":"If","is_final":false,"t_start":607280,"t_end":612140,"channel":"me"}
+{"text":"If you","is_final":false,"t_start":607280,"t_end":612660,"channel":"me"}
+{"text":"If you don't","is_final":false,"t_start":607280,"t_end":612660,"channel":"me"}
+{"text":"If you don't mind","is_final":false,"t_start":607280,"t_end":612660,"channel":"me"}
+{"text":"If you don't mind I'll","is_final":false,"t_start":607280,"t_end":614060,"channel":"me"}
+{"text":"If you don't mind I'll have","is_final":false,"t_start":607280,"t_end":614060,"channel":"me"}
+{"text":"If you don't mind I'll have it","is_final":false,"t_start":607280,"t_end":614500,"channel":"me"}
+{"text":"If you don't mind I'll have it go","is_final":false,"t_start":607280,"t_end":614660,"channel":"me"}
+{"text":"If you don't mind I'll have it go in","is_final":false,"t_start":607280,"t_end":614660,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front","is_final":false,"t_start":607280,"t_end":614660,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of","is_final":false,"t_start":607280,"t_end":615020,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you","is_final":false,"t_start":607280,"t_end":615020,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here","is_final":false,"t_start":607280,"t_end":615020,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so","is_final":false,"t_start":607280,"t_end":615580,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so we","is_final":false,"t_start":607280,"t_end":616580,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so we can","is_final":false,"t_start":607280,"t_end":616580,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so we can","is_final":false,"t_start":607280,"t_end":617700,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so we can","is_final":false,"t_start":607280,"t_end":618300,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so we can  good","is_final":false,"t_start":607280,"t_end":618300,"channel":"me"}
+{"text":"If you don't mind I'll have it go in front of you here so we can  good","is_final":true,"t_start":607280,"t_end":622300,"channel":"me","latency":{"speech_end_ms":706,"vad_ms":0,"api_ms":706,"first_delta_ms":-10153,"audio_ms":15020}}
+{"text":"You","is_final":false,"t_start":622300,"t_end":632880,"channel":"me"}
+{"text":"You could","is_final":false,"t_start":622300,"t_end":632880,"channel":"me"}
+{"text":"You could imagine","is_final":false,"t_start":622300,"t_end":633300,"channel":"me"}
+{"text":"You could imagine a","is_final":false,"t_start":622300,"t_end":633600,"channel":"me"}
+{"text":"You could imagine a business","is_final":false,"t_start":622300,"t_end":634020,"channel":"me"}
+{"text":"You could imagine a business around","is_final":false,"t_start":622300,"t_end":634020,"channel":"me"}
+{"text":"You could imagine a business around hack","is_final":false,"t_start":622300,"t_end":634820,"channel":"me"}
+{"text":"You could imagine a business around hackathons","is_final":false,"t_start":622300,"t_end":634820,"channel":"me"}
+{"text":"You could imagine a business around hackathons.","is_final":false,"t_start":622300,"t_end":635600,"channel":"me"}
+{"text":"You could imagine a business around hackathons. Like","is_final":false,"t_start":622300,"t_end":637040,"channel":"me"}
+{"text":"You could imagine a business around hackathons. Like I","is_final":false,"t_start":622300,"t_end":637320,"channel":"me"}
+{"text":"You could imagine a business around hackathons. Like I pay","is_final":false,"t_start":622300,"t_end":637320,"channel":"me"}
+{"text":"You could imagine a business around hackathons. Like I pay money","is_final":false,"t_start":622300,"t_end":637320,"channel":"me"}
+{"text":"You could imagine a business around hackathons. Like I pay money","is_final":true,"t_start":622300,"t_end":637320,"channel":"me","latency":{"speech_end_ms":1046,"vad_ms":0,"api_ms":1046,"first_delta_ms":-4424,"audio_ms":15020}}
+{"text":"To","is_final":false,"t_start":637320,"t_end":640760,"channel":"me"}
+{"text":"To do","is_final":false,"t_start":637320,"t_end":641480,"channel":"me"}
+{"text":"To do you","is_final":false,"t_start":637320,"t_end":642360,"channel":"me"}
+{"text":"To do you know","is_final":false,"t_start":637320,"t_end":642360,"channel":"me"}
+{"text":"To do you know","is_final":false,"t_start":637320,"t_end":642360,"channel":"me"}
+{"text":"To do you know 5","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks and","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks and","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks and 10","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and","is_final":false,"t_start":637320,"t_end":642760,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey","is_final":false,"t_start":637320,"t_end":642920,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even","is_final":false,"t_start":637320,"t_end":642920,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more","is_final":false,"t_start":637320,"t_end":643160,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money","is_final":false,"t_start":637320,"t_end":643160,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for","is_final":false,"t_start":637320,"t_end":643160,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a","is_final":false,"t_start":637320,"t_end":643380,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half","is_final":false,"t_start":637320,"t_end":643380,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon","is_final":false,"t_start":637320,"t_end":643380,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon.","is_final":false,"t_start":637320,"t_end":643600,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But","is_final":false,"t_start":637320,"t_end":644720,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if","is_final":false,"t_start":637320,"t_end":644720,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you","is_final":false,"t_start":637320,"t_end":644720,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want","is_final":false,"t_start":637320,"t_end":644720,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to","is_final":false,"t_start":637320,"t_end":644720,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do","is_final":false,"t_start":637320,"t_end":644920,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like","is_final":false,"t_start":637320,"t_end":645620,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a","is_final":false,"t_start":637320,"t_end":646580,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan","is_final":false,"t_start":637320,"t_end":646580,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan,","is_final":false,"t_start":637320,"t_end":646580,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which","is_final":false,"t_start":637320,"t_end":646580,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is","is_final":false,"t_start":637320,"t_end":647520,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like","is_final":false,"t_start":637320,"t_end":647520,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a","is_final":false,"t_start":637320,"t_end":647520,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three","is_final":false,"t_start":637320,"t_end":647520,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour","is_final":false,"t_start":637320,"t_end":647840,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge","is_final":false,"t_start":637320,"t_end":648560,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.","is_final":false,"t_start":637320,"t_end":649080,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.","is_final":false,"t_start":637320,"t_end":649340,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working","is_final":false,"t_start":637320,"t_end":649340,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on","is_final":false,"t_start":637320,"t_end":649600,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open","is_final":false,"t_start":637320,"t_end":649840,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router","is_final":false,"t_start":637320,"t_end":650320,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits","is_final":false,"t_start":637320,"t_end":650840,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits.","is_final":false,"t_start":637320,"t_end":651400,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone","is_final":false,"t_start":637320,"t_end":651400,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able","is_final":false,"t_start":637320,"t_end":651400,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to","is_final":false,"t_start":637320,"t_end":651780,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to get","is_final":false,"t_start":637320,"t_end":651780,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to get their","is_final":false,"t_start":637320,"t_end":652300,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to get their Open","is_final":false,"t_start":637320,"t_end":652340,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to get their OpenAI","is_final":false,"t_start":637320,"t_end":652340,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to get their OpenAI","is_final":false,"t_start":637320,"t_end":652340,"channel":"me"}
+{"text":"To do you know 5Ks and 10Ks and hey even more money for a half marathon. But if you want to do like a Spartan, which is like a three-hour challenge.  Working on open router credits. Everyone able to get their OpenAI","is_final":true,"t_start":637320,"t_end":652340,"channel":"me","latency":{"speech_end_ms":868,"vad_ms":0,"api_ms":868,"first_delta_ms":-11567,"audio_ms":15020}}
+{"text":"Bye","is_final":false,"t_start":652340,"t_end":653200,"channel":"me"}
+{"text":"Bye.","is_final":false,"t_start":652340,"t_end":653200,"channel":"me"}
+{"text":"Bye. And","is_final":false,"t_start":652340,"t_end":653840,"channel":"me"}
+{"text":"Bye. And uh","is_final":false,"t_start":652340,"t_end":654120,"channel":"me"}
+{"text":"Bye. And uh,","is_final":false,"t_start":652340,"t_end":654120,"channel":"me"}
+{"text":"Bye. And uh, get","is_final":false,"t_start":652340,"t_end":654120,"channel":"me"}
+{"text":"Bye. And uh, get their","is_final":false,"t_start":652340,"t_end":654800,"channel":"me"}
+{"text":"Bye. And uh, get their EX","is_final":false,"t_start":652340,"t_end":654800,"channel":"me"}
+{"text":"Bye. And uh, get their EXA","is_final":false,"t_start":652340,"t_end":654800,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits","is_final":false,"t_start":652340,"t_end":655220,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits.","is_final":false,"t_start":652340,"t_end":655220,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EX","is_final":false,"t_start":652340,"t_end":656580,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA","is_final":false,"t_start":652340,"t_end":656580,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits","is_final":false,"t_start":652340,"t_end":656580,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits,","is_final":false,"t_start":652340,"t_end":656580,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EX","is_final":false,"t_start":652340,"t_end":656740,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA","is_final":false,"t_start":652340,"t_end":656740,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA,","is_final":false,"t_start":652340,"t_end":656740,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EX","is_final":false,"t_start":652340,"t_end":657040,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA","is_final":false,"t_start":652340,"t_end":657040,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA,","is_final":false,"t_start":652340,"t_end":657040,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EX","is_final":false,"t_start":652340,"t_end":657640,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA","is_final":false,"t_start":652340,"t_end":657640,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA,","is_final":false,"t_start":652340,"t_end":657640,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all","is_final":false,"t_start":652340,"t_end":657640,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good","is_final":false,"t_start":652340,"t_end":657940,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good.","is_final":false,"t_start":652340,"t_end":657940,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All","is_final":false,"t_start":652340,"t_end":658960,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right","is_final":false,"t_start":652340,"t_end":658960,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right,","is_final":false,"t_start":652340,"t_end":658960,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool","is_final":false,"t_start":652340,"t_end":658960,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool.","is_final":false,"t_start":652340,"t_end":659780,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And","is_final":false,"t_start":652340,"t_end":659780,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then","is_final":false,"t_start":652340,"t_end":660180,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I","is_final":false,"t_start":652340,"t_end":660180,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set","is_final":false,"t_start":652340,"t_end":660360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up","is_final":false,"t_start":652340,"t_end":660360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a","is_final":false,"t_start":652340,"t_end":660720,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple","is_final":false,"t_start":652340,"t_end":660720,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash","is_final":false,"t_start":652340,"t_end":660920,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags","is_final":false,"t_start":652340,"t_end":661480,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags.","is_final":false,"t_start":652340,"t_end":661480,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These","is_final":false,"t_start":652340,"t_end":661480,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are","is_final":false,"t_start":652340,"t_end":662240,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously","is_final":false,"t_start":652340,"t_end":662240,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant","is_final":false,"t_start":652340,"t_end":662500,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes","is_final":false,"t_start":652340,"t_end":663000,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes,","is_final":false,"t_start":652340,"t_end":663200,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so","is_final":false,"t_start":652340,"t_end":663200,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even","is_final":false,"t_start":652340,"t_end":664520,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking","is_final":false,"t_start":652340,"t_end":665080,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them","is_final":false,"t_start":652340,"t_end":665080,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under","is_final":false,"t_start":652340,"t_end":665340,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the","is_final":false,"t_start":652340,"t_end":665340,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table","is_final":false,"t_start":652340,"t_end":665600,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would","is_final":false,"t_start":652340,"t_end":666360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be","is_final":false,"t_start":652340,"t_end":666360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice","is_final":false,"t_start":652340,"t_end":666360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice.","is_final":false,"t_start":652340,"t_end":666360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And","is_final":false,"t_start":652340,"t_end":666360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then","is_final":false,"t_start":652340,"t_end":666360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll","is_final":false,"t_start":652340,"t_end":666980,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint","is_final":false,"t_start":652340,"t_end":666980,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint them","is_final":false,"t_start":652340,"t_end":666980,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint them up","is_final":false,"t_start":652340,"t_end":667220,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint them up for","is_final":false,"t_start":667360,"t_end":667660,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint them up for there","is_final":false,"t_start":652340,"t_end":667360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint them up for there.","is_final":false,"t_start":652340,"t_end":667360,"channel":"me"}
+{"text":"Bye. And uh, get their EXA credits. EXA credits, EXA, EXA, EXA, all good. All right, cool. And then I set up a couple trash bags. These are obviously giant boxes, so even stacking them under the table would be nice. And then I'll paint them up for there.","is_final":true,"t_start":652340,"t_end":667360,"channel":"me","latency":{"speech_end_ms":777,"vad_ms":0,"api_ms":777,"first_delta_ms":-14148,"audio_ms":15020}}
+{"text":"Yes","is_final":false,"t_start":667360,"t_end":670140,"channel":"me"}
+{"text":"Yes,","is_final":false,"t_start":667360,"t_end":670140,"channel":"me"}
+{"text":"Yes, everyone","is_final":false,"t_start":667360,"t_end":670540,"channel":"me"}
+{"text":"Yes, everyone","is_final":false,"t_start":667360,"t_end":670840,"channel":"me"}
+{"text":"Yes, everyone","is_final":false,"t_start":667360,"t_end":670840,"channel":"me"}
+{"text":"Yes, everyone","is_final":false,"t_start":667360,"t_end":672440,"channel":"me"}
+{"text":"Yes, everyone","is_final":true,"t_start":667360,"t_end":682380,"channel":"me","latency":{"speech_end_ms":1041,"vad_ms":0,"api_ms":1041,"first_delta_ms":-12235,"audio_ms":15020}}
+{"text":"They","is_final":false,"t_start":682380,"t_end":685560,"channel":"me"}
+{"text":"They stole","is_final":false,"t_start":682380,"t_end":685560,"channel":"me"}
+{"text":"They stole all","is_final":false,"t_start":682380,"t_end":685960,"channel":"me"}
+{"text":"They stole all the","is_final":false,"t_start":682380,"t_end":686220,"channel":"me"}
+{"text":"They stole all the credit","is_final":false,"t_start":682380,"t_end":686660,"channel":"me"}
+{"text":"They stole all the credit for","is_final":false,"t_start":682380,"t_end":686660,"channel":"me"}
+{"text":"They stole all the credit for the","is_final":false,"t_start":682380,"t_end":686660,"channel":"me"}
+{"text":"They stole all the credit for the entire","is_final":false,"t_start":682380,"t_end":687500,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty","is_final":false,"t_start":682380,"t_end":688240,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city","is_final":false,"t_start":682380,"t_end":688700,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack","is_final":false,"t_start":682380,"t_end":689000,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack.","is_final":false,"t_start":682380,"t_end":690220,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's","is_final":false,"t_start":682380,"t_end":690220,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like","is_final":false,"t_start":682380,"t_end":690220,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough","is_final":false,"t_start":682380,"t_end":690340,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough to","is_final":false,"t_start":682380,"t_end":691120,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough to like","is_final":false,"t_start":682380,"t_end":691120,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough to like","is_final":false,"t_start":682380,"t_end":692580,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough to like  serious","is_final":false,"t_start":682380,"t_end":692580,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough to like  serious damage","is_final":false,"t_start":682380,"t_end":692860,"channel":"me"}
+{"text":"They stole all the credit for the entire fifty city hack. That's like enough to like  serious damage","is_final":true,"t_start":682380,"t_end":697460,"channel":"me","latency":{"speech_end_ms":581,"vad_ms":0,"api_ms":581,"first_delta_ms":-11881,"audio_ms":15080}}
+{"text":"Plus","is_final":false,"t_start":697460,"t_end":705020,"channel":"me"}
+{"text":"Plus you","is_final":false,"t_start":697460,"t_end":705020,"channel":"me"}
+{"text":"Plus you have","is_final":false,"t_start":697460,"t_end":705280,"channel":"me"}
+{"text":"Plus you have like","is_final":false,"t_start":697460,"t_end":705580,"channel":"me"}
+{"text":"Plus you have like now","is_final":false,"t_start":697460,"t_end":706360,"channel":"me"}
+{"text":"Plus you have like now you","is_final":false,"t_start":697460,"t_end":706800,"channel":"me"}
+{"text":"Plus you have like now you have","is_final":false,"t_start":697460,"t_end":706800,"channel":"me"}
+{"text":"Plus you have like now you have a","is_final":false,"t_start":697460,"t_end":707160,"channel":"me"}
+{"text":"Plus you have like now you have a one","is_final":false,"t_start":697460,"t_end":707160,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot","is_final":false,"t_start":697460,"t_end":707360,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per","is_final":false,"t_start":697460,"t_end":707900,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how","is_final":false,"t_start":697460,"t_end":708420,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to","is_final":false,"t_start":697460,"t_end":708420,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal","is_final":false,"t_start":697460,"t_end":708620,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal credits","is_final":false,"t_start":697460,"t_end":709100,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal credits from","is_final":false,"t_start":697460,"t_end":709240,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal credits from Hack","is_final":false,"t_start":697460,"t_end":710320,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal credits from Hackathons","is_final":false,"t_start":697460,"t_end":710320,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal credits from Hackathons.","is_final":false,"t_start":697460,"t_end":710320,"channel":"me"}
+{"text":"Plus you have like now you have a one-shot per how to steal credits from Hackathons.","is_final":true,"t_start":697460,"t_end":712480,"channel":"me","latency":{"speech_end_ms":1186,"vad_ms":0,"api_ms":1186,"first_delta_ms":-7449,"audio_ms":15020}}
+{"text":"App","is_final":false,"t_start":727500,"t_end":738400,"channel":"me"}
+{"text":"App Um","is_final":false,"t_start":742520,"t_end":742560,"channel":"me"}
+{"text":"App Um","is_final":true,"t_start":727500,"t_end":742520,"channel":"me","latency":{"speech_end_ms":1012,"vad_ms":0,"api_ms":1012,"first_delta_ms":-4693,"audio_ms":15020}}
+{"text":"You","is_final":false,"t_start":742520,"t_end":753020,"channel":"me"}
+{"text":"You know","is_final":false,"t_start":742520,"t_end":753020,"channel":"me"}
+{"text":"You know,","is_final":false,"t_start":742520,"t_end":753020,"channel":"me"}
+{"text":"You know, I","is_final":false,"t_start":742520,"t_end":753180,"channel":"me"}
+{"text":"You know, I probably","is_final":false,"t_start":742520,"t_end":753720,"channel":"me"}
+{"text":"You know, I probably saves","is_final":false,"t_start":742520,"t_end":754740,"channel":"me"}
+{"text":"You know, I probably saves a","is_final":false,"t_start":742520,"t_end":754740,"channel":"me"}
+{"text":"You know, I probably saves a mer","is_final":false,"t_start":742520,"t_end":754740,"channel":"me"}
+{"text":"You know, I probably saves a mermaid","is_final":false,"t_start":742520,"t_end":754740,"channel":"me"}
+{"text":"You know, I probably saves a mermaid","is_final":true,"t_start":742520,"t_end":757540,"channel":"me","latency":{"speech_end_ms":555,"vad_ms":0,"api_ms":555,"first_delta_ms":-4515,"audio_ms":15020}}
+{"text":"If","is_final":false,"t_start":772620,"t_end":774000,"channel":"me"}
+{"text":"If it's","is_final":false,"t_start":772620,"t_end":774000,"channel":"me"}
+{"text":"If it's like","is_final":false,"t_start":772620,"t_end":774000,"channel":"me"}
+{"text":"If it's like","is_final":false,"t_start":772620,"t_end":775260,"channel":"me"}
+{"text":"If it's like  before","is_final":false,"t_start":772620,"t_end":775260,"channel":"me"}
+{"text":"If it's like  before we","is_final":false,"t_start":772620,"t_end":775260,"channel":"me"}
+{"text":"If it's like  before we can","is_final":false,"t_start":772620,"t_end":775580,"channel":"me"}
+{"text":"If it's like  before we can if","is_final":false,"t_start":772620,"t_end":777300,"channel":"me"}
+{"text":"If it's like  before we can if it's","is_final":false,"t_start":772620,"t_end":777300,"channel":"me"}
+{"text":"If it's like  before we can if it's like","is_final":false,"t_start":772620,"t_end":777300,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost","is_final":false,"t_start":772620,"t_end":777700,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try","is_final":false,"t_start":772620,"t_end":785520,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it","is_final":false,"t_start":772620,"t_end":785520,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind","is_final":false,"t_start":787640,"t_end":788000,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of","is_final":false,"t_start":787640,"t_end":788000,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but this","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but this this","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but this this was","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but this this wasn't","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"Right","is_final":false,"t_start":787640,"t_end":788540,"channel":"me"}
+{"text":"Right,","is_final":false,"t_start":787640,"t_end":788540,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but this this wasn't right","is_final":false,"t_start":772620,"t_end":787640,"channel":"me"}
+{"text":"If it's like  before we can if it's like almost Try it kind of worked but this this wasn't right","is_final":true,"t_start":772620,"t_end":787640,"channel":"me","latency":{"speech_end_ms":1245,"vad_ms":0,"api_ms":1245,"first_delta_ms":-13636,"audio_ms":15020}}
+{"text":"Right, so","is_final":false,"t_start":787640,"t_end":789300,"channel":"me"}
+{"text":"Right, so I","is_final":false,"t_start":787640,"t_end":789300,"channel":"me"}
+{"text":"Right, so I just","is_final":false,"t_start":787640,"t_end":789600,"channel":"me"}
+{"text":"Right, so I just like","is_final":false,"t_start":787640,"t_end":789680,"channel":"me"}
+{"text":"Right, so I just like","is_final":false,"t_start":787640,"t_end":790400,"channel":"me"}
+{"text":"Right, so I just like  better","is_final":false,"t_start":787640,"t_end":790400,"channel":"me"}
+{"text":"Right, so I just like  better because","is_final":false,"t_start":787640,"t_end":790760,"channel":"me"}
+{"text":"Right, so I just like  better because there's","is_final":false,"t_start":787640,"t_end":790760,"channel":"me"}
+{"text":"Right, so I just like  better because there's so","is_final":false,"t_start":787640,"t_end":791100,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much","is_final":false,"t_start":787640,"t_end":791120,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's","is_final":false,"t_start":787640,"t_end":792720,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like","is_final":false,"t_start":787640,"t_end":792720,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a","is_final":false,"t_start":787640,"t_end":792720,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system","is_final":false,"t_start":787640,"t_end":793380,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system","is_final":false,"t_start":787640,"t_end":793540,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I","is_final":false,"t_start":787640,"t_end":796680,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess","is_final":false,"t_start":787640,"t_end":796680,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then","is_final":false,"t_start":787640,"t_end":798680,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we","is_final":false,"t_start":787640,"t_end":798680,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have","is_final":false,"t_start":787640,"t_end":798700,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to","is_final":false,"t_start":787640,"t_end":798700,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give","is_final":false,"t_start":787640,"t_end":799520,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the","is_final":false,"t_start":787640,"t_end":799520,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like","is_final":false,"t_start":787640,"t_end":801960,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like the","is_final":false,"t_start":787640,"t_end":801960,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like the video","is_final":false,"t_start":787640,"t_end":802380,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like the video render","is_final":false,"t_start":787640,"t_end":802480,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like the video rendered","is_final":false,"t_start":787640,"t_end":802960,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like the video rendered avatars","is_final":false,"t_start":787640,"t_end":802960,"channel":"me"}
+{"text":"Right, so I just like  better because there's so much it's like a system  I guess then we have to give the like the video rendered avatars","is_final":true,"t_start":787640,"t_end":802960,"channel":"me","latency":{"speech_end_ms":704,"vad_ms":0,"api_ms":704,"first_delta_ms":-14423,"audio_ms":15320}}
+{"text":"Like","is_final":false,"t_start":802960,"t_end":804800,"channel":"me"}
+{"text":"Like actually","is_final":false,"t_start":802960,"t_end":805320,"channel":"me"}
+{"text":"Like actually do","is_final":false,"t_start":802960,"t_end":805320,"channel":"me"}
+{"text":"Like actually do the","is_final":false,"t_start":802960,"t_end":806520,"channel":"me"}
+{"text":"Like actually do the conversation","is_final":false,"t_start":802960,"t_end":806520,"channel":"me"}
+{"text":"Like actually do the conversation for","is_final":false,"t_start":802960,"t_end":806520,"channel":"me"}
+{"text":"Like actually do the conversation for us","is_final":false,"t_start":802960,"t_end":806520,"channel":"me"}
+{"text":"Like actually do the conversation for us.","is_final":false,"t_start":802960,"t_end":806520,"channel":"me"}
+{"text":"Like actually do the conversation for us. And","is_final":false,"t_start":802960,"t_end":807760,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides","is_final":false,"t_start":802960,"t_end":808280,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the","is_final":false,"t_start":802960,"t_end":808540,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the conversations","is_final":false,"t_start":802960,"t_end":808820,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the conversations and","is_final":false,"t_start":809540,"t_end":809640,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the conversations and then","is_final":false,"t_start":809540,"t_end":809640,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the conversations and then you","is_final":false,"t_start":809540,"t_end":809640,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the conversations and then you know","is_final":false,"t_start":809540,"t_end":809640,"channel":"me"}
+{"text":"Like actually do the conversation for us. And decides the conversations and then you know","is_final":true,"t_start":802960,"t_end":809040,"channel":"me","latency":{"speech_end_ms":1317,"vad_ms":501,"api_ms":816,"first_delta_ms":-4240,"audio_ms":6080}}
+{"text":"I","is_final":false,"t_start":809540,"t_end":811220,"channel":"me"}
+{"text":"I You","is_final":false,"t_start":809540,"t_end":811580,"channel":"me"}
+{"text":"I You can","is_final":false,"t_start":809540,"t_end":811600,"channel":"me"}
+{"text":"I You can just","is_final":false,"t_start":809540,"t_end":811800,"channel":"me"}
+{"text":"I You can just use","is_final":false,"t_start":809540,"t_end":812000,"channel":"me"}
+{"text":"I You can just use transfer","is_final":false,"t_start":809540,"t_end":812880,"channel":"me"}
+{"text":"I You can just use transfer something","is_final":false,"t_start":809540,"t_end":813220,"channel":"me"}
+{"text":"I You can just use transfer something.","is_final":false,"t_start":809540,"t_end":813220,"channel":"me"}
+{"text":"I You can just use transfer something.","is_final":true,"t_start":809540,"t_end":813440,"channel":"me","latency":{"speech_end_ms":1225,"vad_ms":498,"api_ms":727,"first_delta_ms":-2212,"audio_ms":3900}}
+{"text":"Not","is_final":false,"t_start":813940,"t_end":816420,"channel":"me"}
+{"text":"Not even","is_final":false,"t_start":813940,"t_end":816420,"channel":"me"}
+{"text":"Not even us","is_final":false,"t_start":813940,"t_end":816920,"channel":"me"}
+{"text":"Not even us","is_final":false,"t_start":813940,"t_end":828960,"channel":"me"}
+{"text":"Not even us","is_final":true,"t_start":813940,"t_end":828960,"channel":"me","latency":{"speech_end_ms":880,"vad_ms":0,"api_ms":880,"first_delta_ms":-12806,"audio_ms":15020}}
+{"text":"All","is_final":false,"t_start":828960,"t_end":830920,"channel":"me"}
+{"text":"All right","is_final":false,"t_start":828960,"t_end":830920,"channel":"me"}
+{"text":"All right,","is_final":false,"t_start":828960,"t_end":831140,"channel":"me"}
+{"text":"All right, Okay","is_final":false,"t_start":828960,"t_end":840640,"channel":"me"}
+{"text":"All right, Okay I'm","is_final":false,"t_start":828960,"t_end":841800,"channel":"me"}
+{"text":"All right, Okay I'm gonna","is_final":false,"t_start":828960,"t_end":842180,"channel":"me"}
+{"text":"All right, Okay I'm gonna","is_final":true,"t_start":828960,"t_end":844340,"channel":"me","latency":{"speech_end_ms":892,"vad_ms":0,"api_ms":892,"first_delta_ms":-13415,"audio_ms":15380}}
+{"text":"At","is_final":false,"t_start":844340,"t_end":851200,"channel":"me"}
+{"text":"At some","is_final":false,"t_start":844340,"t_end":851200,"channel":"me"}
+{"text":"At some point","is_final":false,"t_start":844340,"t_end":851640,"channel":"me"}
+{"text":"At some point we","is_final":false,"t_start":844340,"t_end":851640,"channel":"me"}
+{"text":"At some point we have","is_final":false,"t_start":844340,"t_end":851780,"channel":"me"}
+{"text":"At some point we have to","is_final":false,"t_start":844340,"t_end":851780,"channel":"me"}
+{"text":"At some point we have to bring","is_final":false,"t_start":844340,"t_end":851940,"channel":"me"}
+{"text":"At some point we have to bring","is_final":false,"t_start":844340,"t_end":852480,"channel":"me"}
+{"text":"At some point we have to bring  the","is_final":false,"t_start":844340,"t_end":852900,"channel":"me"}
+{"text":"At some point we have to bring  the max","is_final":false,"t_start":844340,"t_end":853580,"channel":"me"}
+{"text":"At some point we have to bring  the max not","is_final":false,"t_start":844340,"t_end":854320,"channel":"me"}
+{"text":"At some point we have to bring  the max not until","is_final":false,"t_start":844340,"t_end":854640,"channel":"me"}
+{"text":"At some point we have to bring  the max not until we're","is_final":false,"t_start":844340,"t_end":854780,"channel":"me"}
+{"text":"At some point we have to bring  the max not until we're a","is_final":false,"t_start":844340,"t_end":858040,"channel":"me"}
+{"text":"At some point we have to bring  the max not until we're a little","is_final":false,"t_start":844340,"t_end":858500,"channel":"me"}
+{"text":"At some point we have to bring  the max not until we're a little","is_final":true,"t_start":844340,"t_end":859420,"channel":"me","latency":{"speech_end_ms":539,"vad_ms":0,"api_ms":539,"first_delta_ms":-8230,"audio_ms":15080}}
+{"text":"Wait","is_final":false,"t_start":859420,"t_end":862420,"channel":"me"}
+{"text":"Wait","is_final":true,"t_start":859420,"t_end":874440,"channel":"me","latency":{"speech_end_ms":606,"vad_ms":0,"api_ms":606,"first_delta_ms":-12015,"audio_ms":15020}}
+{"text":"Th","is_final":false,"t_start":1060080,"t_end":1066340,"channel":"me"}
+{"text":"Thrown","is_final":false,"t_start":1060080,"t_end":1066340,"channel":"me"}
+{"text":"Thrown in","is_final":false,"t_start":1060080,"t_end":1066340,"channel":"me"}
+{"text":"Thrown in the","is_final":false,"t_start":1060080,"t_end":1066340,"channel":"me"}
+{"text":"Thrown in the reset","is_final":false,"t_start":1060080,"t_end":1066840,"channel":"me"}
+{"text":"Thrown in the reset feature","is_final":false,"t_start":1060080,"t_end":1067580,"channel":"me"}
+{"text":"Thrown in the reset feature set","is_final":false,"t_start":1060080,"t_end":1071240,"channel":"me"}
+{"text":"Thrown in the reset feature set feature","is_final":false,"t_start":1060080,"t_end":1071560,"channel":"me"}
+{"text":"Thrown in the reset feature set feature so","is_final":false,"t_start":1060080,"t_end":1072280,"channel":"me"}
+{"text":"Thrown in the reset feature set feature so restart","is_final":false,"t_start":1060080,"t_end":1075100,"channel":"me"}
+{"text":"Thrown in the reset feature set feature so restart","is_final":false,"t_start":1060080,"t_end":1075100,"channel":"me"}
+{"text":"Thrown in the reset feature set feature so restart","is_final":false,"t_start":1060080,"t_end":1075100,"channel":"me"}
+{"text":"Thrown in the reset feature set feature so restart","is_final":true,"t_start":1060080,"t_end":1075100,"channel":"me","latency":{"speech_end_ms":782,"vad_ms":0,"api_ms":782,"first_delta_ms":-8992,"audio_ms":15020}}
+{"text":"Yes","is_final":false,"t_start":1075100,"t_end":1077040,"channel":"me"}
+{"text":"Yes What","is_final":false,"t_start":1075100,"t_end":1086860,"channel":"me"}
+{"text":"Yes What are","is_final":false,"t_start":1075100,"t_end":1086860,"channel":"me"}
+{"text":"Yes What are you","is_final":false,"t_start":1075100,"t_end":1086860,"channel":"me"}
+{"text":"Yes What are you doing","is_final":false,"t_start":1075100,"t_end":1087100,"channel":"me"}
+{"text":"Yes What are you doing?","is_final":false,"t_start":1075100,"t_end":1087100,"channel":"me"}
+{"text":"Got","is_final":false,"t_start":1090120,"t_end":1090940,"channel":"me"}
+{"text":"Yes What are you doing?","is_final":true,"t_start":1075100,"t_end":1090120,"channel":"me","latency":{"speech_end_ms":682,"vad_ms":0,"api_ms":682,"first_delta_ms":-14451,"audio_ms":15020}}
+{"text":"Got it","is_final":false,"t_start":1090120,"t_end":1090940,"channel":"me"}
+{"text":"Got it working","is_final":false,"t_start":1090120,"t_end":1091160,"channel":"me"}
+{"text":"Got it working on","is_final":false,"t_start":1090120,"t_end":1091380,"channel":"me"}
+{"text":"Got it working on your","is_final":false,"t_start":1090120,"t_end":1091580,"channel":"me"}
+{"text":"Got it working on your side","is_final":false,"t_start":1090120,"t_end":1091820,"channel":"me"}
+{"text":"Got it working on your side too","is_final":false,"t_start":1090120,"t_end":1092060,"channel":"me"}
+{"text":"Got it working on your side too.","is_final":false,"t_start":1090120,"t_end":1092060,"channel":"me"}
+{"text":"Got it working on your side too.","is_final":true,"t_start":1090120,"t_end":1105140,"channel":"me","latency":{"speech_end_ms":1237,"vad_ms":0,"api_ms":1237,"first_delta_ms":-14182,"audio_ms":15020}}
+{"text":"Kind","is_final":false,"t_start":1105140,"t_end":1112120,"channel":"me"}
+{"text":"Kind of","is_final":false,"t_start":1105140,"t_end":1112120,"channel":"me"}
+{"text":"Kind of interesting","is_final":false,"t_start":1105140,"t_end":1112320,"channel":"me"}
+{"text":"Kind of interesting that's","is_final":false,"t_start":1105140,"t_end":1112560,"channel":"me"}
+{"text":"Kind of interesting that's like","is_final":false,"t_start":1105140,"t_end":1112760,"channel":"me"}
+{"text":"Kind of interesting that's like a","is_final":false,"t_start":1105140,"t_end":1113460,"channel":"me"}
+{"text":"Kind of interesting that's like a because","is_final":false,"t_start":1105140,"t_end":1113840,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's","is_final":false,"t_start":1105140,"t_end":1114160,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture","is_final":false,"t_start":1105140,"t_end":1114900,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this","is_final":false,"t_start":1105140,"t_end":1116240,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way","is_final":false,"t_start":1105140,"t_end":1116240,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where","is_final":false,"t_start":1105140,"t_end":1116240,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we","is_final":false,"t_start":1105140,"t_end":1116240,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both","is_final":false,"t_start":1105140,"t_end":1116240,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end","is_final":false,"t_start":1105140,"t_end":1116680,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up","is_final":false,"t_start":1105140,"t_end":1116680,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with","is_final":false,"t_start":1105140,"t_end":1116720,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once","is_final":false,"t_start":1105140,"t_end":1117580,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's","is_final":false,"t_start":1105140,"t_end":1117580,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind","is_final":false,"t_start":1105140,"t_end":1117920,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of","is_final":false,"t_start":1105140,"t_end":1117920,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like","is_final":false,"t_start":1105140,"t_end":1118320,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a","is_final":false,"t_start":1105140,"t_end":1118520,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep","is_final":false,"t_start":1105140,"t_end":1119380,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning","is_final":false,"t_start":1105140,"t_end":1119560,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning fly","is_final":false,"t_start":1120160,"t_end":1120660,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning flywheel","is_final":false,"t_start":1120160,"t_end":1120660,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning flywheel like","is_final":false,"t_start":1105140,"t_end":1120160,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning flywheel like it","is_final":false,"t_start":1105140,"t_end":1120160,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning flywheel like it with","is_final":false,"t_start":1105140,"t_end":1120160,"channel":"me"}
+{"text":"Kind of interesting that's like a because it's architecture this way where we both end up with once it's kind of like a deep learning flywheel like it with","is_final":true,"t_start":1105140,"t_end":1120160,"channel":"me","latency":{"speech_end_ms":880,"vad_ms":0,"api_ms":880,"first_delta_ms":-8033,"audio_ms":15020}}
+{"text":"Yep","is_final":false,"t_start":1120160,"t_end":1121020,"channel":"me"}
+{"text":"Yep,","is_final":false,"t_start":1120160,"t_end":1121020,"channel":"me"}
+{"text":"Yep, better","is_final":false,"t_start":1120160,"t_end":1121400,"channel":"me"}
+{"text":"Yep, better of","is_final":false,"t_start":1120160,"t_end":1121820,"channel":"me"}
+{"text":"Yep, better of the","is_final":false,"t_start":1120160,"t_end":1121820,"channel":"me"}
+{"text":"Yep, better of the tile","is_final":false,"t_start":1120160,"t_end":1122160,"channel":"me"}
+{"text":"Yep, better of the tile.","is_final":false,"t_start":1120160,"t_end":1122160,"channel":"me"}
+{"text":"Yep, better of the tile. How","is_final":false,"t_start":1120160,"t_end":1127700,"channel":"me"}
+{"text":"Yep, better of the tile. How you","is_final":false,"t_start":1120160,"t_end":1127700,"channel":"me"}
+{"text":"Yep, better of the tile. How you can","is_final":false,"t_start":1120160,"t_end":1127700,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very","is_final":false,"t_start":1120160,"t_end":1128020,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily","is_final":false,"t_start":1120160,"t_end":1128260,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the","is_final":false,"t_start":1120160,"t_end":1128640,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central","is_final":false,"t_start":1120160,"t_end":1129340,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server","is_final":false,"t_start":1120160,"t_end":1129580,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like","is_final":false,"t_start":1120160,"t_end":1129980,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like co","is_final":false,"t_start":1120160,"t_end":1130420,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce","is_final":false,"t_start":1120160,"t_end":1130420,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those","is_final":false,"t_start":1120160,"t_end":1130420,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back","is_final":false,"t_start":1120160,"t_end":1130740,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and","is_final":false,"t_start":1120160,"t_end":1131140,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like","is_final":false,"t_start":1120160,"t_end":1131140,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently","is_final":false,"t_start":1120160,"t_end":1132280,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently","is_final":false,"t_start":1120160,"t_end":1132580,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems","is_final":false,"t_start":1120160,"t_end":1133740,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like","is_final":false,"t_start":1120160,"t_end":1133920,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the","is_final":false,"t_start":1120160,"t_end":1134140,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real","is_final":false,"t_start":1120160,"t_end":1134240,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard","is_final":false,"t_start":1120160,"t_end":1134720,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem","is_final":false,"t_start":1120160,"t_end":1134840,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem with","is_final":false,"t_start":1120160,"t_end":1134980,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem with these","is_final":false,"t_start":1120160,"t_end":1135180,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem with these systems","is_final":false,"t_start":1120160,"t_end":1135180,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem with these systems is","is_final":false,"t_start":1120160,"t_end":1135180,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem with these systems is","is_final":false,"t_start":1120160,"t_end":1135180,"channel":"me"}
+{"text":"Getting","is_final":false,"t_start":1135180,"t_end":1135960,"channel":"me"}
+{"text":"Yep, better of the tile. How you can very easily the central server like coalesce those back and like permanently  Seems like the real hard problem with these systems is","is_final":true,"t_start":1120160,"t_end":1135180,"channel":"me","latency":{"speech_end_ms":1208,"vad_ms":0,"api_ms":1208,"first_delta_ms":-14144,"audio_ms":15020}}
+{"text":"Getting signal","is_final":false,"t_start":1135180,"t_end":1136380,"channel":"me"}
+{"text":"Getting signal and","is_final":false,"t_start":1135180,"t_end":1137140,"channel":"me"}
+{"text":"Getting signal and then","is_final":false,"t_start":1135180,"t_end":1137400,"channel":"me"}
+{"text":"Getting signal and then incorporating","is_final":false,"t_start":1135180,"t_end":1137980,"channel":"me"}
+{"text":"Getting signal and then incorporating that","is_final":false,"t_start":1135180,"t_end":1138200,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal","is_final":false,"t_start":1135180,"t_end":1139220,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into","is_final":false,"t_start":1135180,"t_end":1139220,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the","is_final":false,"t_start":1135180,"t_end":1139220,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right","is_final":false,"t_start":1135180,"t_end":1139800,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right,","is_final":false,"t_start":1135180,"t_end":1140240,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah","is_final":false,"t_start":1135180,"t_end":1140240,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but","is_final":false,"t_start":1135180,"t_end":1140720,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because","is_final":false,"t_start":1135180,"t_end":1140920,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're","is_final":false,"t_start":1135180,"t_end":1140920,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all","is_final":false,"t_start":1135180,"t_end":1141200,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just","is_final":false,"t_start":1135180,"t_end":1141440,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON","is_final":false,"t_start":1135180,"t_end":1141960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll","is_final":false,"t_start":1135180,"t_end":1142280,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll","is_final":false,"t_start":1135180,"t_end":1144500,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both","is_final":false,"t_start":1135180,"t_end":1145640,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just","is_final":false,"t_start":1135180,"t_end":1145640,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all","is_final":false,"t_start":1135180,"t_end":1146520,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it","is_final":false,"t_start":1135180,"t_end":1146720,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has","is_final":false,"t_start":1135180,"t_end":1147000,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to","is_final":false,"t_start":1135180,"t_end":1147000,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be","is_final":false,"t_start":1135180,"t_end":1147240,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is","is_final":false,"t_start":1135180,"t_end":1147800,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a","is_final":false,"t_start":1135180,"t_end":1147820,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement","is_final":false,"t_start":1135180,"t_end":1147820,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that","is_final":false,"t_start":1135180,"t_end":1147960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just","is_final":false,"t_start":1135180,"t_end":1148860,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks","is_final":false,"t_start":1135180,"t_end":1148860,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those","is_final":false,"t_start":1135180,"t_end":1148860,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back","is_final":false,"t_start":1135180,"t_end":1149120,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up","is_final":false,"t_start":1135180,"t_end":1149600,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up.","is_final":false,"t_start":1135180,"t_end":1149960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You","is_final":false,"t_start":1135180,"t_end":1149960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know","is_final":false,"t_start":1135180,"t_end":1149960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what","is_final":false,"t_start":1135180,"t_end":1149960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what I","is_final":false,"t_start":1135180,"t_end":1149960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what I mean","is_final":false,"t_start":1135180,"t_end":1149960,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what I mean?","is_final":false,"t_start":1150200,"t_end":1150200,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what I mean? Like","is_final":false,"t_start":1150200,"t_end":1150200,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what I mean? Like","is_final":false,"t_start":1135180,"t_end":1150200,"channel":"me"}
+{"text":"Getting signal and then incorporating that signal into the right, yeah but because they're all just JSON I'll  both just all it has to be is a statement that just sucks those back up. You know what I mean? Like","is_final":true,"t_start":1135180,"t_end":1150200,"channel":"me","latency":{"speech_end_ms":1596,"vad_ms":0,"api_ms":1596,"first_delta_ms":-14231,"audio_ms":15020}}
+{"text":"We","is_final":false,"t_start":1150200,"t_end":1152080,"channel":"me"}
+{"text":"We started","is_final":false,"t_start":1150200,"t_end":1152640,"channel":"me"}
+{"text":"We started with","is_final":false,"t_start":1150200,"t_end":1152640,"channel":"me"}
+{"text":"We started with the","is_final":false,"t_start":1150200,"t_end":1153800,"channel":"me"}
+{"text":"We started with the idea","is_final":false,"t_start":1150200,"t_end":1155720,"channel":"me"}
+{"text":"We started with the idea that","is_final":false,"t_start":1150200,"t_end":1156120,"channel":"me"}
+{"text":"We started with the idea that there","is_final":false,"t_start":1150200,"t_end":1156120,"channel":"me"}
+{"text":"We started with the idea that there'd","is_final":false,"t_start":1150200,"t_end":1156140,"channel":"me"}
+{"text":"We started with the idea that there'd be","is_final":false,"t_start":1150200,"t_end":1156140,"channel":"me"}
+{"text":"We started with the idea that there'd be lots","is_final":false,"t_start":1150200,"t_end":1156420,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of","is_final":false,"t_start":1150200,"t_end":1156600,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of,","is_final":false,"t_start":1150200,"t_end":1157880,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots","is_final":false,"t_start":1150200,"t_end":1157880,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of","is_final":false,"t_start":1150200,"t_end":1157880,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after","is_final":false,"t_start":1150200,"t_end":1159340,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind","is_final":false,"t_start":1150200,"t_end":1159340,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of","is_final":false,"t_start":1150200,"t_end":1159360,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like","is_final":false,"t_start":1150200,"t_end":1159960,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make","is_final":false,"t_start":1150200,"t_end":1159960,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the","is_final":false,"t_start":1150200,"t_end":1160200,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best","is_final":false,"t_start":1150200,"t_end":1160200,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones","is_final":false,"t_start":1150200,"t_end":1160740,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones.","is_final":false,"t_start":1150200,"t_end":1161960,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start","is_final":false,"t_start":1150200,"t_end":1162580,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off","is_final":false,"t_start":1150200,"t_end":1162580,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and","is_final":false,"t_start":1150200,"t_end":1163140,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and he","is_final":false,"t_start":1150200,"t_end":1164200,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and he finds","is_final":false,"t_start":1150200,"t_end":1164200,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and he finds that","is_final":false,"t_start":1150200,"t_end":1164660,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and he finds that later","is_final":false,"t_start":1150200,"t_end":1165220,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and he finds that later on","is_final":false,"t_start":1150200,"t_end":1165220,"channel":"me"}
+{"text":"We started with the idea that there'd be lots of, lots of after kind of like make the best ones. Start off and he finds that later on","is_final":true,"t_start":1150200,"t_end":1165220,"channel":"me","latency":{"speech_end_ms":554,"vad_ms":0,"api_ms":554,"first_delta_ms":-13122,"audio_ms":15020}}
+{"text":"I","is_final":false,"t_start":1165220,"t_end":1166260,"channel":"me"}
+{"text":"I think","is_final":false,"t_start":1165220,"t_end":1166260,"channel":"me"}
+{"text":"I think it's","is_final":false,"t_start":1165220,"t_end":1166600,"channel":"me"}
+{"text":"I think it's","is_final":false,"t_start":1165220,"t_end":1166820,"channel":"me"}
+{"text":"I think it's  Yeah","is_final":false,"t_start":1165220,"t_end":1172820,"channel":"me"}
+{"text":"I think it's  Yeah,","is_final":false,"t_start":1165220,"t_end":1172820,"channel":"me"}
+{"text":"I think it's  Yeah, we","is_final":false,"t_start":1165220,"t_end":1173200,"channel":"me"}
+{"text":"I think it's  Yeah, we,","is_final":false,"t_start":1165220,"t_end":1173200,"channel":"me"}
+{"text":"I think it's  Yeah, we, I","is_final":false,"t_start":1165220,"t_end":1173200,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean","is_final":false,"t_start":1165220,"t_end":1173460,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you","is_final":false,"t_start":1165220,"t_end":1174300,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can","is_final":false,"t_start":1165220,"t_end":1174300,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do","is_final":false,"t_start":1165220,"t_end":1175080,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like","is_final":false,"t_start":1165220,"t_end":1175380,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read","is_final":false,"t_start":1165220,"t_end":1177800,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that","is_final":false,"t_start":1165220,"t_end":1177800,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI","is_final":false,"t_start":1165220,"t_end":1177800,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where","is_final":false,"t_start":1165220,"t_end":1178440,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you","is_final":false,"t_start":1165220,"t_end":1178600,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just","is_final":false,"t_start":1165220,"t_end":1178880,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just throw","is_final":false,"t_start":1165220,"t_end":1179140,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just throw in","is_final":false,"t_start":1165220,"t_end":1179600,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just throw in arbitrary","is_final":false,"t_start":1165220,"t_end":1180220,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just throw in arbitrary models","is_final":false,"t_start":1165220,"t_end":1180220,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just throw in arbitrary models or","is_final":false,"t_start":1165220,"t_end":1180240,"channel":"me"}
+{"text":"I think it's  Yeah, we, I mean you can do like read that AI where you just throw in arbitrary models or","is_final":true,"t_start":1165220,"t_end":1180240,"channel":"me","latency":{"speech_end_ms":589,"vad_ms":0,"api_ms":589,"first_delta_ms":-13970,"audio_ms":15020}}
+{"text":"I'm","is_final":false,"t_start":1180240,"t_end":1181100,"channel":"me"}
+{"text":"I'm distribution","is_final":false,"t_start":1180240,"t_end":1181520,"channel":"me"}
+{"text":"I'm distribution curve","is_final":false,"t_start":1180240,"t_end":1181900,"channel":"me"}
+{"text":"I'm distribution curve of","is_final":false,"t_start":1180240,"t_end":1182260,"channel":"me"}
+{"text":"I'm distribution curve of models","is_final":false,"t_start":1180240,"t_end":1182380,"channel":"me"}
+{"text":"I'm distribution curve of models environment","is_final":false,"t_start":1180240,"t_end":1185120,"channel":"me"}
+{"text":"I'm distribution curve of models environment","is_final":false,"t_start":1180240,"t_end":1187020,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best","is_final":false,"t_start":1180240,"t_end":1187020,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic","is_final":false,"t_start":1180240,"t_end":1188260,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent","is_final":false,"t_start":1180240,"t_end":1188260,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software","is_final":false,"t_start":1180240,"t_end":1189580,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software","is_final":false,"t_start":1180240,"t_end":1189600,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software  That","is_final":false,"t_start":1180240,"t_end":1194000,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software  That would","is_final":false,"t_start":1180240,"t_end":1194180,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software  That would be","is_final":false,"t_start":1180240,"t_end":1194320,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software  That would be fun","is_final":false,"t_start":1180240,"t_end":1194980,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software  That would be fun.","is_final":false,"t_start":1180240,"t_end":1194980,"channel":"me"}
+{"text":"That's","is_final":false,"t_start":1195260,"t_end":1196120,"channel":"me"}
+{"text":"That's the","is_final":false,"t_start":1195260,"t_end":1196120,"channel":"me"}
+{"text":"I'm distribution curve of models environment  best diagnostic agent software  That would be fun.","is_final":true,"t_start":1180240,"t_end":1195260,"channel":"me","latency":{"speech_end_ms":1229,"vad_ms":0,"api_ms":1229,"first_delta_ms":-14154,"audio_ms":15020}}
+{"text":"That's the only","is_final":false,"t_start":1195260,"t_end":1196480,"channel":"me"}
+{"text":"That's the only way","is_final":false,"t_start":1195260,"t_end":1196480,"channel":"me"}
+{"text":"That's the only way that","is_final":false,"t_start":1195260,"t_end":1196880,"channel":"me"}
+{"text":"That's the only way that you","is_final":false,"t_start":1195260,"t_end":1196880,"channel":"me"}
+{"text":"That's the only way that you get","is_final":false,"t_start":1195260,"t_end":1197480,"channel":"me"}
+{"text":"That's the only way that you get like","is_final":false,"t_start":1195260,"t_end":1197700,"channel":"me"}
+{"text":"That's the only way that you get like really","is_final":false,"t_start":1195260,"t_end":1198000,"channel":"me"}
+{"text":"That's the only way that you get like really high","is_final":false,"t_start":1195260,"t_end":1198240,"channel":"me"}
+{"text":"That's the only way that you get like really high quality","is_final":false,"t_start":1195260,"t_end":1198800,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in","is_final":false,"t_start":1195260,"t_end":1199880,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain","is_final":false,"t_start":1195260,"t_end":1200320,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff","is_final":false,"t_start":1195260,"t_end":1201140,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff.","is_final":false,"t_start":1195260,"t_end":1202480,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like","is_final":false,"t_start":1195260,"t_end":1202480,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this","is_final":false,"t_start":1195260,"t_end":1202480,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this,","is_final":false,"t_start":1195260,"t_end":1202480,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's","is_final":false,"t_start":1195260,"t_end":1202480,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not","is_final":false,"t_start":1195260,"t_end":1202480,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just","is_final":false,"t_start":1195260,"t_end":1202980,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna","is_final":false,"t_start":1195260,"t_end":1202980,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be","is_final":false,"t_start":1195260,"t_end":1202980,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like","is_final":false,"t_start":1195260,"t_end":1205060,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's","is_final":false,"t_start":1195260,"t_end":1205060,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so","is_final":false,"t_start":1195260,"t_end":1205120,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many","is_final":false,"t_start":1195260,"t_end":1205120,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different","is_final":false,"t_start":1195260,"t_end":1205540,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different kinds","is_final":false,"t_start":1195260,"t_end":1206240,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different kinds of","is_final":false,"t_start":1195260,"t_end":1206240,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different kinds of diet","is_final":false,"t_start":1195260,"t_end":1206960,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different kinds of diet notes","is_final":false,"t_start":1195260,"t_end":1207840,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different kinds of diet notes And","is_final":false,"t_start":1195260,"t_end":1210280,"channel":"me"}
+{"text":"That's the only way that you get like really high quality in domain stuff. Like this, it's not just gonna be like there's so many different kinds of diet notes And there's","is_final":false,"t_start":1195260,"t_end":1210280,"channel":"me"}

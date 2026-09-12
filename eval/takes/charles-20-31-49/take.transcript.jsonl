@@ -1,0 +1,55 @@
+{"text":"Oh","is_final":false,"t_start":560,"t_end":2320,"channel":"them"}
+{"text":"Oh,","is_final":false,"t_start":560,"t_end":2320,"channel":"them"}
+{"text":"Oh, I","is_final":false,"t_start":560,"t_end":2320,"channel":"them"}
+{"text":"Oh, I can't","is_final":false,"t_start":560,"t_end":2320,"channel":"them"}
+{"text":"Oh, I can't hear","is_final":false,"t_start":2780,"t_end":2840,"channel":"them"}
+{"text":"Oh, I can't hear you","is_final":false,"t_start":560,"t_end":2280,"channel":"them"}
+{"text":"Oh, I can't hear you yet","is_final":false,"t_start":560,"t_end":2280,"channel":"them"}
+{"text":"Oh, I can't hear you yet.","is_final":false,"t_start":560,"t_end":2280,"channel":"them"}
+{"text":"Oh, I can't hear you yet.","is_final":true,"t_start":560,"t_end":2280,"channel":"them","latency":{"speech_end_ms":1369,"vad_ms":500,"api_ms":869,"first_delta_ms":47,"audio_ms":1720}}
+{"text":"Can","is_final":false,"t_start":9380,"t_end":9540,"channel":"them"}
+{"text":"Can you","is_final":false,"t_start":9380,"t_end":9540,"channel":"them"}
+{"text":"Can you hear","is_final":false,"t_start":9380,"t_end":9540,"channel":"them"}
+{"text":"Can you hear me","is_final":false,"t_start":9380,"t_end":9540,"channel":"them"}
+{"text":"Can you hear me?","is_final":false,"t_start":9380,"t_end":9540,"channel":"them"}
+{"text":"Can you hear me?","is_final":true,"t_start":8100,"t_end":8880,"channel":"them","latency":{"speech_end_ms":1257,"vad_ms":500,"api_ms":757,"first_delta_ms":668,"audio_ms":780}}
+{"text":"Yeah","is_final":false,"t_start":1440,"t_end":10840,"channel":"me"}
+{"text":"Yeah,","is_final":false,"t_start":1440,"t_end":10840,"channel":"me"}
+{"text":"Yeah, I","is_final":false,"t_start":1440,"t_end":10840,"channel":"me"}
+{"text":"Yeah, I was","is_final":false,"t_start":1440,"t_end":11140,"channel":"me"}
+{"text":"Yeah, I was on","is_final":false,"t_start":1440,"t_end":11140,"channel":"me"}
+{"text":"Yeah, I was on mute","is_final":false,"t_start":1440,"t_end":11300,"channel":"me"}
+{"text":"Yeah, I was on mute.","is_final":false,"t_start":1440,"t_end":11300,"channel":"me"}
+{"text":"Yeah, I was on mute. I","is_final":false,"t_start":1440,"t_end":13140,"channel":"me"}
+{"text":"Yeah, I was on mute. I was","is_final":false,"t_start":1440,"t_end":13140,"channel":"me"}
+{"text":"Yeah, I was on mute. I was on","is_final":false,"t_start":1440,"t_end":13140,"channel":"me"}
+{"text":"Yeah, I was on mute. I was on mute","is_final":false,"t_start":1440,"t_end":13160,"channel":"me"}
+{"text":"Nice","is_final":false,"t_start":15580,"t_end":16440,"channel":"them"}
+{"text":"Nice.","is_final":false,"t_start":15580,"t_end":16440,"channel":"them"}
+{"text":"Nice.","is_final":true,"t_start":14500,"t_end":15080,"channel":"them","latency":{"speech_end_ms":1375,"vad_ms":501,"api_ms":874,"first_delta_ms":1374,"audio_ms":580}}
+{"text":"Adding","is_final":false,"t_start":16460,"t_end":17400,"channel":"me"}
+{"text":"Yeah, I was on mute. I was on mute","is_final":true,"t_start":1440,"t_end":16460,"channel":"me","latency":{"speech_end_ms":953,"vad_ms":0,"api_ms":953,"first_delta_ms":-5615,"audio_ms":15020}}
+{"text":"Adding","is_final":false,"t_start":16460,"t_end":18100,"channel":"me"}
+{"text":"Adding  Okay","is_final":false,"t_start":16460,"t_end":30660,"channel":"me"}
+{"text":"Adding  Okay,","is_final":false,"t_start":16460,"t_end":30660,"channel":"me"}
+{"text":"Adding  Okay, so","is_final":false,"t_start":31480,"t_end":31580,"channel":"me"}
+{"text":"Adding  Okay, so let","is_final":false,"t_start":16460,"t_end":31480,"channel":"me"}
+{"text":"Adding  Okay, so let me","is_final":false,"t_start":16460,"t_end":31480,"channel":"me"}
+{"text":"Adding  Okay, so let me see","is_final":false,"t_start":16460,"t_end":31480,"channel":"me"}
+{"text":"Say","is_final":false,"t_start":31480,"t_end":32420,"channel":"me"}
+{"text":"Say the","is_final":false,"t_start":31480,"t_end":32420,"channel":"me"}
+{"text":"Adding  Okay, so let me see","is_final":true,"t_start":16460,"t_end":31480,"channel":"me","latency":{"speech_end_ms":938,"vad_ms":0,"api_ms":938,"first_delta_ms":-14204,"audio_ms":15020}}
+{"text":"Say the whole","is_final":false,"t_start":31480,"t_end":33460,"channel":"me"}
+{"text":"Say the whole chain","is_final":false,"t_start":31480,"t_end":33460,"channel":"me"}
+{"text":"Say the whole chain back","is_final":false,"t_start":31480,"t_end":33460,"channel":"me"}
+{"text":"Say the whole chain back to","is_final":false,"t_start":31480,"t_end":33460,"channel":"me"}
+{"text":"Say the whole chain back to you","is_final":false,"t_start":31480,"t_end":33460,"channel":"me"}
+{"text":"Say the whole chain back to you and","is_final":false,"t_start":31480,"t_end":34200,"channel":"me"}
+{"text":"Say the whole chain back to you and you","is_final":false,"t_start":31480,"t_end":34220,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop","is_final":false,"t_start":31480,"t_end":34220,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop me","is_final":false,"t_start":31480,"t_end":34220,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop me when","is_final":false,"t_start":31480,"t_end":34920,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop me when I","is_final":false,"t_start":31480,"t_end":34920,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop me when I get","is_final":false,"t_start":31480,"t_end":34920,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop me when I get it","is_final":false,"t_start":31480,"t_end":34940,"channel":"me"}
+{"text":"Say the whole chain back to you and you stop me when I get it.","is_final":false,"t_start":31480,"t_end":34940,"channel":"me"}
