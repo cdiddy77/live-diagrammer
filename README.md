@@ -80,13 +80,33 @@ The live path is what the video shows.
 
 ## What was built during the event
 
-<Fill in truthfully on the day.>
+The submission repo was created empty on the day. Nothing here predates the
+build window except what is listed as brought in below; the pre-event spikes
+live in a separate repo and are not part of this submission.
 
-**Built Saturday:** <the live pipeline, the dismiss loop, the panel, the export,
-the scoring — whatever is actually true at 15:00>
+**Built Saturday:** the server (a Realtime transcription session per channel
+with its own energy VAD, the batcher, the pipeline, the WebSocket fan-out), the
+MV3 extension (tab and mic capture, the side panel), the reducer's event log
+and the `state(T) = replay(events ≤ T)` model, the React Flow panel and its
+controls (snapshot, dismiss, reset, pause), the scrubber and the Mermaid
+export, and the eval that graded the day's takes: the case emitter, the
+storyboard reference, `npm run take`, the deterministic matcher, and the
+changes to the report card. The contract validator was reworked on the day to
+emit the strict `json_schema` the extractor runs on.
 
-**Brought in, as the rules allow:** <the extractor prompt; gonogo as a pip
-dependency; the organizer starter kit; named libraries>
+**Brought in, as the rules allow:** the extractor prompt and its helpers,
+written before the event and unchanged here apart from an import path
+(`extractor/prompt.ts`, `provider.ts`, `mermaid.ts`); the S0 contract module
+(`contracts/schema.ts`, `reducer.ts`, `fixtures/`); the incremental placer and
+drift measure (`panel/src/layout.ts`, `panel/src/drift.ts`); the report card
+and the fidelity rubric (`eval/demo_card.py`, `eval/rubric.py`); gonogo as a
+pip dependency; the organizer starter kit; and the named libraries
+(`@xyflow/react`, `elkjs`, `zod`, `ws`, `vite`, `playwright`).
+
+**Not from the day:** the AMI benchmark in Evaluation — the 35 human-annotated
+segments, the label tiers, and the judge validation behind that 57% — was run
+before the event and is not in this repo. The demo card over the recorded take
+is Saturday's.
 
 ## Evaluation
 
